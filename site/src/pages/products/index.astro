@@ -2,7 +2,8 @@
 import { siteUrl } from '../../lib/url';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ProductGrid from '../../components/ProductGrid.astro';
+import CategorySidebar from '../../components/CategorySidebar.astro';
 import { products } from '../../lib/catalog';
 const items = await products();
 ---
-<BaseLayout title="產品介紹 | 榮輝照明科技"><div class="wrap" style="padding:2rem 0"><p><a href={siteUrl('/')}>首頁</a> › 產品介紹</p><h1>產品介紹</h1><ProductGrid {items}/></div></BaseLayout>
+<BaseLayout title="產品介紹 | 榮輝照明科技"><div class="wrap" style="padding:2rem 0"><p><a href={siteUrl('/')}>首頁</a> › 產品介紹</p><h1>產品介紹</h1><div class="with-sidebar"><CategorySidebar/><ProductGrid {items}/></div></div></BaseLayout>
