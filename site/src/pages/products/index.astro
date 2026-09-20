@@ -3,8 +3,18 @@ import { siteUrl } from '../../lib/url';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import CategorySidebar from '../../components/CategorySidebar.astro';
 import { categories, categoryPath } from '../../lib/catalog';
-/* 沿用舊站的逐層瀏覽：產品總覽只列第一層分類，不直接列出全部產品。 */
-const roots = (await categories()).filter(c => categoryPath(c.id).split('/').length === 1);
+/*
+ * 沿用舊站「產品介紹」的層級：直接列出燈具的各大類，不多一層「燈具／開關面板」分組。
+ * 燈具 5 類加上開關面板共 6 張卡，與舊站的六個分類數量一致。
+ * 舊站的第六類「光源」底下只有一個測試子分類、0 件商品，故不列入。
+ */
+const all = await categories();
+const lightGroups = all.filter(c => {
+  const path = categoryPath(c.id);
+  return path.startsWith('lights/') && path.split('/').length === 2;
+});
+const switchRoot = all.filter(c => categoryPath(c.id) === 'switches');
+const roots = [...lightGroups, ...switchRoot];
 ---
 <BaseLayout title="產品介紹 | 榮輝照明科技"><div class="wrap" style="padding:2rem 0"><p><a href={siteUrl('/')}>首頁</a> › 產品介紹</p><h1>產品介紹</h1><div class="with-sidebar"><CategorySidebar/><ul class="grid category-grid">{roots.map(c=><li><a href={siteUrl(`/products/${categoryPath(c.id)}/`)}>{c.data.cover&&<img src={siteUrl(c.data.cover)} alt="" width="600" height="600" loading="lazy"/>}<span>{c.data.name}</span>{c.data.description&&<small>{c.data.description}</small>}</a></li>)}</ul></div></div></BaseLayout>
 <style>
