@@ -1,0 +1,16 @@
+---
+import ProductCard from './ProductCard.astro';
+import type { CollectionEntry } from 'astro:content';
+interface Props { items: CollectionEntry<'products'>[] }
+const { items } = Astro.props;
+---
+<section aria-label="產品列表">
+  <p class="count">共 {items.length} 項</p>
+  {items.length === 0
+    ? <p>此分類目前沒有產品。</p>
+    : <ul class="grid">{items.map(product => <li><ProductCard {product}/></li>)}</ul>}
+</section>
+<style>
+  ul { list-style:none; padding:0; margin:0; }
+  .count { color:var(--color-muted); margin:0 0 1rem; }
+</style>

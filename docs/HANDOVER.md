@@ -14,6 +14,12 @@
 
 手動編輯產品時請注意：`site/src/content/products/` 的內容會在下次執行 `pnpm --filter scraper emit` 時被整批重建。長期的人工修正應回寫到 scraper 的解析規則，而非只改輸出檔。
 
+## 已排除的功能
+
+本站**刻意不提供**產品篩選、產品比較與電話／E-mail 詢價 CTA。這是 2026-09-20 業主確認的範圍縮減，不是尚未實作的待辦。`docs/superpowers/plans/2026-09-20-static-catalog-site.md` 的 Task 4（漸進增強互動）已作廢，請勿依該計畫把功能加回來。
+
+產品列表由 `site/src/components/ProductGrid.astro` 呈現，是不含互動控制項的純列表。分類階層本身就是收斂產品範圍的方式。Header 的型號搜尋不在縮減範圍內，仍然保留。
+
 ## 資料遷移工具
 
 `tools/scraper` 是三階段離線 pipeline：

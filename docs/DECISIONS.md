@@ -2,6 +2,9 @@
 
 - 使用 Astro 靜態輸出與公開 GitHub Pages，沒有後端、表單或第三方 API。
 - 產品 URL 以型號維持扁平 `/p/{model}/`；分類路由保留階層。
+- 不提供產品篩選、產品比較與電話／E-mail 詢價 CTA（2026-09-20 業主決定縮減範圍）。原規格書與實作計畫的「漸進增強互動」整段作廢，`Catalog.astro`、`Compare.astro`、`scripts/filter.ts`、`scripts/compare.ts` 已移除，改以 `ProductGrid.astro` 純列表呈現。
+- Header 的型號搜尋保留。搜尋與篩選是不同功能，縮減範圍不含搜尋。
+- 頁尾與首頁的公司聯絡資訊（電話、傳真、E-mail）保留，那是公司資訊而非詢價入口。
 - 產品資料由 `tools/scraper` 自舊站 `www.glory-bright.com.tw` 遷移而來，snapshot 為冷備份並隨 repo 保存。
 - 不匯入舊站售價。舊站售價為 2020 年資料，且新站定位為無報價、無購物車的型錄。
 - 開關面板以舊站圖片料號（如 `010102`）作為型號，因舊站開關無型號欄位與明細頁。
