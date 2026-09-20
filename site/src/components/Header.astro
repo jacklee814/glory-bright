@@ -1,17 +1,18 @@
 ---
+import { siteUrl } from '../lib/url';
 import { categories, categoryPath, products, productUrl } from '../lib/catalog';
 const cats=await categories();
 const models=(await products()).map(p=>({model:p.data.model,url:productUrl(p.data.model)}));
 ---
 <header>
   <div class="wrap header-row">
-    <a href="/" class="mono brand">GLORY BRIGHT<span>榮輝照明科技</span></a>
+    <a href={siteUrl('/')} class="mono brand">GLORY BRIGHT<span>榮輝照明科技</span></a>
     <nav class="desktop-nav" aria-label="主要導覽">
-      <a href="/">首頁</a>
-      <div class="catalog-menu"><a href="/products/">產品介紹</a><div class="mega-menu"><a href="/products/">全部產品 →</a>{cats.map(c=><a style={`padding-left:${(categoryPath(c.id).split('/').length-1)*16}px`} href={`/products/${categoryPath(c.id)}/`}>{c.data.name}</a>)}</div></div>
-      <a href="/news/">最新消息</a>
+      <a href={siteUrl('/')}>首頁</a>
+      <div class="catalog-menu"><a href={siteUrl('/products/')}>產品介紹</a><div class="mega-menu"><a href={siteUrl('/products/')}>全部產品 →</a>{cats.map(c=><a style={`padding-left:${(categoryPath(c.id).split('/').length-1)*16}px`} href={siteUrl(`/products/${categoryPath(c.id)}/`)}>{c.data.name}</a>)}</div></div>
+      <a href={siteUrl('/news/')}>最新消息</a>
     </nav>
-    <form action="/products/" class="header-search" role="search">
+    <form action={siteUrl('/products/')} class="header-search" role="search">
       <label for="header-search">搜尋型號</label>
       <input id="header-search" name="q" placeholder="輸入型號" autocomplete="off" aria-controls="search-results"/>
       <ul id="search-results" hidden aria-label="型號搜尋結果"></ul>
@@ -21,7 +22,7 @@ const models=(await products()).map(p=>({model:p.data.model,url:productUrl(p.dat
 </header>
 <dialog id="mobile-menu" aria-label="網站導覽">
   <form method="dialog"><button class="btn">關閉選單</button></form>
-  <nav aria-label="手機導覽"><a href="/">首頁</a><a href="/products/">全部產品</a>{cats.map(c=><a style={`padding-left:${(categoryPath(c.id).split('/').length-1)*16}px`} href={`/products/${categoryPath(c.id)}/`}>{c.data.name}</a>)}<a href="/news/">最新消息</a></nav>
+  <nav aria-label="手機導覽"><a href={siteUrl('/')}>首頁</a><a href={siteUrl('/products/')}>全部產品</a>{cats.map(c=><a style={`padding-left:${(categoryPath(c.id).split('/').length-1)*16}px`} href={siteUrl(`/products/${categoryPath(c.id)}/`)}>{c.data.name}</a>)}<a href={siteUrl('/news/')}>最新消息</a></nav>
 </dialog>
 <script id="search-models" type="application/json" set:html={JSON.stringify(models).replace(/</g,'\\u003c')}/>
 <script>

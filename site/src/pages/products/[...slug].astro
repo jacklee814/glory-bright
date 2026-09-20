@@ -1,7 +1,8 @@
 ---
+import { siteUrl } from '../../lib/url';
 import Catalog from '../../components/Catalog.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro'; import ProductCard from '../../components/ProductCard.astro'; import { categories, products, categoryPath } from '../../lib/catalog';
 export async function getStaticPaths(){return (await categories()).map(entry=>({params:{slug:categoryPath(entry.id)},props:{entry}}));}
 const {entry}=Astro.props; const path=categoryPath(entry.id); const all=await products(); const listed=all.filter(p=>p.id.startsWith(`${path}/`)); const children=(await categories()).filter(c=>categoryPath(c.id).startsWith(`${path}/`) && categoryPath(c.id).split('/').length===path.split('/').length+1);
 ---
-<BaseLayout title={`${entry.data.name} | 榮輝照明科技`}><div class="wrap" style="padding:2rem 0"><p><a href="/">首頁</a> › <a href="/products/">產品介紹</a> › {entry.data.name}</p><h1>{entry.data.name}</h1><p>{entry.data.description}</p>{children.length>0?<div class="grid">{children.map(c=><a href={`/products/${categoryPath(c.id)}/`} style="background:white;border:1px solid var(--color-line);padding:2rem;text-decoration:none"><h2>{c.data.name}</h2><p>{c.data.description}</p></a>)}</div>:<Catalog items={listed}/>}</div></BaseLayout>
+<BaseLayout title={`${entry.data.name} | 榮輝照明科技`}><div class="wrap" style="padding:2rem 0"><p><a href={siteUrl('/')}>首頁</a> › <a href={siteUrl('/products/')}>產品介紹</a> › {entry.data.name}</p><h1>{entry.data.name}</h1><p>{entry.data.description}</p>{children.length>0?<div class="grid">{children.map(c=><a href={siteUrl(`/products/${categoryPath(c.id)}/`)} style="background:white;border:1px solid var(--color-line);padding:2rem;text-decoration:none"><h2>{c.data.name}</h2><p>{c.data.description}</p></a>)}</div>:<Catalog items={listed}/>}</div></BaseLayout>

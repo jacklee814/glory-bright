@@ -2,6 +2,10 @@
 
 ## 本機開發
 
+目前發布於 `https://jacklee814.github.io/glory-bright/`。Astro 的 `site` 為 `https://jacklee814.github.io`、`base` 為 `/glory-bright/`；站內連結和 public 圖片使用 `siteUrl()`。開發預覽也需使用 `/glory-bright/` 路徑。
+
+取得自訂網域後，再一起更新 Astro `site`／`base`、robots sitemap、404 內的連結及 GitHub Pages 自訂網域設定，並加入對應 CNAME。尚未取得的網域不可先綁定。
+
 執行 `pnpm install` 後，以 `pnpm --filter site dev` 開啟預覽；`pnpm --filter site build` 產生發布檔。
 
 ## 新增產品
