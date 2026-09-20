@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.astro/
+.env*
+tools/scraper/output/
+tools/scraper/images-original/
+snapshot/
+.DS_Store

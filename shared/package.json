@@ -1,0 +1,7 @@
+{
+  "name": "@glory-bright/shared",
+  "private": true,
+  "type": "module",
+  "exports": { "./schema": "./schema.ts", "./slug": "./slug.ts" },
+  "dependencies": { "zod": "^3.24.2" }
+}

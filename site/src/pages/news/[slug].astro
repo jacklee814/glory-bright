@@ -1,0 +1,4 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro'; import { getCollection, render } from 'astro:content'; export async function getStaticPaths(){return (await getCollection('news')).filter(n=>!n.data.draft).map(entry=>({params:{slug:entry.id},props:{entry}}))}; const {entry}=Astro.props; const {Content}=await render(entry);
+---
+<BaseLayout title={`${entry.data.title} | 榮輝照明科技`}><article class="wrap" style="padding:3rem 0;max-width:800px"><p class="mono">{entry.data.date.toISOString().slice(0,10)}</p><h1>{entry.data.title}</h1><Content/></article></BaseLayout>

@@ -1,0 +1,1 @@
+{"name":"scraper","private":true,"type":"module","scripts":{"crawl":"tsx src/crawl.ts","parse":"tsx src/parse.ts","emit":"tsx src/emit.ts"}}
