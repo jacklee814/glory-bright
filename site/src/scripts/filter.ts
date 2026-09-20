@@ -24,11 +24,10 @@ function apply(save:boolean) {
     visible &&= matches('beam',light?p.beamAngle.map(String):[]);
     visible &&= matches('cri',light&&p.cri?[p.cri>=90?'90':String(p.cri)]:[]);
     visible &&= matches('color',light?p.colors.map(color=>['白','黑'].includes(color)?color:'其他'):[]);
-    visible &&= matches('watt',light?[p.watt<10?'under10':p.watt<20?'10to20':p.watt<30?'20to30':'30plus']:[]);
+    visible &&= matches('watt',light&&p.watt?[p.watt<10?'under10':p.watt<20?'10to20':p.watt<30?'20to30':'30plus']:[]);
     visible &&= matches('series',!light?[p.series]:[]);
-    visible &&= matches('switchType',!light?p.path:[]);
-    visible &&= matches('finish',!light?p.finish:[]);
-    visible &&= matches('gang',!light&&p.gang?[String(p.gang)]:[]);
+    visible &&= matches('switchType',!light?[p.type]:[]);
+    visible &&= matches('socket',light&&p.socket?[p.socket]:[]);
     element.hidden=!visible;
     if(visible)count++;
   });

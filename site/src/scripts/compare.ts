@@ -46,12 +46,13 @@ controls.forEach(input => input.addEventListener('change', () => {
 document.querySelector('#compare-clear')!.addEventListener('click', () => { selected = []; update(); });
 function specifications(product: Product): Record<string, string> {
   if (product.kind === 'light') return {
-    '種類': '燈具', '功率': `${product.watt}W`, '孔徑': product.cutoutDia ? `${product.cutoutDia}mm` : '—',
+    '種類': '燈具', '功率': product.watt ? `${product.watt}W` : '—', '孔徑': product.cutoutDia ? `${product.cutoutDia}mm` : '—',
     '色溫': product.cct.map(value => `${value}K`).join(' / ') || '—', '演色性': product.cri ? `CRI ${product.cri}` : '—',
     '角度': product.beamAngle.map(value => `${value}°`).join(' / ') || '—', '顏色': product.colors.join('、') || '—',
-    '尺寸': product.dimensions || '—', '電壓': product.voltage || '—',
+    '燈座': product.socket || '—', '尺寸': product.dimensions || '—', '電壓': product.voltage || '—',
   };
-  return { '種類': '開關面板', '系列': product.series.toUpperCase(), '顏色': product.finish.join('、') || '—', '連數': String(product.gang ?? '—'), '額定電流': product.amperage || '—' };
+  const typeName = { switch: '開關', socket: '插座', panel: '面板' }[product.type];
+  return { '種類': '開關面板', '系列': product.series.toUpperCase(), '類型': typeName, '說明': product.description.join('；') || '—' };
 }
 document.querySelector('#compare-open')!.addEventListener('click', () => {
   const table = document.querySelector('#compare-table')!;

@@ -12,9 +12,8 @@ const groups: [string,string,string[][]][] = [
   ['beam','角度',['15','24','36','60'].map(x=>[x,`${x}°`])],
   ['color','燈具顏色',[['白','白'],['黑','黑'],['其他','其他']]],
   ['series','開關系列',[['unica','UNICA'],['zencelo','ZENcelo']]],
-  ['switchType','開關類型',[['switch','開關'],['socket','插座'],['eu-panel','面板']]],
-  ['finish','面板顏色',[...new Set(items.flatMap(p=>p.data.kind==='switch'?p.data.finish:[]))].map(x=>[x,x])],
-  ['gang','連數',[...new Set(items.flatMap(p=>p.data.kind==='switch'&&p.data.gang?[String(p.data.gang)]:[]))].sort().map(x=>[x,`${x}連`])],
+  ['switchType','開關類型',[['switch','開關'],['socket','插座'],['panel','面板']]],
+  ['socket','燈座',[...new Set(items.flatMap(p=>p.data.kind==='light'&&p.data.socket?[p.data.socket]:[]))].sort().map(x=>[x,x])],
 ];
 ---
 <div class="catalog">
