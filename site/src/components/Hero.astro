@@ -12,37 +12,48 @@ const slides = [
 <section class="hero" aria-label="產品情境輪播" aria-roledescription="carousel">
   <ul class="track">
     {slides.map((slide, index) => (
-      <li aria-label={`第 ${index + 1} 張，共 ${slides.length} 張`} aria-roledescription="slide">
+      <li id={`slide-${index + 1}`} aria-label={`第 ${index + 1} 張，共 ${slides.length} 張`} aria-roledescription="slide">
         <img src={siteUrl(`/hero/${slide.slug}.webp`)} alt={slide.alt} width="940" height="400" loading={index === 0 ? 'eager' : 'lazy'}/>
       </li>
     ))}
   </ul>
+  <ol class="dots">
+    {slides.map((slide, index) => (
+      <li><a href={`#slide-${index + 1}`} aria-label={`第 ${index + 1} 張：${slide.alt}`}><span></span></a></li>
+    ))}
+  </ol>
 </section>
 <script>
   /*
-   * 自動輪播，不提供可見的切換控制項。
+   * 自動輪播 + 指示點。
    *
-   * 自動移動的內容需要可暫停的機制（WCAG 2.2.2）。在沒有按鈕的前提下，這裡以
-   * 滑鼠移入／鍵盤聚焦暫停、分頁隱藏時停止、並在使用者開啟「減少動態效果」時
-   * 完全不自動輪播來降低影響；觸控與捲動仍可手動切換。
-   * 沒有 JavaScript 時會停在第一張，仍是有效的首頁視覺。
+   * 指示點是錨點連結，沒有 JavaScript 時仍可切換。有 JavaScript 時攔截點擊改為
+   * 只水平捲動輪播容器 —— 直接讓瀏覽器跳到錨點會連帶垂直捲動整個頁面。
+   *
+   * 自動移動的內容需要可暫停的機制（WCAG 2.2.2）。這裡以滑鼠移入／鍵盤聚焦暫停、
+   * 分頁隱藏時停止、並在使用者開啟「減少動態效果」時完全不自動輪播來降低影響。
    */
   const INTERVAL_MS = 5000;
   const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
 
-  for (const track of document.querySelectorAll<HTMLElement>('.hero .track')) {
-    const count = track.children.length;
-    if (count < 2) continue;
+  for (const hero of document.querySelectorAll<HTMLElement>('.hero')) {
+    const track = hero.querySelector<HTMLElement>('.track');
+    const dots = [...hero.querySelectorAll<HTMLAnchorElement>('.dots a')];
+    if (!track) continue;
+    const slides = [...track.children] as HTMLElement[];
+    if (slides.length < 2) continue;
+
+    const currentIndex = () => {
+      const width = track.clientWidth;
+      return width === 0 ? 0 : Math.round(track.scrollLeft / width);
+    };
+    const goTo = (index: number) => {
+      track.scrollTo({ left: index * track.clientWidth, behavior: reduceMotion.matches ? 'auto' : 'smooth' });
+    };
 
     let timer: number | undefined;
     let paused = false;
-
-    const advance = () => {
-      const width = track.clientWidth;
-      if (width === 0) return;
-      const next = (Math.round(track.scrollLeft / width) + 1) % count;
-      track.scrollTo({ left: next * width, behavior: 'smooth' });
-    };
+    const advance = () => { if (track.clientWidth > 0) goTo((currentIndex() + 1) % slides.length); };
     const stop = () => { if (timer !== undefined) { clearInterval(timer); timer = undefined; } };
     const start = () => {
       if (timer === undefined && !paused && !reduceMotion.matches && !document.hidden) {
@@ -52,13 +63,33 @@ const slides = [
     const pause = () => { paused = true; stop(); };
     const resume = () => { paused = false; start(); };
 
-    track.addEventListener('pointerenter', pause);
-    track.addEventListener('pointerleave', resume);
-    track.addEventListener('focusin', pause);
-    track.addEventListener('focusout', resume);
+    dots.forEach((dot, index) => {
+      dot.addEventListener('click', event => { event.preventDefault(); goTo(index); });
+    });
+
+    // 捲動位置決定哪個點是目前這張，手動滑動與自動輪播都會反映。
+    let pending = false;
+    const syncDots = () => {
+      const active = currentIndex();
+      dots.forEach((dot, index) => {
+        dot.toggleAttribute('aria-current', index === active);
+        dot.classList.toggle('is-active', index === active);
+      });
+    };
+    track.addEventListener('scroll', () => {
+      if (pending) return;
+      pending = true;
+      requestAnimationFrame(() => { pending = false; syncDots(); });
+    });
+
+    hero.addEventListener('pointerenter', pause);
+    hero.addEventListener('pointerleave', resume);
+    hero.addEventListener('focusin', pause);
+    hero.addEventListener('focusout', resume);
     document.addEventListener('visibilitychange', () => (document.hidden ? stop() : start()));
     reduceMotion.addEventListener('change', () => (reduceMotion.matches ? stop() : start()));
 
+    syncDots();
     start();
   }
 </script>
@@ -68,12 +99,24 @@ const slides = [
     display:flex; list-style:none; margin:0; padding:0; gap:0;
     overflow-x:auto; scroll-snap-type:x mandatory; scroll-behavior:smooth;
     border:1px solid var(--color-line); background:var(--color-surface);
-    /* 沒有可見控制項，隱藏捲軸讓版面乾淨；觸控仍可滑動。 */
     scrollbar-width:none;
   }
   .track::-webkit-scrollbar { display:none; }
   .track li { flex:0 0 100%; scroll-snap-align:center; }
   .track img { display:block; width:100%; height:auto; }
-  /* 尊重使用者的減少動態偏好：不平滑捲動，腳本也不會自動輪播。 */
-  @media (prefers-reduced-motion: reduce) { .track { scroll-behavior:auto; } }
+
+  .dots { display:flex; justify-content:center; gap:.5rem; list-style:none; margin:.9rem 0 0; padding:0; }
+  /* 連結本身留 44px 觸控範圍，視覺上只顯示中央的小圓點。 */
+  .dots a { display:flex; align-items:center; justify-content:center; width:44px; height:28px; }
+  .dots span {
+    display:block; width:10px; height:10px; border-radius:50%;
+    background:var(--color-line); border:1px solid var(--color-muted); transition:.2s;
+  }
+  .dots a:hover span, .dots a:focus-visible span { background:var(--color-muted); }
+  .dots a.is-active span { background:var(--color-accent); border-color:var(--color-accent); transform:scale(1.3); }
+
+  @media (prefers-reduced-motion: reduce) {
+    .track { scroll-behavior:auto; }
+    .dots span { transition:none; }
+  }
 </style>
