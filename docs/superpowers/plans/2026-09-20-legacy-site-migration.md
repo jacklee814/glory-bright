@@ -10,6 +10,11 @@
 
 **Spec:** `docs/superpowers/specs/2026-09-20-legacy-site-migration-design.md`
 
+> **2026-09-20 範圍變更：** 業主確認移除產品篩選、產品比較與電話／E-mail 詢價 CTA。
+> Task 6 的 Step 3–6 原本要更新 `Catalog.astro`、`filter.ts`、`compare.ts`，這些檔案
+> 已於後續 commit 刪除，改以 `ProductGrid.astro` 純列表取代。閱讀這些步驟時請以
+> `docs/DECISIONS.md` 為準，不要把功能加回來。
+
 ## Global Constraints
 
 - 不使用 React、Vue、UI library、CMS、資料庫、表單服務或前端框架。
@@ -1627,13 +1632,14 @@ pnpm --filter site dev
 在 `http://localhost:4321/glory-bright/` 逐項確認：
 
 1. 首頁、`/products/`、各層分類頁、任一產品頁皆正常顯示，圖片載入無破圖。
-2. `/products/` 的篩選：勾選「埋入孔徑 60mm」後結果數下降且 URL 帶上 `cutout=60`；重新整理後條件保留。
-3. 「開關類型」篩選的開關／插座／面板三個值都能正確過濾。
-4. Header 型號搜尋輸入 `GB-DMR` 有即時結果。
-5. 加入 3 項產品比較，比較表開啟且差異列有琥珀底色；加第 4 項時出現上限提示。
-6. 鍵盤 Tab 可走完篩選、卡片、比較列；`Esc` 可關閉比較對話框。
-7. 視窗縮到 375px：篩選面板堆疊、無水平捲動。
-8. DevTools Console 無錯誤。
+2. `/products/` 列出全部產品且件數正確；各層分類頁只列該分類的產品。
+3. 燈具產品頁的規格 `<dl>` 欄位正確；缺漏欄位顯示「—」而非 `undefined`。
+4. 開關產品頁顯示系列、類型與描述清單，且**不出現任何售價**。
+5. Header 型號搜尋輸入 `GB-DMR` 有即時結果，點擊可進入產品頁。
+6. 確認**沒有**篩選面板、比較 checkbox、比較列、詢價按鈕或手機撥號列殘留。
+7. 鍵盤 Tab 可走完導覽、搜尋與產品卡片連結，focus 樣式清楚可見。
+8. 視窗縮到 375px：產品格線正常堆疊、無水平捲動、底部無多餘空白。
+9. DevTools Console 無錯誤。
 
 - [ ] **Step 7: Commit**
 
