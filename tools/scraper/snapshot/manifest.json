@@ -167,11 +167,11 @@
     "http://www.glory-bright.com.tw/goods.php?id=581&act=goods&page=1": "pages/goods-id581-actgoods-page1.html",
     "http://www.glory-bright.com.tw/goods.php?id=582&act=goods&page=1": "pages/goods-id582-actgoods-page1.html",
     "http://www.glory-bright.com.tw/goods.php?id=582&act=goods&page=2": "pages/goods-id582-actgoods-page2.html",
-    "http://www.glory-bright.com.tw/category_light1.php?id=%E5%B4%81%E7%87%88&act=goods": "pages/category_light1-id--actgoods.html",
-    "http://www.glory-bright.com.tw/category_light1.php?id=%E8%BB%8C%E9%81%93%E7%87%88&act=goods": "pages/category_light1-id--actgoods.html",
-    "http://www.glory-bright.com.tw/category_light1.php?id=%E5%90%B8%E9%A0%82%2F%E6%87%B8%E5%90%8A%E7%87%88&act=goods": "pages/category_light1-id--actgoods.html",
-    "http://www.glory-bright.com.tw/category_light1.php?id=%E7%B7%9A%E5%9E%8B%E7%87%88&act=goods": "pages/category_light1-id--actgoods.html",
-    "http://www.glory-bright.com.tw/category_light1.php?id=%E8%BE%A6%E5%85%AC%2F%E5%B7%A5%E7%A8%8B%E7%85%A7%E6%98%8E&act=goods": "pages/category_light1-id--actgoods.html"
+    "http://www.glory-bright.com.tw/category_light1.php?id=%E5%B4%81%E7%87%88&act=goods": "pages/category_light1-id--actgoods-060svvj.html",
+    "http://www.glory-bright.com.tw/category_light1.php?id=%E8%BB%8C%E9%81%93%E7%87%88&act=goods": "pages/category_light1-id--actgoods-09aj3tq.html",
+    "http://www.glory-bright.com.tw/category_light1.php?id=%E5%90%B8%E9%A0%82%2F%E6%87%B8%E5%90%8A%E7%87%88&act=goods": "pages/category_light1-id--actgoods-0m6sp66.html",
+    "http://www.glory-bright.com.tw/category_light1.php?id=%E7%B7%9A%E5%9E%8B%E7%87%88&act=goods": "pages/category_light1-id--actgoods-0vrtn0e.html",
+    "http://www.glory-bright.com.tw/category_light1.php?id=%E8%BE%A6%E5%85%AC%2F%E5%B7%A5%E7%A8%8B%E7%85%A7%E6%98%8E&act=goods": "pages/category_light1-id--actgoods-1stv8cw.html"
   },
   "images": {
     "http://www.glory-bright.com.tw/gbl_login_admin/images/goods_light_img/358.jpg": "images/358.jpg",
