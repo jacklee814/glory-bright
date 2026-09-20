@@ -1,1 +1,5 @@
-{"name":"開關面板","order":2,"description":"Schneider Electric UNICA 與 ZENcelo 系列"}
+{
+  "name": "開關面板",
+  "order": 2,
+  "description": "Schneider Electric UNICA 與 ZENcelo 系列"
+}

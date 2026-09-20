@@ -1,1 +1,22 @@
-{"name":"scraper","private":true,"type":"module","scripts":{"crawl":"tsx src/crawl.ts","parse":"tsx src/parse.ts","emit":"tsx src/emit.ts"}}
+{
+  "name": "scraper",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "crawl": "tsx src/crawl.ts",
+    "parse": "tsx src/parse.ts",
+    "emit": "tsx src/emit.ts",
+    "test": "node --import tsx --test \"test/**/*.test.ts\""
+  },
+  "dependencies": {
+    "@glory-bright/shared": "workspace:*",
+    "cheerio": "^1.0.0",
+    "sharp": "^0.33.5",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.8.3",
+    "@types/node": "^22.10.0"
+  }
+}

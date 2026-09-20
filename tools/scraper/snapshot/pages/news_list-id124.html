@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>榮輝照明科技-最新消息</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/menu.css" type="text/css" /> 
+	<script type ="text/javascript" src ="js/menu.js"></script>
+	<script type ="text/javascript" src ="js/scriptbreaker-multiple-accordion-1.js"></script>
+	<script type ="text/javascript" src ="js/function.js"></script>
+	<script type ="text/javascript" src="js/ajax.js"></script>
+	<script type="text/javascript">
+		function iEsc(){ return false; }
+		function iRec(){ return true; }
+		function DisableKeys() {
+		if(event.ctrlKey || event.shiftKey || event.altKey) {
+		window.event.returnValue=false;
+		iEsc();}
+		}
+		document.ondragstart=iEsc;
+		document.onkeydown=DisableKeys;
+		document.oncontextmenu=iEsc;
+		if (typeof document.onselectstart !="undefined")
+		document.onselectstart=iEsc;
+		else{
+		document.onmousedown=iEsc;
+		document.onmouseup=iRec;
+		}
+		function DisableRightClick(qsyzDOTnet){
+		if (window.Event){
+		if (qsyzDOTnet.which == 2 || qsyzDOTnet.which == 3)
+		iEsc();}
+		else
+		if (event.button == 2 || event.button == 3){
+		event.cancelBubble = true
+		event.returnValue = false;
+		iEsc();}
+		}
+	</script>
+</head>
+<body>
+<div class ="framework">
+			<div class ="banner">
+			<!--頁面banner-->
+			<img src ="images/banner.jpg" width ="940" height ="150">		</div>
+
+		<div class ="navigation">
+			<!--導航列-->
+			<span><a href ="index.php">首&nbsp&nbsp&nbsp&nbsp頁</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<span><a href ="category.php">產品介紹</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<span><a href ="sample.php"><!--安裝案例--></a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<span><a href ="news.php">最新消息</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<span><a href ="contact_us.php">聯絡我們</a></span>
+						</div>
+
+		<div class ="left">
+			<!--左邊伸縮選單-->
+				<ul class="topnav_cat" >
+			<li align ="center">●最新消息</li>
+	</ul>
+		</div>
+
+			<!--網頁內容-->
+			<!--<div class ="title_nav">
+					<table>
+							<tr>
+									<td align ="center"><font color ="black" size ="4">&nbsp&nbsp<a href ="javascript:history.go(-1);">最新消息</a></font></td>
+							</tr>
+					</table><br><br><br><br>
+			</div>-->
+			<div class ="content"><span id ="link_nav">&nbsp<a href ="index.php">首頁</a>-><a href ="news.php">最新消息</a>->最新消息文章</span><br><hr>
+					<table align ="center" border ="0">
+					<tr>
+						<td></td>
+					</tr>
+					</table>
+										<br><br>
+					<div class ="footer_news">
+						<div align ="center">榮輝照明科技有限公司</div>
+<div align ="center">(02)2632-8828 &nbsp&nbsp (02)2632-8728</div>
+<div align ="center">台北市內湖區康寧路三段265巷33號1F</div>					</div>
+			</div>
+
+</div>
+</body>
+</html>
