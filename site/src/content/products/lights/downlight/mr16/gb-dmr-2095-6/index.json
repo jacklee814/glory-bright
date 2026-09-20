@@ -1,0 +1,31 @@
+{
+  "kind": "light",
+  "model": "GB-DMR-2095-6",
+  "watt": 7.5,
+  "beamAngle": [
+    24,
+    36,
+    60
+  ],
+  "cct": [
+    2700,
+    4000,
+    5000
+  ],
+  "cri": 90,
+  "cutoutDia": 95,
+  "dimensions": "L 150*W 55*H 30mm",
+  "voltage": "AC100V-240V",
+  "colors": [
+    "白"
+  ],
+  "extras": {},
+  "notes": [],
+  "images": [
+    "/products/gb-dmr-2095-6-1.webp",
+    "/products/gb-smd-2050-1-2.webp",
+    "/products/gb-dmr-2095-6-3.webp"
+  ],
+  "order": 58,
+  "legacyId": 166
+}

@@ -1,0 +1,14 @@
+{
+  "kind": "switch",
+  "model": "020201",
+  "series": "unica",
+  "type": "socket",
+  "description": [
+    "冰河藍 電視插座"
+  ],
+  "images": [
+    "/products/020201-1.webp"
+  ],
+  "order": 13,
+  "legacyCategoryId": 579
+}

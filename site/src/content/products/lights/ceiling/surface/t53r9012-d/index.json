@@ -1,0 +1,23 @@
+{
+  "kind": "light",
+  "model": "T53R9012-D",
+  "watt": 53,
+  "beamAngle": [],
+  "cct": [],
+  "cri": 90,
+  "voltage": "AC110V",
+  "colors": [],
+  "extras": {
+    "建議坪數": "6坪",
+    "調光": "連續調光",
+    "連續調色": "3000~6500K"
+  },
+  "notes": [],
+  "images": [
+    "/products/t53r9012-d-1.webp",
+    "/products/t53r9012-d-2.webp",
+    "/products/t53r9012-d-3.webp"
+  ],
+  "order": 9,
+  "legacyId": 79
+}

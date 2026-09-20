@@ -1,0 +1,16 @@
+{
+  "kind": "light",
+  "model": "GB-TB-1-6060",
+  "beamAngle": [],
+  "cct": [],
+  "colors": [],
+  "extras": {},
+  "notes": [],
+  "images": [
+    "/products/gb-tb-1-6060-1.webp",
+    "/products/gb-smd-2050-1-2.webp",
+    "/products/gb-tb-1-6060-3.webp"
+  ],
+  "order": 126,
+  "legacyId": 234
+}

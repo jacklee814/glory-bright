@@ -1,0 +1,15 @@
+{
+  "kind": "switch",
+  "model": "UNICA-EP-08",
+  "series": "unica",
+  "type": "panel",
+  "description": [
+    "玻璃黑(10cm*9cm)",
+    "需搭配安裝架(另計)"
+  ],
+  "images": [
+    "/products/unica-ep-08-1.webp"
+  ],
+  "order": 21,
+  "legacyCategoryId": 597
+}

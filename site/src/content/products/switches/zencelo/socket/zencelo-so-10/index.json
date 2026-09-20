@@ -1,0 +1,14 @@
+{
+  "kind": "switch",
+  "model": "ZENCELO-SO-10",
+  "series": "zencelo",
+  "type": "socket",
+  "description": [
+    "電話插座"
+  ],
+  "images": [
+    "/products/zencelo-so-10-1.webp"
+  ],
+  "order": 41,
+  "legacyCategoryId": 582
+}

@@ -1,0 +1,15 @@
+{
+  "kind": "switch",
+  "model": "ZENCELO-SW-02",
+  "series": "zencelo",
+  "type": "switch",
+  "description": [
+    "埋入式雙開三路開關",
+    "125V 15A"
+  ],
+  "images": [
+    "/products/zencelo-sw-02-1.webp"
+  ],
+  "order": 23,
+  "legacyCategoryId": 581
+}

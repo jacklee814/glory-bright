@@ -1,0 +1,24 @@
+{
+  "kind": "light",
+  "model": "GB-SMD-3528-1",
+  "watt": 5,
+  "beamAngle": [],
+  "cct": [
+    3000,
+    4000,
+    6500
+  ],
+  "dimensions": "W :8mm H :3mm L :5M (一捲)",
+  "voltage": "DC12V / 24V",
+  "colors": [],
+  "extras": {},
+  "notes": [
+    "SMD3528軟條燈",
+    "※ 變壓器，另計"
+  ],
+  "images": [
+    "/products/gb-smd-3528-1-1.webp"
+  ],
+  "order": 114,
+  "legacyId": 222
+}

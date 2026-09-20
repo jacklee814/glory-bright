@@ -1,0 +1,29 @@
+{
+  "kind": "light",
+  "model": "GB-DBO-2011-3",
+  "watt": 7.5,
+  "beamAngle": [
+    25
+  ],
+  "cct": [
+    2700,
+    4000,
+    5000
+  ],
+  "cri": 90,
+  "cutoutDia": 55,
+  "dimensions": "L 157 * W 54 * H 50mm",
+  "voltage": "AC100V-240V",
+  "colors": [
+    "黑"
+  ],
+  "extras": {},
+  "notes": [],
+  "images": [
+    "/products/gb-dbo-2011-3-1.webp",
+    "/products/gb-smd-2050-1-2.webp",
+    "/products/gb-dbo-2011-3-3.webp"
+  ],
+  "order": 25,
+  "legacyId": 130
+}

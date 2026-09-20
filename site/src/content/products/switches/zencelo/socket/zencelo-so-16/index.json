@@ -1,0 +1,14 @@
+{
+  "kind": "switch",
+  "model": "ZENCELO-SO-16",
+  "series": "zencelo",
+  "type": "socket",
+  "description": [
+    "網路+電話+電視插座"
+  ],
+  "images": [
+    "/products/zencelo-so-16-1.webp"
+  ],
+  "order": 45,
+  "legacyCategoryId": 582
+}

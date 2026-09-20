@@ -1,0 +1,14 @@
+{
+  "kind": "switch",
+  "model": "ZENCELO-SO-0118",
+  "series": "zencelo",
+  "type": "socket",
+  "description": [
+    "電話+電視插座(白色)"
+  ],
+  "images": [
+    "/products/zencelo-so-0118-1.webp"
+  ],
+  "order": 57,
+  "legacyCategoryId": 582
+}

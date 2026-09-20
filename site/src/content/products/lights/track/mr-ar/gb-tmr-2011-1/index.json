@@ -1,0 +1,29 @@
+{
+  "kind": "light",
+  "model": "GB-TMR-2011-1",
+  "watt": 6,
+  "beamAngle": [
+    20,
+    40,
+    60
+  ],
+  "cct": [
+    3000,
+    4000
+  ],
+  "cri": 90,
+  "dimensions": "W 58*H 120mm",
+  "voltage": "AC100V-240V",
+  "colors": [
+    "白",
+    "黑"
+  ],
+  "extras": {},
+  "notes": [],
+  "images": [
+    "/products/gb-tmr-2011-1-1.webp",
+    "/products/gb-smd-2050-1-2.webp"
+  ],
+  "order": 29,
+  "legacyId": 137
+}

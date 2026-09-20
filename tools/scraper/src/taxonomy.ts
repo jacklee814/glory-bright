@@ -6,6 +6,16 @@ export interface LegacyLightCategory {
 export interface LegacySwitchCategory {
   legacyId: number; series: 'unica' | 'zencelo'; type: 'switch' | 'socket' | 'panel';
   slug: string; name: string; order: number;
+  /**
+   * 圖檔名是否為施耐德料號。
+   *
+   * 只有 UNICA 開關／插座成立（010102、103096）。ZENcelo 的檔名是流水號（01、04），
+   * UNICA 歐規面板是中文顏色名（「水綠色 WG」），兩者都不是料號，必須改用
+   * `codePrefix` 產生可讀且唯一的型號。
+   */
+  filenameIsPartCode: boolean;
+  /** filenameIsPartCode 為 false 時，型號組成 `${codePrefix}-${代碼}`。 */
+  codePrefix?: string;
 }
 
 /** 舊站 goods_light.php?id=<legacyId>。已排除 0 件的 58（懸吊式）與 65（1121321 測試資料）。 */
@@ -27,9 +37,9 @@ export const LIGHT_CATEGORIES: LegacyLightCategory[] = [
 
 /** 舊站 goods.php?id=<legacyId>。開關無明細頁，資料全在列表頁。 */
 export const SWITCH_CATEGORIES: LegacySwitchCategory[] = [
-  { legacyId: 578, series: 'unica',   type: 'switch', slug: 'switch',     name: 'UNICA 開關',     order: 1 },
-  { legacyId: 579, series: 'unica',   type: 'socket', slug: 'socket',     name: 'UNICA 插座',     order: 2 },
-  { legacyId: 597, series: 'unica',   type: 'panel',  slug: 'euro-panel', name: 'UNICA 歐規面板', order: 3 },
-  { legacyId: 581, series: 'zencelo', type: 'switch', slug: 'switch',     name: 'ZENcelo 開關',   order: 1 },
-  { legacyId: 582, series: 'zencelo', type: 'socket', slug: 'socket',     name: 'ZENcelo 插座',   order: 2 },
+  { legacyId: 578, series: 'unica',   type: 'switch', slug: 'switch',     name: 'UNICA 開關',     order: 1, filenameIsPartCode: true },
+  { legacyId: 579, series: 'unica',   type: 'socket', slug: 'socket',     name: 'UNICA 插座',     order: 2, filenameIsPartCode: true },
+  { legacyId: 597, series: 'unica',   type: 'panel',  slug: 'euro-panel', name: 'UNICA 歐規面板', order: 3, filenameIsPartCode: false, codePrefix: 'UNICA-EP' },
+  { legacyId: 581, series: 'zencelo', type: 'switch', slug: 'switch',     name: 'ZENcelo 開關',   order: 1, filenameIsPartCode: false, codePrefix: 'ZENCELO-SW' },
+  { legacyId: 582, series: 'zencelo', type: 'socket', slug: 'socket',     name: 'ZENcelo 插座',   order: 2, filenameIsPartCode: false, codePrefix: 'ZENCELO-SO' },
 ];

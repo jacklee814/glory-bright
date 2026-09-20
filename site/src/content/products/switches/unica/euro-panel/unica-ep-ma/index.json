@@ -1,0 +1,15 @@
+{
+  "kind": "switch",
+  "model": "UNICA-EP-MA",
+  "series": "unica",
+  "type": "panel",
+  "description": [
+    "紫紅色 MA",
+    "需搭配安裝架(另計)"
+  ],
+  "images": [
+    "/products/unica-ep-ma-1.webp"
+  ],
+  "order": 19,
+  "legacyCategoryId": 597
+}

@@ -1,0 +1,15 @@
+{
+  "kind": "switch",
+  "model": "ZENCELO-SO-05",
+  "series": "zencelo",
+  "type": "socket",
+  "description": [
+    "埋入式雙插座",
+    "125V 15A 3PIN"
+  ],
+  "images": [
+    "/products/zencelo-so-05-1.webp"
+  ],
+  "order": 37,
+  "legacyCategoryId": 582
+}
