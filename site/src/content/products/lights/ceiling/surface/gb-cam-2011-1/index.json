@@ -2,9 +2,7 @@
   "kind": "light",
   "model": "GB-CAM-2011-1",
   "images": [
-    "/products/gb-cam-2011-1-1.webp",
-    "/products/gb-smd-2050-1-2.webp",
-    "/products/gb-cam-2011-1-3.webp"
+    "/products/gb-cam-2011-1-1.webp"
   ],
   "order": 70
 }

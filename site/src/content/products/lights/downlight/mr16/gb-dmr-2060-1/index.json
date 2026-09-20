@@ -2,9 +2,7 @@
   "kind": "light",
   "model": "GB-DMR-2060-1",
   "images": [
-    "/products/gb-dmr-2060-1-1.webp",
-    "/products/gb-dfl-2095-3-2.webp",
-    "/products/gb-dmr-2060-1-3.webp"
+    "/products/gb-dmr-2060-1-1.webp"
   ],
   "order": 18
 }

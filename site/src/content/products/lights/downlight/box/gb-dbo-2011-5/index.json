@@ -2,9 +2,7 @@
   "kind": "light",
   "model": "GB-DBO-2011-5",
   "images": [
-    "/products/gb-dbo-2011-5-1.webp",
-    "/products/gb-smd-2050-1-2.webp",
-    "/products/gb-dbo-2011-5-3.webp"
+    "/products/gb-dbo-2011-5-1.webp"
   ],
   "order": 33
 }

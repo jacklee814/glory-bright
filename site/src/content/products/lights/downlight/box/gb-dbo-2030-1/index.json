@@ -2,9 +2,7 @@
   "kind": "light",
   "model": "GB-DBO-2030-1",
   "images": [
-    "/products/gb-dbo-2030-1-1.webp",
-    "/products/gb-dmr-2075-1-2.webp",
-    "/products/gb-dbo-2030-1-3.webp"
+    "/products/gb-dbo-2030-1-1.webp"
   ],
   "order": 37
 }

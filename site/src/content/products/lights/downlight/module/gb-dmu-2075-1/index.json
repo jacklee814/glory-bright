@@ -2,9 +2,7 @@
   "kind": "light",
   "model": "GB-DMU-2075-1",
   "images": [
-    "/products/gb-dmu-2075-1-1.webp",
-    "/products/gb-smd-2050-1-2.webp",
-    "/products/gb-dmu-2075-1-3.webp"
+    "/products/gb-dmu-2075-1-1.webp"
   ],
   "order": 96
 }

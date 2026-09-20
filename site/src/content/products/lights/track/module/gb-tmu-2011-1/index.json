@@ -2,12 +2,7 @@
   "kind": "light",
   "model": "GB-TMU-2011-1",
   "images": [
-    "/products/gb-tmu-2011-1-1.webp",
-    "/products/gb-tmu-2011-3-2.webp",
-    "/products/gb-tmu-2011-1-3.webp",
-    "/products/gb-tmu-2011-1-4.webp",
-    "/products/gb-tmu-2011-1-5.webp",
-    "/products/gb-tmu-2011-1-6.webp"
+    "/products/gb-tmu-2011-1-1.webp"
   ],
   "order": 3
 }

@@ -2,9 +2,7 @@
   "kind": "light",
   "model": "GB-TB-6060-5",
   "images": [
-    "/products/gb-tb-6060-5-1.webp",
-    "/products/gb-smd-2050-1-2.webp",
-    "/products/gb-tb-6060-5-3.webp"
+    "/products/gb-tb-6060-5-1.webp"
   ],
   "order": 128
 }

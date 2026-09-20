@@ -2,9 +2,7 @@
   "kind": "light",
   "model": "GB-SMD-2835-1",
   "images": [
-    "/products/gb-smd-2835-1-1.webp",
-    "/products/gb-smd-2835-1-2.webp",
-    "/products/gb-smd-2835-1-3.webp"
+    "/products/gb-smd-2835-1-1.webp"
   ],
   "order": 120
 }

@@ -2,9 +2,7 @@
   "kind": "light",
   "model": "GB-PTL-2020-1",
   "images": [
-    "/products/gb-ptl-2020-1-1.webp",
-    "/products/gb-smd-2050-1-2.webp",
-    "/products/gb-ptl-2020-1-3.webp"
+    "/products/gb-ptl-2020-1-1.webp"
   ],
   "order": 118
 }

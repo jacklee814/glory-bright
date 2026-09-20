@@ -2,9 +2,7 @@
   "kind": "light",
   "model": "GB-TMR-2021-1",
   "images": [
-    "/products/gb-tmr-2021-1-1.webp",
-    "/products/gb-tmr-2021-1-2.webp",
-    "/products/gb-tmr-2021-1-3.webp"
+    "/products/gb-tmr-2021-1-1.webp"
   ],
   "order": 89
 }

@@ -38,7 +38,7 @@ for (const dir of [publicRoot, heroRoot, coverRoot]) await mkdir(dir, { recursiv
 
 const models = new Set<string>();
 const failures: string[] = [];
-/** 舊站的規格示意圖跨產品共用，同一來源檔只轉一次並共用路徑。 */
+/** 每件產品只保留第一張圖；不同產品若共用同一來源檔，也只轉一次並共用路徑。 */
 const emittedImages = new Map<string, string>();
 /** 分類路徑 → 該分類第一件產品的圖，作為沒有舊站封面時的後備。 */
 const firstProductImage = new Map<string, string>();
@@ -85,7 +85,7 @@ for (const [index, row] of lights.entries()) {
   if (!model) { failures.push(`legacyId ${row.legacyId}：無型號（規格欄位與麵包屑皆空），略過`); continue; }
   if (models.has(model)) { failures.push(`型號重複：${model}（legacyId ${row.legacyId}）`); continue; }
   models.add(model);
-  const images = await emitImages(model, row.images);
+  const images = await emitImages(model, row.images.slice(0, 1));
   if (images.length === 0) { failures.push(`${model}：無可用圖片，略過`); continue; }
   const product = productSchema.parse({ kind: 'light', model, images, order: index + 1 });
   const path = `lights/${category.parentSlug}/${category.slug}`;
@@ -99,7 +99,7 @@ for (const [index, row] of switches.entries()) {
   if (!category) { failures.push(`${row.model}：找不到分類 ${row.legacyCategoryId}`); continue; }
   if (models.has(row.model)) { failures.push(`型號重複：${row.model}`); continue; }
   models.add(row.model);
-  const images = await emitImages(row.model, row.images);
+  const images = await emitImages(row.model, row.images.slice(0, 1));
   if (images.length === 0) { failures.push(`${row.model}：無可用圖片，略過`); continue; }
   const product = productSchema.parse({ kind: 'switch', model: row.model, images, order: index + 1 });
   const path = `switches/${category.series}/${category.slug}`;
