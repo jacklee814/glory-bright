@@ -12,8 +12,29 @@
 
 在 `site/src/content/products/` 下依分類建立 ASCII slug 資料夾與 `index.json`。模型必須全站唯一；欄位由 `shared/schema.ts` 驗證。圖片應是 ASCII 檔名、白底 WebP，型錄放在 `site/public/catalogs/`。
 
+手動編輯產品時請注意：`site/src/content/products/` 的內容會在下次執行 `pnpm --filter scraper emit` 時被整批重建。長期的人工修正應回寫到 scraper 的解析規則，而非只改輸出檔。
+
+## 資料遷移工具
+
+`tools/scraper` 是三階段離線 pipeline：
+
+- `pnpm --filter scraper crawl` — 抓取舊站存成 `tools/scraper/snapshot/`（冷備份，已在 repo 內）。**除非舊站內容有更新，否則不需要再執行。**
+- `pnpm --filter scraper parse` — 只讀 snapshot，產出 `data/*.json` 與 `report.md`。不發網路請求，可反覆執行。
+- `pnpm --filter scraper emit` — 驗證 schema 後寫入 content collections 與 `site/public/products/` 的 WebP。
+- `pnpm --filter scraper test` — 解析器的單元測試，fixture 直接取自 snapshot。
+
+要調整解析規則時，只需改 `parse-light.ts` / `parse-switch.ts` 後重跑 `parse` 與 `emit`，不必再碰舊站。
+
+### 舊站主機的流量限制
+
+舊站是 HiNet 虛擬主機上的 Apache 1.3.39，只支援 HTTP。請求過於密集時，主機會對來源 IP 回傳 HTTP 200 但內容為 `wfs.hinet.net` 攔截頁而非真實內容。`src/http.ts` 的 `isInterceptPage()` 會偵測此情況並視為失敗，crawler 遇到就停止，絕不會把攔截頁寫進 snapshot。
+
+封鎖是 IP 層級的，換 User-Agent 無效。遇到時請等待一段時間後重跑 `crawl`；crawler 會跳過已抓到的頁面續抓。節流預設為每 3 秒一次請求，如果仍頻繁被擋，可調大 `src/http.ts` 的 `limiter` 間隔。
+
 ## 上線前必補項目
 
-- 由業主確認公司地址、Logo SVG、Hero 情境照與型錄 PDF。
-- 先完成規格書 §5.1 的舊站冷備份，再實作實際爬蟲與人工驗收資料。
+- 由業主確認公司地址（舊站頁尾與聯絡頁的地址不一致）、Logo SVG、Hero 情境照與型錄 PDF。
+- 替換 `site/src/content/news/` 的 4 則示範消息。
+- `tools/scraper/report.md` 內標示需人工補齊的產品規格，需向業主取得後補上。
+- 產品圖目前沿用舊站小圖（200×200／300×300），建議取得高解析原圖後重新轉檔。
 - 在 GitHub Pages 設為 GitHub Actions，完成 DNS 後啟用 HTTPS。
