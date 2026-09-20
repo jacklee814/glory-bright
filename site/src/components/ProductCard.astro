@@ -1,7 +1,6 @@
 ---
 import { siteUrl } from '../lib/url';
 import { productUrl } from '../lib/catalog'; const { product }=Astro.props; const d=product.data;
-/* 只顯示標題與圖片；規格資料仍保留在 content collections，之後要恢復顯示只需改模板。 */
-const name = d.kind==='light' ? d.name : d.description[0];
+/* 只顯示型號與圖片；名稱與規格資料仍保留在 content collections，恢復顯示只需改模板。 */
 ---
-<article style="background:white;border:1px solid var(--color-line);transition:.2s"><a href={productUrl(d.model)} style="display:block;text-decoration:none"><img src={siteUrl(d.images[0])} alt={`${d.model} 產品圖`} width="600" height="600" loading="lazy" style="display:block;width:100%;aspect-ratio:1;object-fit:contain"/><div style="padding:1rem"><strong class="mono">{d.model}</strong>{name&&<p style="color:var(--color-muted);margin:.5rem 0 0">{name}</p>}</div></a></article>
+<article style="background:white;border:1px solid var(--color-line);transition:.2s"><a href={productUrl(d.model)} style="display:block;text-decoration:none"><img src={siteUrl(d.images[0])} alt={`${d.model} 產品圖`} width="600" height="600" loading="lazy" style="display:block;width:100%;aspect-ratio:1;object-fit:contain"/><div style="padding:1rem"><strong class="mono">{d.model}</strong></div></a></article>
