@@ -4,8 +4,13 @@ import BaseLayout from '../../layouts/BaseLayout.astro'; import ProductCard from
 export async function getStaticPaths(){const seen=new Set<string>();return (await products()).map(entry=>{const model=modelSlug(entry.data.model);if(seen.has(model))throw new Error(`型號 slug 重複：${model}`);seen.add(model);return {params:{model},props:{entry}}})}; const {entry}=Astro.props; const d=entry.data; /* glob loader 會把 index.json 的 id 收斂成 <分類路徑>/<型號slug>，故去掉最後一段即為所屬分類。 */ const categoryPath=entry.id.split('/').slice(0,-1).join('/'); const related=(await products()).filter(p=>p.id.split('/').slice(0,-1).join('/')===categoryPath&&p.id!==entry.id).slice(0,8);
 /* 只顯示型號與圖片；名稱與規格資料仍保留在 content collections，恢復顯示只需改模板。 */
 ---
-<BaseLayout title={`${d.model} | 榮輝照明科技`}><div class="wrap" style="padding:2rem 0"><p><a href={siteUrl('/')}>首頁</a> › <a href={siteUrl('/products/')}>產品介紹</a> › {d.model}</p><div class="with-sidebar"><CategorySidebar current={categoryPath}/><div><p class="mono">{d.kind==='light'?'LIGHTING':'SWITCHES'}</p><h1 class="mono" style="font-size:2.4rem;margin-bottom:1.5rem">{d.model}</h1><div class="product-images">{d.images.map((image,index)=><img src={siteUrl(image)} alt={index===0?`${d.model} 產品圖`:`${d.model} 產品圖 ${index+1}`} loading={index===0?undefined:'lazy'} style="width:100%;background:white;border:1px solid var(--color-line)"/>)}</div>{related.length>0&&<section style="margin-top:3rem"><h2>同類產品</h2><div class="grid">{related.map(product=><ProductCard {product}/>)}</div></section>}</div></div></div></BaseLayout>
+<BaseLayout title={`${d.model} | 榮輝照明科技`}><div class="wrap" style="padding:2rem 0"><p><a href={siteUrl('/')}>首頁</a> › <a href={siteUrl('/products/')}>產品介紹</a> › {d.model}</p><div class="with-sidebar"><CategorySidebar current={categoryPath}/><div><p class="mono">{d.kind==='light'?'LIGHTING':'SWITCHES'}</p><h1 class="mono" style="font-size:2.4rem;margin-bottom:1.5rem">{d.model}</h1><div class="product-images">{d.images.map((image,index)=><img src={siteUrl(image)} alt={index===0?`${d.model} 產品圖`:`${d.model} 產品圖 ${index+1}`} width="600" height="600" loading={index===0?undefined:'lazy'} />)}</div>{related.length>0&&<section style="margin-top:3rem"><h2>同類產品</h2><div class="grid">{related.map(product=><ProductCard {product}/>)}</div></section>}</div></div></div></BaseLayout>
 <style>
-  .product-images { display:grid; gap:1rem; grid-template-columns:1fr; }
+  .product-images { display:grid; gap:1rem; align-content:start; grid-template-columns:1fr; }
+  /* 圖片尺寸不一且部分為 lazy，固定比例的圖框可在載入前佔住空間，避免版面位移。 */
+  .product-images img {
+    display:block; width:100%; aspect-ratio:1; object-fit:contain;
+    background:white; border:1px solid var(--color-line);
+  }
   @media(min-width:640px) { .product-images { grid-template-columns:repeat(2,minmax(0,1fr)); } }
 </style>
