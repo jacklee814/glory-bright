@@ -2,8 +2,24 @@
 import { siteUrl } from '../../lib/url';
 import ProductGrid from '../../components/ProductGrid.astro';
 import CategorySidebar from '../../components/CategorySidebar.astro';
-import BaseLayout from '../../layouts/BaseLayout.astro'; import { categories, products, categoryPath } from '../../lib/catalog';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { categories, products, categoryPath } from '../../lib/catalog';
 export async function getStaticPaths(){return (await categories()).map(entry=>({params:{slug:categoryPath(entry.id)},props:{entry}}));}
-const {entry}=Astro.props; const path=categoryPath(entry.id); const all=await products(); const listed=all.filter(p=>p.id.startsWith(`${path}/`)); const children=(await categories()).filter(c=>categoryPath(c.id).startsWith(`${path}/`) && categoryPath(c.id).split('/').length===path.split('/').length+1);
+const {entry}=Astro.props; const path=categoryPath(entry.id);
+const children=(await categories()).filter(c=>categoryPath(c.id).startsWith(`${path}/`) && categoryPath(c.id).split('/').length===path.split('/').length+1);
+/* 有子分類就只列子分類（沿用舊站的逐層瀏覽）；到了葉節點才列產品。 */
+const listed = children.length>0 ? [] : (await products()).filter(p=>p.id.startsWith(`${path}/`));
 ---
-<BaseLayout title={`${entry.data.name} | 榮輝照明科技`}><div class="wrap" style="padding:2rem 0"><p><a href={siteUrl('/')}>首頁</a> › <a href={siteUrl('/products/')}>產品介紹</a> › {entry.data.name}</p><h1>{entry.data.name}</h1>{entry.data.description&&<p>{entry.data.description}</p>}<div class="with-sidebar"><CategorySidebar current={path}/><div>{children.length>0&&<div class="grid" style="margin-bottom:2rem">{children.map(c=><a href={siteUrl(`/products/${categoryPath(c.id)}/`)} style="background:white;border:1px solid var(--color-line);padding:2rem;text-decoration:none"><h2>{c.data.name}</h2><p>{c.data.description}</p></a>)}</div>}<ProductGrid items={listed}/></div></div></div></BaseLayout>
+<BaseLayout title={`${entry.data.name} | 榮輝照明科技`}><div class="wrap" style="padding:2rem 0"><p><a href={siteUrl('/')}>首頁</a> › <a href={siteUrl('/products/')}>產品介紹</a> › {entry.data.name}</p><h1>{entry.data.name}</h1>{entry.data.description&&<p>{entry.data.description}</p>}<div class="with-sidebar"><CategorySidebar current={path}/><div>{children.length>0
+  ? <ul class="grid category-grid">{children.map(c=><li><a href={siteUrl(`/products/${categoryPath(c.id)}/`)}>{c.data.cover&&<img src={siteUrl(c.data.cover)} alt="" width="600" height="600" loading="lazy"/>}<span>{c.data.name}</span></a></li>)}</ul>
+  : <ProductGrid items={listed}/>}</div></div></div></BaseLayout>
+<style>
+  .category-grid { list-style:none; margin:0; padding:0; }
+  .category-grid a {
+    display:block; background:var(--color-surface); border:1px solid var(--color-line);
+    text-decoration:none; height:100%;
+  }
+  .category-grid a:hover, .category-grid a:focus-visible { border-color:var(--color-accent); }
+  .category-grid img { display:block; width:100%; aspect-ratio:1; object-fit:contain; }
+  .category-grid span { display:block; padding:1rem; font-weight:700; text-align:center; }
+</style>

@@ -166,7 +166,12 @@
     "http://www.glory-bright.com.tw/goods.php?id=597&act=goods&page=1": "pages/goods-id597-actgoods-page1.html",
     "http://www.glory-bright.com.tw/goods.php?id=581&act=goods&page=1": "pages/goods-id581-actgoods-page1.html",
     "http://www.glory-bright.com.tw/goods.php?id=582&act=goods&page=1": "pages/goods-id582-actgoods-page1.html",
-    "http://www.glory-bright.com.tw/goods.php?id=582&act=goods&page=2": "pages/goods-id582-actgoods-page2.html"
+    "http://www.glory-bright.com.tw/goods.php?id=582&act=goods&page=2": "pages/goods-id582-actgoods-page2.html",
+    "http://www.glory-bright.com.tw/category_light1.php?id=%E5%B4%81%E7%87%88&act=goods": "pages/category_light1-id--actgoods.html",
+    "http://www.glory-bright.com.tw/category_light1.php?id=%E8%BB%8C%E9%81%93%E7%87%88&act=goods": "pages/category_light1-id--actgoods.html",
+    "http://www.glory-bright.com.tw/category_light1.php?id=%E5%90%B8%E9%A0%82%2F%E6%87%B8%E5%90%8A%E7%87%88&act=goods": "pages/category_light1-id--actgoods.html",
+    "http://www.glory-bright.com.tw/category_light1.php?id=%E7%B7%9A%E5%9E%8B%E7%87%88&act=goods": "pages/category_light1-id--actgoods.html",
+    "http://www.glory-bright.com.tw/category_light1.php?id=%E8%BE%A6%E5%85%AC%2F%E5%B7%A5%E7%A8%8B%E7%85%A7%E6%98%8E&act=goods": "pages/category_light1-id--actgoods.html"
   },
   "images": {
     "http://www.glory-bright.com.tw/gbl_login_admin/images/goods_light_img/358.jpg": "images/358.jpg",
@@ -514,7 +519,36 @@
     "http://www.glory-bright.com.tw/gbl_login_admin/images/goods_img/0112.jpg": "images/0112.jpg",
     "http://www.glory-bright.com.tw/gbl_login_admin/images/goods_img/0120.jpg": "images/0120.jpg",
     "http://www.glory-bright.com.tw/gbl_login_admin/images/goods_img/0116.jpg": "images/0116.jpg",
-    "http://www.glory-bright.com.tw/gbl_login_admin/images/goods_img/0118.jpg": "images/0118.jpg"
+    "http://www.glory-bright.com.tw/gbl_login_admin/images/goods_img/0118.jpg": "images/0118.jpg",
+    "http://www.glory-bright.com.tw/images/blank.png": "images/blank.png",
+    "http://www.glory-bright.com.tw/images/blank1.png": "images/blank1.png",
+    "http://www.glory-bright.com.tw/images/0.jpg": "images/0.jpg",
+    "http://www.glory-bright.com.tw/images/1.jpg": "images/1.jpg",
+    "http://www.glory-bright.com.tw/gbl_login_admin/images/category_light_img/%E5%B5%8C%E7%87%88.jpg": "images/嵌燈.jpg",
+    "http://www.glory-bright.com.tw/gbl_login_admin/images/category_light_img/%E8%BB%8C%E9%81%93%E7%87%88-0.jpg": "images/軌道燈-0.jpg",
+    "http://www.glory-bright.com.tw/gbl_login_admin/images/category_light_img/P16.jpg": "images/P16.jpg",
+    "http://www.glory-bright.com.tw/gbl_login_admin/images/category_light_img/%E9%8B%81%E6%A2%9D%E7%87%883.png": "images/鋁條燈3.png",
+    "http://www.glory-bright.com.tw/gbl_login_admin/images/category_light_img/OA-1.jpg": "images/OA-1.jpg",
+    "http://www.glory-bright.com.tw/gbl_login_admin/images/category_light_img/8W-1.jpg": "images/8W-1.jpg",
+    "http://www.glory-bright.com.tw/gbl_login_admin/images/category_img/010107.JPG": "images/010107.JPG",
+    "http://www.glory-bright.com.tw/gbl_login_admin/images/category_img/103096.JPG": "images/103096.JPG",
+    "http://www.glory-bright.com.tw/gbl_login_admin/images/category_img/03%20-%E6%A9%AB%E5%BC%8F.jpg": "images/03 -橫式.jpg",
+    "http://www.glory-bright.com.tw/gbl_login_admin/images/category_img/0107%20-%20%E6%A9%AB%E5%BC%8F.jpg": "images/0107 - 橫式.jpg",
+    "http://www.glory-bright.com.tw/gbl_login_admin/images/category_img/%E7%8E%BB%E7%92%83(%E7%99%BD).png": "images/玻璃(白).png",
+    "http://www.glory-bright.com.tw/gbl_login_admin/images/category_light_img/075%20-%201.png": "images/075 - 1.png",
+    "http://www.glory-bright.com.tw/gbl_login_admin/images/category_light_img/8035-2-1.jpg": "images/8035-2-1.jpg",
+    "http://www.glory-bright.com.tw/gbl_login_admin/images/category_light_img/%E6%B3%9B%E5%85%89%E7%87%88.png": "images/泛光燈.png",
+    "http://www.glory-bright.com.tw/gbl_login_admin/images/category_light_img/%E6%9C%AA%E5%91%BD%E5%90%8D%20-%206.png": "images/未命名 - 6.png",
+    "http://www.glory-bright.com.tw/gbl_login_admin/images/category_light_img/8154-2-1.jpg": "images/8154-2-1.jpg",
+    "http://www.glory-bright.com.tw/gbl_login_admin/images/category_light_img/1111.jpg": "images/1111.jpg",
+    "http://www.glory-bright.com.tw/gbl_login_admin/images/category_light_img/%E8%BB%8C%E9%81%93%E5%90%88%E7%87%88-1.png": "images/軌道合燈-1.png",
+    "http://www.glory-bright.com.tw/gbl_login_admin/images/category_light_img/2222.jpg": "images/2222.jpg",
+    "http://www.glory-bright.com.tw/gbl_login_admin/images/category_light_img/%E9%8B%81%E6%A2%9D.jpg": "images/鋁條.jpg",
+    "http://www.glory-bright.com.tw/gbl_login_admin/images/category_light_img/50500.jpg": "images/50500.jpg",
+    "http://www.glory-bright.com.tw/gbl_login_admin/images/category_light_img/%E9%87%91%E7%B7%AF3.jpg": "images/金緯3.jpg",
+    "http://www.glory-bright.com.tw/gbl_login_admin/images/category_light_img/%E8%80%80%E6%BA%9050W.jpg": "images/耀源50W.jpg"
   },
-  "failures": []
+  "failures": [
+    "http://www.glory-bright.com.tw/gbl_login_admin/images/category_light_img/060%20-%202-2.png"
+  ]
 }

@@ -5,7 +5,7 @@ import * as cheerio from 'cheerio';
 import { fetchText, fetchBinary, InterceptError } from './http.ts';
 import { LIGHT_CATEGORIES, SWITCH_CATEGORIES } from './taxonomy.ts';
 import { HERO_IMAGES } from './hero.ts';
-import { BASE, snapshotName, lightListUrl, switchListUrl, lightDetailUrl } from './urls.ts';
+import { BASE, snapshotName, lightListUrl, switchListUrl, lightDetailUrl, lightSubCategoryUrl } from './urls.ts';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const snapshot = join(root, 'snapshot');
@@ -87,6 +87,20 @@ for (const path of ['index.php', 'category.php', 'category_light.php', 'category
 
 // 首頁輪播圖
 for (const hero of HERO_IMAGES) await image(`images/${hero.file}`);
+
+// 分類封面圖：第一層來自 category.php／category_switch.php，第二層來自 category_light1.php
+const coverPages = [await page(BASE + 'category.php'), await page(BASE + 'category_switch.php')];
+for (const legacyName of [...new Set(LIGHT_CATEGORIES.map(category => category.parentLegacyName))]) {
+  coverPages.push(await page(lightSubCategoryUrl(legacyName)));
+}
+for (const html of coverPages) {
+  if (!html) continue;
+  const $ = cheerio.load(html);
+  for (const element of $('img').toArray()) {
+    const source = $(element).attr('src');
+    if (source?.includes('category_light_img/') || source?.includes('category_img/')) await image(source);
+  }
+}
 
 // 燈具：列表 → 明細
 const detailIds = new Set<number>();
