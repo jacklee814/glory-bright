@@ -1,12 +1,14 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-	<title>燈具|開關|面板|-榮輝照明科技</title>
+	<title>燈具-榮輝照明科技</title>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="css/menu.css" type="text/css" /> 
 	<script type ="text/javascript" src ="js/menu.js"></script>
 	<script type ="text/javascript" src ="js/function.js"></script>
 	<script type ="text/javascript" src="js/ajax.js"></script>
+	<script type ="text/javascript" src ="js/jquery.hoverpulse.js"></script>
+	<script type ="text/javascript" src ="js/scriptbreaker-multiple-accordion-1.js"></script>
 	<style type="text/css">
 		body {
 		-moz-user-select : none;
@@ -14,10 +16,17 @@
 		}
 	</style>
 	
+	<script>
+		$(document).ready(function() {
+		    $('#img_big img').hoverpulse({
+		        size: 100,  //圖片放大倍數
+		        speed: 400 // 放大速度 
+		    });
+ 		});
+ </script>
 </head>
 <body>
 <div class ="framework">
-
 		<div class ="banner">
 			<!--頁面banner-->
 			<img src ="images/banner.jpg" width ="940" height ="150">		</div>
@@ -41,8 +50,8 @@
 	</ul>
 		
 					<ul class="topnav"><li><a href="category_light1.php?id=崁燈&act=goods">崁燈</a><br><br>
-			<li>
-			<a href ="goods_light.php?id=42&act=goods">&nbsp&nbsp&nbsp&nbsp<font size ="2" >MR16型</font></a>
+		<li>
+		<a href ="goods_light.php?id=42&act=goods">&nbsp&nbsp&nbsp&nbsp<font size ="3" color ="red">MR16型</font></a><br><br>
 			<li>
 			<a href ="goods_light.php?id=44&act=goods">&nbsp&nbsp&nbsp&nbsp<font size ="2" >AR111型</font></a>
 			<li>
@@ -90,26 +99,30 @@
 															</li>
 					</ul>
 					<!--影片嵌入-->		
-										
+										<br><br><br><br><br><br><br><br><br><br>
 		</div>
 
 		<!--<div class ="title_nav">
 					<table>
 							<tr>
-									<td align ="center"><font color ="black" size ="4">&nbsp&nbsp<a href ="category.php">產品介紹</a></font></td>
+									<td align ="center"><font color ="black" size ="4">&nbsp&nbsp<a href ="javascript:history.go(-1);">產品介紹</a></font></td>
 							</tr>
 					</table>
 		</div>-->
-			<!--網頁內容-->
-		<div class ="content"><span id ="link_nav">&nbsp<a href ="index.php">首頁</a>->產品介紹</span><br><hr>
-						<table border ="0" align ="center" id ="link_page">
-						<tr><td align="center" width ="350"><font size="5"><a href ="category_light1.php?id=崁燈&act=goods"><img src ="gbl_login_admin/images/category_light_img/嵌燈.jpg"width ="200" alt ="燈具|開關|面板|" title ="崁燈"><br>崁燈</a></font></td><td align ="center" width ="350"><font size="5"><a href ="category_light1.php?id=軌道燈&act=goods"><img src ="gbl_login_admin/images/category_light_img/軌道燈-0.jpg"width ="200" alt ="燈具|開關|面板|" title ="軌道燈"><br>軌道燈</a></font></td><tr><td align="center" width ="350"><font size="5"><a href ="category_light1.php?id=吸頂/懸吊燈&act=goods"><img src ="gbl_login_admin/images/category_light_img/P16.jpg"width ="200" alt ="燈具|開關|面板|" title ="吸頂/懸吊燈"><br>吸頂/懸吊燈</a></font></td><td align ="center" width ="350"><font size="5"><a href ="category_light1.php?id=線型燈&act=goods"><img src ="gbl_login_admin/images/category_light_img/鋁條燈3.png"width ="200" alt ="燈具|開關|面板|" title ="線型燈"><br>線型燈</a></font></td><tr><td align="center" width ="350"><font size="5"><a href ="category_light1.php?id=辦公/工程照明&act=goods"><img src ="gbl_login_admin/images/category_light_img/OA-1.jpg"width ="200" alt ="燈具|開關|面板|" title ="辦公/工程照明"><br>辦公/工程照明</a></font></td><td align ="center" width ="350"><font size="5"><a href ="category_light1.php?id=光源&act=goods"><img src ="gbl_login_admin/images/category_light_img/8W-1.jpg"width ="200" alt ="燈具|開關|面板|" title ="光源"><br>光源</a></font></td>					</table>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-		<div class ="footer_sample">
-			<div align ="center">榮輝照明科技有限公司</div>
+		<!--網頁內容-->
+				<div class ="content">			
+			<span id ="link_nav">&nbsp<a href ="index.php">首頁</a>-><a href ="category_light1.php?id=崁燈">崁燈</a>->MR16型</span><br><hr>
+			
+			<br>
+					<table border ="0"  id ="link_page"><tr><td width ="350"><font color ="#0f0fb1" size ="5">&nbsp</font><br><a href ="goods_light_list.php?id=151"><img src ="../gbl_login_admin/images/goods_light_img/8121-3-1.jpg"   width ="200" height ="200" alt ="燈具" title =""></a><br>&nbsp<font color ="#0f0fb1" size ="5">GB-DMR-2090-2</font><br>&nbsp<br></td><td width ="350"><font color ="#0f0fb1" size ="5">&nbsp</font><br><a href ="goods_light_list.php?id=165"><img src ="../gbl_login_admin/images/goods_light_img/8129-2-1.jpg"   width ="200" height ="200" alt ="燈具" title =""></a><br>&nbsp<font color ="#0f0fb1" size ="5">GB-DMR-2095-5</font><br>&nbsp<br></td><tr><td width ="350"><font color ="#0f0fb1" size ="5">&nbsp</font><br><a href ="goods_light_list.php?id=166"><img src ="../gbl_login_admin/images/goods_light_img/8129-1-1.jpg"   width ="200" height ="200" alt ="燈具" title =""></a><br>&nbsp<font color ="#0f0fb1" size ="5">GB-DMR-2095-6</font><br>&nbsp<br></td></table><br><div align ="right" id = "page_Split" >
+
+								<a href="goods_light.php?id=42&act=goods&page="><font size ="3">首頁</font></a>&nbsp&nbsp<a href ="goods_light.php?id=42&act=goods&page=1 ">&nbsp1&nbsp</a>|<a href ="goods_light.php?id=42&act=goods&page=2 ">&nbsp2&nbsp</a>|&nbsp&nbsp&nbsp&nbsp<a href="goods_light.php?id=42&act=goods&page=2"><font size ="3">末頁</font></a></div></tr></table>
+			<!--<span id ="return_prev"><a href ="jsvascript:history.go(-1)" onClick ="return_prev();" ><img src ="images/return.png" width ="70" height ="70"></a></span><br><br>--><br><br><br>
+			<div class ="footer_goods_light"><div align ="center">榮輝照明科技有限公司</div>
 <div align ="center">(02)2632-8828 &nbsp&nbsp (02)2632-8728</div>
-<div align ="center">台北市內湖區康寧路三段265巷33號1F</div>		</div>
-	</div>
+<div align ="center">台北市內湖區康寧路三段265巷33號1F</div></div>
+		</div>
 </div>
+
 </body>
 </html>
