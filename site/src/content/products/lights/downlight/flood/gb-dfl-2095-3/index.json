@@ -1,27 +1,11 @@
 {
   "kind": "light",
   "model": "GB-DFL-2095-3",
-  "watt": 14,
-  "beamAngle": [],
-  "cct": [
-    2700,
-    5500
-  ],
-  "cri": 85,
-  "cutoutDia": 160,
-  "dimensions": "W175*H50mm",
-  "voltage": "AC100V-240V",
-  "colors": [
-    "白"
-  ],
-  "extras": {},
-  "notes": [],
   "images": [
     "/products/gb-dfl-2095-3-1.webp",
     "/products/gb-dfl-2095-3-2.webp",
     "/products/gb-dfl-2095-3-3.webp",
     "/products/gb-dfl-2095-3-4.webp"
   ],
-  "order": 10,
-  "legacyId": 103
+  "order": 10
 }

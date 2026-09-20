@@ -1,15 +1,8 @@
 {
   "kind": "switch",
   "model": "ZENCELO-SW-0113",
-  "series": "zencelo",
-  "type": "switch",
-  "description": [
-    "門鈴開關",
-    "125V 15A"
-  ],
   "images": [
     "/products/zencelo-sw-0113-1.webp"
   ],
-  "order": 35,
-  "legacyCategoryId": 581
+  "order": 35
 }

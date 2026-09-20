@@ -1,15 +1,8 @@
 {
   "kind": "switch",
   "model": "10309602",
-  "series": "unica",
-  "type": "socket",
-  "description": [
-    "純銅色 電腦資訊插座",
-    "cat5e"
-  ],
   "images": [
     "/products/10309602-1.webp"
   ],
-  "order": 10,
-  "legacyCategoryId": 579
+  "order": 10
 }

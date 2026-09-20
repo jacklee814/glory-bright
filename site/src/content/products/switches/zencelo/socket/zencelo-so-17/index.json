@@ -1,14 +1,8 @@
 {
   "kind": "switch",
   "model": "ZENCELO-SO-17",
-  "series": "zencelo",
-  "type": "socket",
-  "description": [
-    "雙網路插座"
-  ],
   "images": [
     "/products/zencelo-so-17-1.webp"
   ],
-  "order": 46,
-  "legacyCategoryId": 582
+  "order": 46
 }

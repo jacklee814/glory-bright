@@ -1,28 +1,10 @@
 {
   "kind": "light",
   "model": "GB-DMU-2095-2",
-  "watt": 9,
-  "beamAngle": [
-    25
-  ],
-  "cct": [
-    2700,
-    5500
-  ],
-  "cri": 85,
-  "cutoutDia": 95,
-  "dimensions": "W 105*H 35mm",
-  "voltage": "AC100V-240V",
-  "colors": [
-    "白"
-  ],
-  "extras": {},
-  "notes": [],
   "images": [
     "/products/gb-dmu-2095-2-1.webp",
     "/products/gb-smd-2050-1-2.webp",
     "/products/gb-dmu-2095-2-3.webp"
   ],
-  "order": 98,
-  "legacyId": 206
+  "order": 98
 }

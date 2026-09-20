@@ -1,15 +1,8 @@
 {
   "kind": "switch",
   "model": "UNICA-EP-SR",
-  "series": "unica",
-  "type": "panel",
-  "description": [
-    "亮岩灰 SR",
-    "需搭配安裝架(另計)"
-  ],
   "images": [
     "/products/unica-ep-sr-1.webp"
   ],
-  "order": 20,
-  "legacyCategoryId": 597
+  "order": 20
 }

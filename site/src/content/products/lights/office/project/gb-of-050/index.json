@@ -1,14 +1,8 @@
 {
   "kind": "light",
   "model": "GB-OF-050",
-  "beamAngle": [],
-  "cct": [],
-  "colors": [],
-  "extras": {},
-  "notes": [],
   "images": [
     "/products/gb-of-050-1.webp"
   ],
-  "order": 134,
-  "legacyId": 242
+  "order": 134
 }

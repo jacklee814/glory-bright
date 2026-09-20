@@ -1,14 +1,8 @@
 {
   "kind": "light",
   "model": "GB-HB-618",
-  "beamAngle": [],
-  "cct": [],
-  "colors": [],
-  "extras": {},
-  "notes": [],
   "images": [
     "/products/gb-hb-618-1.webp"
   ],
-  "order": 133,
-  "legacyId": 241
+  "order": 133
 }

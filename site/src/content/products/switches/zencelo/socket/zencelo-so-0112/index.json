@@ -1,14 +1,8 @@
 {
   "kind": "switch",
   "model": "ZENCELO-SO-0112",
-  "series": "zencelo",
-  "type": "socket",
-  "description": [
-    "電話插座(白色)"
-  ],
   "images": [
     "/products/zencelo-so-0112-1.webp"
   ],
-  "order": 54,
-  "legacyCategoryId": 582
+  "order": 54
 }

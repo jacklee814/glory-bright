@@ -1,14 +1,8 @@
 {
   "kind": "switch",
   "model": "010202",
-  "series": "unica",
-  "type": "socket",
-  "description": [
-    "菸草木 電視插座"
-  ],
   "images": [
     "/products/010202-1.webp"
   ],
-  "order": 11,
-  "legacyCategoryId": 579
+  "order": 11
 }

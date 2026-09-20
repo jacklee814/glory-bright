@@ -1,15 +1,8 @@
 {
   "kind": "switch",
   "model": "UNICA-EP-GR",
-  "series": "unica",
-  "type": "panel",
-  "description": [
-    "石榴紅 GA",
-    "需搭配安裝架(另計)"
-  ],
   "images": [
     "/products/unica-ep-gr-1.webp"
   ],
-  "order": 16,
-  "legacyCategoryId": 597
+  "order": 16
 }

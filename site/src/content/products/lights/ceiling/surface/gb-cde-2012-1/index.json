@@ -1,22 +1,10 @@
 {
   "kind": "light",
   "model": "GB-CDE-2012-1",
-  "beamAngle": [],
-  "cct": [],
-  "dimensions": "W230 * H230mm",
-  "voltage": "AC100V-240V",
-  "socket": "E 27",
-  "colors": [
-    "白",
-    "黑"
-  ],
-  "extras": {},
-  "notes": [],
   "images": [
     "/products/gb-cde-2012-1-1.webp",
     "/products/gb-smd-2050-1-2.webp",
     "/products/gb-cde-2012-1-3.webp"
   ],
-  "order": 83,
-  "legacyId": 191
+  "order": 83
 }

@@ -1,15 +1,8 @@
 {
   "kind": "switch",
   "model": "010106",
-  "series": "unica",
-  "type": "socket",
-  "description": [
-    "黑亮色 金屬 電腦資訊插座",
-    "cat5e"
-  ],
   "images": [
     "/products/010106-1.webp"
   ],
-  "order": 12,
-  "legacyCategoryId": 579
+  "order": 12
 }

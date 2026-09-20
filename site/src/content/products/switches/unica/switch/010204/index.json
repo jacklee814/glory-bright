@@ -1,15 +1,8 @@
 {
   "kind": "switch",
   "model": "010204",
-  "series": "unica",
-  "type": "switch",
-  "description": [
-    "菸草木 DC調光旋鈕開關",
-    "DC電子調光旋鈕開關"
-  ],
   "images": [
     "/products/010204-1.webp"
   ],
-  "order": 6,
-  "legacyCategoryId": 578
+  "order": 6
 }
