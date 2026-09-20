@@ -2,8 +2,7 @@
   "kind": "light",
   "model": "GB-SMD-2050-1",
   "images": [
-    "/products/gb-smd-2050-1-1.webp",
-    "/products/gb-smd-2050-1-2.webp"
+    "/products/gb-smd-2050-1-1.webp"
   ],
   "order": 16
 }

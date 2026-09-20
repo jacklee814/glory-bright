@@ -2,9 +2,7 @@
   "kind": "light",
   "model": "GB-CDE-2012-1",
   "images": [
-    "/products/gb-cde-2012-1-1.webp",
-    "/products/gb-smd-2050-1-2.webp",
-    "/products/gb-cde-2012-1-3.webp"
+    "/products/gb-cde-2012-1-1.webp"
   ],
   "order": 83
 }

@@ -2,9 +2,7 @@
   "kind": "light",
   "model": "GB-TMR-2063-2",
   "images": [
-    "/products/gb-tmr-2063-2-1.webp",
-    "/products/gb-smd-2050-1-2.webp",
-    "/products/gb-tmr-2063-2-3.webp"
+    "/products/gb-tmr-2063-2-1.webp"
   ],
   "order": 109
 }

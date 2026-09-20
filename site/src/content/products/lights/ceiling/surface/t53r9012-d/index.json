@@ -2,9 +2,7 @@
   "kind": "light",
   "model": "T53R9012-D",
   "images": [
-    "/products/t53r9012-d-1.webp",
-    "/products/t53r9012-d-2.webp",
-    "/products/t53r9012-d-3.webp"
+    "/products/t53r9012-d-1.webp"
   ],
   "order": 9
 }

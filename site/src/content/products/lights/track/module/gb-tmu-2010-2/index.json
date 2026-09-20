@@ -2,9 +2,7 @@
   "kind": "light",
   "model": "GB-TMU-2010-2",
   "images": [
-    "/products/gb-tmu-2010-2-1.webp",
-    "/products/gb-tmu-2011-3-2.webp",
-    "/products/gb-tmu-2010-2-3.webp"
+    "/products/gb-tmu-2010-2-1.webp"
   ],
   "order": 6
 }

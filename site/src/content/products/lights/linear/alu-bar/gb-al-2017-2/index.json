@@ -2,9 +2,7 @@
   "kind": "light",
   "model": "GB-AL-2017-2",
   "images": [
-    "/products/gb-al-2017-2-1.webp",
-    "/products/gb-al-2017-2-2.webp",
-    "/products/gb-al-2017-2-3.webp"
+    "/products/gb-al-2017-2-1.webp"
   ],
   "order": 117
 }
