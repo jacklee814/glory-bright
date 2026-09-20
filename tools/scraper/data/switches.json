@@ -1,0 +1,723 @@
+[
+  {
+    "model": "010102",
+    "series": "unica",
+    "type": "switch",
+    "description": [
+      "純銅色 金屬 三切開關",
+      "三路對切"
+    ],
+    "images": [
+      "010102.JPG"
+    ],
+    "legacyCategoryId": 578
+  },
+  {
+    "model": "010104",
+    "series": "unica",
+    "type": "switch",
+    "description": [
+      "金屬灰 金屬 三切開關 *內框貼灰",
+      "三路對切"
+    ],
+    "images": [
+      "010104.JPG"
+    ],
+    "legacyCategoryId": 578
+  },
+  {
+    "model": "010109",
+    "series": "unica",
+    "type": "switch",
+    "description": [
+      "鈦金色 金屬 三切開關",
+      "三路對切"
+    ],
+    "images": [
+      "010109.JPG"
+    ],
+    "legacyCategoryId": 578
+  },
+  {
+    "model": "010110",
+    "series": "unica",
+    "type": "switch",
+    "description": [
+      "鍍鉻色 金屬 三切開關",
+      "三切三路"
+    ],
+    "images": [
+      "010110.JPG"
+    ],
+    "legacyCategoryId": 578
+  },
+  {
+    "model": "010107",
+    "series": "unica",
+    "type": "switch",
+    "description": [
+      "亮鉻色 金屬 三切開關",
+      "三切三路"
+    ],
+    "images": [
+      "010107.JPG"
+    ],
+    "legacyCategoryId": 578
+  },
+  {
+    "model": "010204",
+    "series": "unica",
+    "type": "switch",
+    "description": [
+      "菸草木 DC調光旋鈕開關",
+      "DC電子調光旋鈕開關"
+    ],
+    "images": [
+      "010204.JPG"
+    ],
+    "legacyCategoryId": 578
+  },
+  {
+    "model": "010201",
+    "series": "unica",
+    "type": "socket",
+    "description": [
+      "菸草木色 單插座"
+    ],
+    "images": [
+      "010201.JPG"
+    ],
+    "legacyCategoryId": 579
+  },
+  {
+    "model": "103096",
+    "series": "unica",
+    "type": "socket",
+    "description": [
+      "純銅色 金屬 單插座"
+    ],
+    "images": [
+      "103096.JPG"
+    ],
+    "legacyCategoryId": 579
+  },
+  {
+    "model": "010203",
+    "series": "unica",
+    "type": "socket",
+    "description": [
+      "菸草木 電腦資訊插座",
+      "cat5e"
+    ],
+    "images": [
+      "010203.JPG"
+    ],
+    "legacyCategoryId": 579
+  },
+  {
+    "model": "10309602",
+    "series": "unica",
+    "type": "socket",
+    "description": [
+      "純銅色 電腦資訊插座",
+      "cat5e"
+    ],
+    "images": [
+      "10309602.JPG"
+    ],
+    "legacyCategoryId": 579
+  },
+  {
+    "model": "010202",
+    "series": "unica",
+    "type": "socket",
+    "description": [
+      "菸草木 電視插座"
+    ],
+    "images": [
+      "010202.JPG"
+    ],
+    "legacyCategoryId": 579
+  },
+  {
+    "model": "010106",
+    "series": "unica",
+    "type": "socket",
+    "description": [
+      "黑亮色 金屬 電腦資訊插座",
+      "cat5e"
+    ],
+    "images": [
+      "010106.JPG"
+    ],
+    "legacyCategoryId": 579
+  },
+  {
+    "model": "020201",
+    "series": "unica",
+    "type": "socket",
+    "description": [
+      "冰河藍 電視插座"
+    ],
+    "images": [
+      "020201.JPG"
+    ],
+    "legacyCategoryId": 579
+  },
+  {
+    "model": "UNICA-EP-WG",
+    "series": "unica",
+    "type": "panel",
+    "description": [
+      "水綠色 WG",
+      "需搭配安裝架(另計)"
+    ],
+    "images": [
+      "水綠色 WG.jpg"
+    ],
+    "legacyCategoryId": 597
+  },
+  {
+    "model": "UNICA-EP-CC",
+    "series": "unica",
+    "type": "panel",
+    "description": [
+      "可可亞 CC",
+      "需搭配安裝架(另計)"
+    ],
+    "images": [
+      "可可亞 CC.jpg"
+    ],
+    "legacyCategoryId": 597
+  },
+  {
+    "model": "UNICA-EP-GR",
+    "series": "unica",
+    "type": "panel",
+    "description": [
+      "石榴紅 GA",
+      "需搭配安裝架(另計)"
+    ],
+    "images": [
+      "石榴紅 GR.jpg"
+    ],
+    "legacyCategoryId": 597
+  },
+  {
+    "model": "UNICA-EP-SB",
+    "series": "unica",
+    "type": "panel",
+    "description": [
+      "天空藍 SB",
+      "需搭配安裝架(另計)"
+    ],
+    "images": [
+      "天空藍 SB.jpg"
+    ],
+    "legacyCategoryId": 597
+  },
+  {
+    "model": "UNICA-EP-MI",
+    "series": "unica",
+    "type": "panel",
+    "description": [
+      "皮革色 MI",
+      "需搭配安裝架(另計)"
+    ],
+    "images": [
+      "皮革色 MI.jpg"
+    ],
+    "legacyCategoryId": 597
+  },
+  {
+    "model": "UNICA-EP-MA",
+    "series": "unica",
+    "type": "panel",
+    "description": [
+      "紫紅色 MA",
+      "需搭配安裝架(另計)"
+    ],
+    "images": [
+      "紫紅色 MA.jpg"
+    ],
+    "legacyCategoryId": 597
+  },
+  {
+    "model": "UNICA-EP-SR",
+    "series": "unica",
+    "type": "panel",
+    "description": [
+      "亮岩灰 SR",
+      "需搭配安裝架(另計)"
+    ],
+    "images": [
+      "亮岩灰 SR.jpg"
+    ],
+    "legacyCategoryId": 597
+  },
+  {
+    "model": "UNICA-EP-08",
+    "series": "unica",
+    "type": "panel",
+    "description": [
+      "玻璃黑(10cm*9cm)",
+      "需搭配安裝架(另計)"
+    ],
+    "images": [
+      "玻璃黑.jpg"
+    ],
+    "legacyCategoryId": 597
+  },
+  {
+    "model": "ZENCELO-SW-01",
+    "series": "zencelo",
+    "type": "switch",
+    "description": [
+      "埋入式單開三路開關",
+      "125V 15A"
+    ],
+    "images": [
+      "01.jpg"
+    ],
+    "legacyCategoryId": 581
+  },
+  {
+    "model": "ZENCELO-SW-02",
+    "series": "zencelo",
+    "type": "switch",
+    "description": [
+      "埋入式雙開三路開關",
+      "125V 15A"
+    ],
+    "images": [
+      "02.jpg"
+    ],
+    "legacyCategoryId": 581
+  },
+  {
+    "model": "ZENCELO-SW-03",
+    "series": "zencelo",
+    "type": "switch",
+    "description": [
+      "埋入式三開三路開關",
+      "125V 15A"
+    ],
+    "images": [
+      "03.jpg"
+    ],
+    "legacyCategoryId": 581
+  },
+  {
+    "model": "ZENCELO-SW-4SBZ",
+    "series": "zencelo",
+    "type": "switch",
+    "description": [
+      "埋入式四開三路開關",
+      "125V 15A"
+    ],
+    "images": [
+      "4SBZ.jpg"
+    ],
+    "legacyCategoryId": 581
+  },
+  {
+    "model": "ZENCELO-SW-5SBZ",
+    "series": "zencelo",
+    "type": "switch",
+    "description": [
+      "埋入式五開三路開關",
+      "125V 15A"
+    ],
+    "images": [
+      "5SBZ.jpg"
+    ],
+    "legacyCategoryId": 581
+  },
+  {
+    "model": "ZENCELO-SW-6SBZ",
+    "series": "zencelo",
+    "type": "switch",
+    "description": [
+      "埋入式六開三路開關",
+      "125V 15A"
+    ],
+    "images": [
+      "6SBZ.jpg"
+    ],
+    "legacyCategoryId": 581
+  },
+  {
+    "model": "ZENCELO-SW-07",
+    "series": "zencelo",
+    "type": "switch",
+    "description": [
+      "門鈴開關",
+      "125V 15A"
+    ],
+    "images": [
+      "07.jpg"
+    ],
+    "legacyCategoryId": 581
+  },
+  {
+    "model": "ZENCELO-SW-0101",
+    "series": "zencelo",
+    "type": "switch",
+    "description": [
+      "埋入式單開三路開關",
+      "125V 15A"
+    ],
+    "images": [
+      "0101.jpg"
+    ],
+    "legacyCategoryId": 581
+  },
+  {
+    "model": "ZENCELO-SW-0102",
+    "series": "zencelo",
+    "type": "switch",
+    "description": [
+      "埋入式三開三路開關",
+      "125V 15A"
+    ],
+    "images": [
+      "0102.jpg"
+    ],
+    "legacyCategoryId": 581
+  },
+  {
+    "model": "ZENCELO-SW-0103",
+    "series": "zencelo",
+    "type": "switch",
+    "description": [
+      "埋入式三開三路開關",
+      "125V 15A"
+    ],
+    "images": [
+      "0103.jpg"
+    ],
+    "legacyCategoryId": 581
+  },
+  {
+    "model": "ZENCELO-SW-0104",
+    "series": "zencelo",
+    "type": "switch",
+    "description": [
+      "埋入式四開三路開關",
+      "125V 15A"
+    ],
+    "images": [
+      "0104.jpg"
+    ],
+    "legacyCategoryId": 581
+  },
+  {
+    "model": "ZENCELO-SW-0105",
+    "series": "zencelo",
+    "type": "switch",
+    "description": [
+      "埋入式五開三路開關",
+      "125V 15A"
+    ],
+    "images": [
+      "0105.jpg"
+    ],
+    "legacyCategoryId": 581
+  },
+  {
+    "model": "ZENCELO-SW-0106",
+    "series": "zencelo",
+    "type": "switch",
+    "description": [
+      "埋入式六開三路開關",
+      "125V 15A"
+    ],
+    "images": [
+      "0106.jpg"
+    ],
+    "legacyCategoryId": 581
+  },
+  {
+    "model": "ZENCELO-SW-0113",
+    "series": "zencelo",
+    "type": "switch",
+    "description": [
+      "門鈴開關",
+      "125V 15A"
+    ],
+    "images": [
+      "0113.jpg"
+    ],
+    "legacyCategoryId": 581
+  },
+  {
+    "model": "ZENCELO-SO-04",
+    "series": "zencelo",
+    "type": "socket",
+    "description": [
+      "埋入式2P20A單插座",
+      "2P20A"
+    ],
+    "images": [
+      "04.jpg"
+    ],
+    "legacyCategoryId": 582
+  },
+  {
+    "model": "ZENCELO-SO-05",
+    "series": "zencelo",
+    "type": "socket",
+    "description": [
+      "埋入式雙插座",
+      "125V 15A 3PIN"
+    ],
+    "images": [
+      "05.jpg"
+    ],
+    "legacyCategoryId": 582
+  },
+  {
+    "model": "ZENCELO-SO-06",
+    "series": "zencelo",
+    "type": "socket",
+    "description": [
+      "埋入式雙插座(紅)",
+      "125V 15A 3PIN"
+    ],
+    "images": [
+      "06.jpg"
+    ],
+    "legacyCategoryId": 582
+  },
+  {
+    "model": "ZENCELO-SO-08",
+    "series": "zencelo",
+    "type": "socket",
+    "description": [
+      "緊急壓扣"
+    ],
+    "images": [
+      "08.jpg"
+    ],
+    "legacyCategoryId": 582
+  },
+  {
+    "model": "ZENCELO-SO-12",
+    "series": "zencelo",
+    "type": "socket",
+    "description": [
+      "電視插座"
+    ],
+    "images": [
+      "12.jpg"
+    ],
+    "legacyCategoryId": 582
+  },
+  {
+    "model": "ZENCELO-SO-10",
+    "series": "zencelo",
+    "type": "socket",
+    "description": [
+      "電話插座"
+    ],
+    "images": [
+      "10.jpg"
+    ],
+    "legacyCategoryId": 582
+  },
+  {
+    "model": "ZENCELO-SO-13",
+    "series": "zencelo",
+    "type": "socket",
+    "description": [
+      "網路+電話插座"
+    ],
+    "images": [
+      "13.jpg"
+    ],
+    "legacyCategoryId": 582
+  },
+  {
+    "model": "ZENCELO-SO-15",
+    "series": "zencelo",
+    "type": "socket",
+    "description": [
+      "網路+電視插座"
+    ],
+    "images": [
+      "15.jpg"
+    ],
+    "legacyCategoryId": 582
+  },
+  {
+    "model": "ZENCELO-SO-14",
+    "series": "zencelo",
+    "type": "socket",
+    "description": [
+      "電話+電視插座"
+    ],
+    "images": [
+      "14.jpg"
+    ],
+    "legacyCategoryId": 582
+  },
+  {
+    "model": "ZENCELO-SO-16",
+    "series": "zencelo",
+    "type": "socket",
+    "description": [
+      "網路+電話+電視插座"
+    ],
+    "images": [
+      "16.jpg"
+    ],
+    "legacyCategoryId": 582
+  },
+  {
+    "model": "ZENCELO-SO-17",
+    "series": "zencelo",
+    "type": "socket",
+    "description": [
+      "雙網路插座"
+    ],
+    "images": [
+      "17.jpg"
+    ],
+    "legacyCategoryId": 582
+  },
+  {
+    "model": "ZENCELO-SO-18",
+    "series": "zencelo",
+    "type": "socket",
+    "description": [
+      "雙電話插座"
+    ],
+    "images": [
+      "18.jpg"
+    ],
+    "legacyCategoryId": 582
+  },
+  {
+    "model": "ZENCELO-SO-0108",
+    "series": "zencelo",
+    "type": "socket",
+    "description": [
+      "埋入式2P20A單插座(白色)",
+      "250V 2P20A 3PIN"
+    ],
+    "images": [
+      "0108.jpg"
+    ],
+    "legacyCategoryId": 582
+  },
+  {
+    "model": "ZENCELO-SO-0107",
+    "series": "zencelo",
+    "type": "socket",
+    "description": [
+      "埋入式雙插座(白色)",
+      "125V 15A 3PIN"
+    ],
+    "images": [
+      "0107.jpg"
+    ],
+    "legacyCategoryId": 582
+  },
+  {
+    "model": "ZENCELO-SO-0110",
+    "series": "zencelo",
+    "type": "socket",
+    "description": [
+      "埋入式雙插座(紅)",
+      "125V 15A 3PIN"
+    ],
+    "images": [
+      "0110.jpg"
+    ],
+    "legacyCategoryId": 582
+  },
+  {
+    "model": "ZENCELO-SO-0121",
+    "series": "zencelo",
+    "type": "socket",
+    "description": [
+      "緊急壓扣開關(白色)"
+    ],
+    "images": [
+      "0121.jpg"
+    ],
+    "legacyCategoryId": 582
+  },
+  {
+    "model": "ZENCELO-SO-0114",
+    "series": "zencelo",
+    "type": "socket",
+    "description": [
+      "網路插座(白色)"
+    ],
+    "images": [
+      "0114.jpg"
+    ],
+    "legacyCategoryId": 582
+  },
+  {
+    "model": "ZENCELO-SO-0111",
+    "series": "zencelo",
+    "type": "socket",
+    "description": [
+      "電視插座(白色)"
+    ],
+    "images": [
+      "0111.jpg"
+    ],
+    "legacyCategoryId": 582
+  },
+  {
+    "model": "ZENCELO-SO-0112",
+    "series": "zencelo",
+    "type": "socket",
+    "description": [
+      "電話插座(白色)"
+    ],
+    "images": [
+      "0112.jpg"
+    ],
+    "legacyCategoryId": 582
+  },
+  {
+    "model": "ZENCELO-SO-0120",
+    "series": "zencelo",
+    "type": "socket",
+    "description": [
+      "網路+電話插座(白色)"
+    ],
+    "images": [
+      "0120.jpg"
+    ],
+    "legacyCategoryId": 582
+  },
+  {
+    "model": "ZENCELO-SO-0116",
+    "series": "zencelo",
+    "type": "socket",
+    "description": [
+      "網路+電視插座(白色)"
+    ],
+    "images": [
+      "0116.jpg"
+    ],
+    "legacyCategoryId": 582
+  },
+  {
+    "model": "ZENCELO-SO-0118",
+    "series": "zencelo",
+    "type": "socket",
+    "description": [
+      "電話+電視插座(白色)"
+    ],
+    "images": [
+      "0118.jpg"
+    ],
+    "legacyCategoryId": 582
+  }
+]

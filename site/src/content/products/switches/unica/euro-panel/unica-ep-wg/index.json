@@ -1,0 +1,15 @@
+{
+  "kind": "switch",
+  "model": "UNICA-EP-WG",
+  "series": "unica",
+  "type": "panel",
+  "description": [
+    "水綠色 WG",
+    "需搭配安裝架(另計)"
+  ],
+  "images": [
+    "/products/unica-ep-wg-1.webp"
+  ],
+  "order": 14,
+  "legacyCategoryId": 597
+}

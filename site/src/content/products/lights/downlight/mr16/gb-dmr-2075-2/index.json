@@ -1,0 +1,32 @@
+{
+  "kind": "light",
+  "model": "GB-DMR-2075-2",
+  "watt": 7.5,
+  "beamAngle": [
+    24,
+    36,
+    60
+  ],
+  "cct": [
+    2700,
+    4000,
+    5000
+  ],
+  "cri": 90,
+  "cutoutDia": 75,
+  "dimensions": "W 82*H 95mm",
+  "voltage": "AC100V-240V",
+  "colors": [
+    "白",
+    "黑 + 防眩光罩"
+  ],
+  "extras": {},
+  "notes": [],
+  "images": [
+    "/products/gb-dmr-2075-2-1.webp",
+    "/products/gb-dfl-2095-3-2.webp",
+    "/products/gb-dmr-2075-2-3.webp"
+  ],
+  "order": 48,
+  "legacyId": 156
+}

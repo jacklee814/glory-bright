@@ -1,0 +1,32 @@
+{
+  "kind": "light",
+  "model": "GB-CCM-2051-2",
+  "watt": 37,
+  "beamAngle": [
+    20,
+    40,
+    60
+  ],
+  "cct": [
+    3000
+  ],
+  "cri": 90,
+  "voltage": "AC100V-240V",
+  "colors": [],
+  "extras": {
+    "中心亮度": "9581 / 5036 / 3078 cd"
+  },
+  "notes": [
+    "晶片 美國CREE / 燈具 台灣製"
+  ],
+  "images": [
+    "/products/gb-ccm-2051-3-1.webp",
+    "/products/gb-tmu-2011-3-2.webp",
+    "/products/gb-ccm-2051-3-3.webp",
+    "/products/gb-ccm-2051-2-4.webp",
+    "/products/gb-ccm-2051-2-5.webp",
+    "/products/gb-ccm-2051-2-6.webp"
+  ],
+  "order": 7,
+  "legacyId": 72
+}

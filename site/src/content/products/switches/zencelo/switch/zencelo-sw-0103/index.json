@@ -1,0 +1,15 @@
+{
+  "kind": "switch",
+  "model": "ZENCELO-SW-0103",
+  "series": "zencelo",
+  "type": "switch",
+  "description": [
+    "埋入式三開三路開關",
+    "125V 15A"
+  ],
+  "images": [
+    "/products/zencelo-sw-0103-1.webp"
+  ],
+  "order": 31,
+  "legacyCategoryId": 581
+}

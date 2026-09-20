@@ -1,0 +1,28 @@
+{
+  "kind": "light",
+  "model": "GB-DMU-2055-3",
+  "watt": 7.5,
+  "beamAngle": [
+    25
+  ],
+  "cct": [
+    2700,
+    4000,
+    5000
+  ],
+  "cri": 90,
+  "cutoutDia": 55,
+  "dimensions": "W 75*H 45mm",
+  "voltage": "AC100V-240V",
+  "colors": [
+    "白",
+    "黑"
+  ],
+  "extras": {},
+  "notes": [],
+  "images": [
+    "/products/gb-dmu-2055-3-1.webp"
+  ],
+  "order": 95,
+  "legacyId": 203
+}

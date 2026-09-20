@@ -5,6 +5,7 @@ import { productSchema, categorySchema } from '@glory-bright/shared/schema';
 import { modelSlug } from '@glory-bright/shared/slug';
 import { LIGHT_CATEGORIES, SWITCH_CATEGORIES } from './taxonomy.ts';
 import { imageName, toWebp } from './images.ts';
+import { HERO_IMAGES } from './hero.ts';
 import type { LightRow } from './report.ts';
 import type { SwitchRecord } from './parse-switch.ts';
 
@@ -53,6 +54,20 @@ async function emitImages(model: string, files: string[]): Promise<string[]> {
   return written;
 }
 
+// 首頁輪播圖
+const heroRoot = join(repo, 'site', 'public', 'hero');
+await rm(heroRoot, { recursive: true, force: true });
+await mkdir(heroRoot, { recursive: true });
+for (const hero of HERO_IMAGES) {
+  const source = join(root, 'snapshot', 'images', hero.file);
+  if (!await exists(source)) { failures.push(`輪播圖缺少來源檔 ${hero.file}`); continue; }
+  try {
+    await toWebp(source, join(heroRoot, `${hero.slug}.webp`));
+  } catch (error) {
+    failures.push(`輪播圖 ${hero.file} 轉檔失敗 — ${error}`);
+  }
+}
+
 // 分類 _category.json
 await writeJson(join(contentRoot, 'lights', '_category.json'), categorySchema.parse({ name: '燈具', order: 1, description: '依空間與開孔尺寸選擇專業照明' }));
 await writeJson(join(contentRoot, 'switches', '_category.json'), categorySchema.parse({ name: '開關面板', order: 2, description: 'Schneider Electric UNICA 與 ZENcelo 系列' }));
@@ -75,16 +90,16 @@ for (const category of SWITCH_CATEGORIES) {
 for (const [index, row] of lights.entries()) {
   const category = LIGHT_CATEGORIES.find(item => item.legacyId === row.categoryLegacyId);
   if (!category) { failures.push(`legacyId ${row.legacyId}：找不到分類 ${row.categoryLegacyId}`); continue; }
-  const model = row.model.trim() || `GB-LEGACY-${row.legacyId}`;
-  if (!row.model.trim()) failures.push(`legacyId ${row.legacyId}：舊站無型號，暫以 ${model} 代替，需業主確認`);
+  const model = row.model.trim();
+  if (!model) { failures.push(`legacyId ${row.legacyId}：無型號（規格欄位與麵包屑皆空），略過`); continue; }
   if (models.has(model)) { failures.push(`型號重複：${model}（legacyId ${row.legacyId}）`); continue; }
   models.add(model);
   const images = await emitImages(model, row.images);
   if (images.length === 0) { failures.push(`${model}：無可用圖片，略過`); continue; }
   const product = productSchema.parse({
-    kind: 'light', model, watt: row.watt, beamAngle: row.beamAngle, cct: row.cct, cri: row.cri,
+    kind: 'light', model, name: row.name, watt: row.watt, beamAngle: row.beamAngle, cct: row.cct, cri: row.cri,
     cutoutDia: row.cutoutDia, dimensions: row.dimensions, voltage: row.voltage, socket: row.socket,
-    colors: row.colors, images, order: index + 1, legacyId: row.legacyId,
+    colors: row.colors, extras: row.extras, notes: row.notes, images, order: index + 1, legacyId: row.legacyId,
   });
   await writeJson(join(contentRoot, 'lights', category.parentSlug, category.slug, modelSlug(model), 'index.json'), product);
 }

@@ -1,0 +1,33 @@
+{
+  "kind": "light",
+  "model": "GB-AL-2017-2",
+  "name": "鋁條燈",
+  "watt": 10,
+  "beamAngle": [
+    120
+  ],
+  "cct": [
+    3000,
+    4000,
+    6000
+  ],
+  "dimensions": "W17.5*H12*L1020mm (長度可訂製)",
+  "voltage": "DC12V / DC24V",
+  "colors": [
+    "鋁材質",
+    "霧面燈罩"
+  ],
+  "extras": {
+    "晶片規格": "SMD2835"
+  },
+  "notes": [
+    "※ 變壓器，另計"
+  ],
+  "images": [
+    "/products/gb-al-2017-2-1.webp",
+    "/products/gb-al-2017-2-2.webp",
+    "/products/gb-al-2017-2-3.webp"
+  ],
+  "order": 117,
+  "legacyId": 225
+}

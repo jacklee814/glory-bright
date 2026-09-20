@@ -1,0 +1,15 @@
+{
+  "kind": "switch",
+  "model": "010104",
+  "series": "unica",
+  "type": "switch",
+  "description": [
+    "金屬灰 金屬 三切開關 *內框貼灰",
+    "三路對切"
+  ],
+  "images": [
+    "/products/010104-1.webp"
+  ],
+  "order": 2,
+  "legacyCategoryId": 578
+}

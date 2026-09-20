@@ -1,0 +1,29 @@
+{
+  "kind": "light",
+  "model": "GB-DMU-2075-2",
+  "watt": 12,
+  "beamAngle": [
+    25
+  ],
+  "cct": [
+    2700,
+    5000
+  ],
+  "cri": 90,
+  "cutoutDia": 95,
+  "dimensions": "W 110*H 70mm",
+  "voltage": "AC100V-240V",
+  "colors": [
+    "白",
+    "黑"
+  ],
+  "extras": {},
+  "notes": [],
+  "images": [
+    "/products/gb-dmu-2075-2-1.webp",
+    "/products/gb-smd-2050-1-2.webp",
+    "/products/gb-dmu-2075-2-3.webp"
+  ],
+  "order": 97,
+  "legacyId": 205
+}

@@ -5,12 +5,18 @@ export const categorySchema = z.object({
 });
 export const lightSchema = z.object({
   kind: z.literal('light'), model: z.string(),
+  // 舊站「品名」，例如「三角型鋁條燈」。
+  name: z.string().optional(),
   // 舊站確實存在沒有任何規格欄位的產品，故 watt 為選填。
   watt: z.number().positive().optional(),
   beamAngle: z.array(z.number()).default([]),
   cct: z.array(z.number()).default([]), cri: z.number().optional(), cutoutDia: z.number().optional(),
   dimensions: z.string().optional(), voltage: z.string().optional(), socket: z.string().optional(),
   colors: z.array(z.string()).default([]),
+  // 舊站少數非標準規格欄位（晶片規格、中心亮度、建議坪數等），原樣保留。
+  extras: z.record(z.string()).default({}),
+  // 規格區塊中沒有標籤的說明行，例如「※ 變壓器，另計」。
+  notes: z.array(z.string()).default([]),
   images: z.array(z.string()).min(1), catalog: z.string().optional(), order: z.number().int().default(999), legacyId: z.number().int(),
 });
 export const switchSchema = z.object({

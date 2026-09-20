@@ -1,0 +1,26 @@
+{
+  "kind": "light",
+  "model": "GB-SMD-2050-1",
+  "watt": 7.5,
+  "beamAngle": [],
+  "cct": [
+    3000,
+    4000,
+    6500
+  ],
+  "cri": 80,
+  "dimensions": "W :10mm L :5M (一卷)",
+  "voltage": "DC12V / 24V",
+  "colors": [],
+  "extras": {},
+  "notes": [
+    "SMD5050軟條燈",
+    "※ 變壓器，另計"
+  ],
+  "images": [
+    "/products/gb-smd-2050-1-1.webp",
+    "/products/gb-smd-2050-1-2.webp"
+  ],
+  "order": 16,
+  "legacyId": 118
+}

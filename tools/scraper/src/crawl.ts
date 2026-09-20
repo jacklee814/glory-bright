@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 import * as cheerio from 'cheerio';
 import { fetchText, fetchBinary, InterceptError } from './http.ts';
 import { LIGHT_CATEGORIES, SWITCH_CATEGORIES } from './taxonomy.ts';
+import { HERO_IMAGES } from './hero.ts';
 import { BASE, snapshotName, lightListUrl, switchListUrl, lightDetailUrl } from './urls.ts';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -83,6 +84,9 @@ function lastPage(html: string, pattern: RegExp): number {
 for (const path of ['index.php', 'category.php', 'category_light.php', 'category_switch.php', 'news.php', 'news_list.php?id=124', 'contact_us.php']) {
   await page(BASE + path);
 }
+
+// 首頁輪播圖
+for (const hero of HERO_IMAGES) await image(`images/${hero.file}`);
 
 // 燈具：列表 → 明細
 const detailIds = new Set<number>();

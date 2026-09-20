@@ -1,0 +1,26 @@
+{
+  "kind": "light",
+  "model": "GB-CCM-2012-1",
+  "watt": 14,
+  "beamAngle": [],
+  "cct": [
+    2700,
+    5500
+  ],
+  "cri": 85,
+  "dimensions": "W118*H 180mm",
+  "voltage": "AC100V-240V",
+  "colors": [
+    "白",
+    "鋁"
+  ],
+  "extras": {},
+  "notes": [],
+  "images": [
+    "/products/gb-ccm-2012-1-1.webp",
+    "/products/gb-smd-2050-1-2.webp",
+    "/products/gb-ccm-2012-1-3.webp"
+  ],
+  "order": 86,
+  "legacyId": 194
+}

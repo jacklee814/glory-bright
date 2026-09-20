@@ -1,0 +1,15 @@
+{
+  "kind": "switch",
+  "model": "ZENCELO-SW-07",
+  "series": "zencelo",
+  "type": "switch",
+  "description": [
+    "門鈴開關",
+    "125V 15A"
+  ],
+  "images": [
+    "/products/zencelo-sw-07-1.webp"
+  ],
+  "order": 28,
+  "legacyCategoryId": 581
+}

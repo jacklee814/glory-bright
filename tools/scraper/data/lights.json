@@ -1,0 +1,3883 @@
+[
+  {
+    "legacyId": 66,
+    "model": "GB-TMU-2011-3",
+    "beamAngle": [
+      20,
+      40,
+      60
+    ],
+    "cct": [
+      3000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {
+      "中心亮度": "11037 / 5748 / 3444 cd"
+    },
+    "notes": [],
+    "images": [
+      "358.jpg",
+      "blnc.jpg",
+      "GL-358-1.jpg",
+      "GL-358-20.jpg",
+      "GL-358-40.jpg",
+      "GL-358-60.jpg"
+    ],
+    "unknownLabels": [
+      "中心亮度"
+    ],
+    "watt": 43,
+    "cri": 90,
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 60
+  },
+  {
+    "legacyId": 67,
+    "model": "GB-TMU-2011-2",
+    "beamAngle": [
+      20,
+      40,
+      60
+    ],
+    "cct": [
+      3000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {
+      "中心亮度": "9581 / 5036 / 3078 cd"
+    },
+    "notes": [],
+    "images": [
+      "358.jpg",
+      "blnc.jpg",
+      "GL-358-1.jpg",
+      "37W-20.jpg",
+      "37W-40.jpg",
+      "37W-60.jpg"
+    ],
+    "unknownLabels": [
+      "中心亮度"
+    ],
+    "watt": 37,
+    "cri": 90,
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 60
+  },
+  {
+    "legacyId": 68,
+    "model": "GB-TMU-2011-1",
+    "beamAngle": [
+      20,
+      40,
+      60
+    ],
+    "cct": [
+      3000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {
+      "中心亮度": "6467 / 3296 / 1964 cd"
+    },
+    "notes": [],
+    "images": [
+      "357.jpg",
+      "blnc.jpg",
+      "GL-357-SIZE.jpg",
+      "GL-357-20.jpg",
+      "GL-357-40.jpg",
+      "GL-357-60.jpg"
+    ],
+    "unknownLabels": [
+      "中心亮度"
+    ],
+    "watt": 29,
+    "cri": 90,
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 60
+  },
+  {
+    "legacyId": 69,
+    "model": "GB-CCM-2051-3",
+    "beamAngle": [
+      20,
+      40,
+      60
+    ],
+    "cct": [
+      3000
+    ],
+    "colors": [],
+    "extras": {
+      "中心亮度": "11037 / 5748 / 3444 cd"
+    },
+    "notes": [
+      "晶片 美國CREE / 燈具 台灣製"
+    ],
+    "images": [
+      "101W.jpg",
+      "blnc.jpg",
+      "GL-101W-size.jpg",
+      "GL-101W-20.jpg",
+      "GL-101W-40.jpg",
+      "GL-101W-60.jpg"
+    ],
+    "unknownLabels": [
+      "中心亮度"
+    ],
+    "watt": 43,
+    "cri": 90,
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 46
+  },
+  {
+    "legacyId": 70,
+    "model": "GB-TMU-2010-1",
+    "beamAngle": [
+      16,
+      22,
+      47
+    ],
+    "cct": [
+      3000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {
+      "中心亮度": "5227 / 3592 / 1149 cd"
+    },
+    "notes": [],
+    "images": [
+      "GL-364.jpg",
+      "1683101678262.jpg",
+      "GL-364-SIZE.jpg",
+      "GL-364-168.jpg",
+      "GL-364-221.jpg",
+      "GL-364-475.jpg"
+    ],
+    "unknownLabels": [
+      "中心亮度"
+    ],
+    "watt": 14,
+    "cri": 90,
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 60
+  },
+  {
+    "legacyId": 71,
+    "model": "GB-TMU-2010-2",
+    "beamAngle": [
+      25,
+      35
+    ],
+    "cct": [
+      3000,
+      4000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "GL-364COB.jpg",
+      "blnc.jpg",
+      "GL-364COB-SIZE.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 20,
+    "cri": 90,
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 60
+  },
+  {
+    "legacyId": 72,
+    "model": "GB-CCM-2051-2",
+    "beamAngle": [
+      20,
+      40,
+      60
+    ],
+    "cct": [
+      3000
+    ],
+    "colors": [],
+    "extras": {
+      "中心亮度": "9581 / 5036 / 3078 cd"
+    },
+    "notes": [
+      "晶片 美國CREE / 燈具 台灣製"
+    ],
+    "images": [
+      "101W.jpg",
+      "blnc.jpg",
+      "GL-101W-size.jpg",
+      "GL-101W-37W-20.jpg",
+      "GL-101W-37W-40.jpg",
+      "GL-101W-37W-60.jpg"
+    ],
+    "unknownLabels": [
+      "中心亮度"
+    ],
+    "watt": 37,
+    "cri": 90,
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 46
+  },
+  {
+    "legacyId": 75,
+    "model": "GB-CCM-2051-1",
+    "beamAngle": [
+      20,
+      40,
+      60
+    ],
+    "cct": [
+      3000
+    ],
+    "colors": [],
+    "extras": {
+      "中心亮度": "6467 / 3296 / 1964 cd"
+    },
+    "notes": [
+      "晶片 美國CREE / 燈具 台灣製"
+    ],
+    "images": [
+      "101W.jpg",
+      "blnc.jpg",
+      "GL-101W-size.jpg",
+      "GL-101W-29W-20.jpg",
+      "GL-101W-29W-40.jpg",
+      "GL-101W-29W-60.jpg"
+    ],
+    "unknownLabels": [
+      "中心亮度"
+    ],
+    "watt": 29,
+    "cri": 90,
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 46
+  },
+  {
+    "legacyId": 79,
+    "model": "T53R9012-D",
+    "beamAngle": [],
+    "cct": [],
+    "colors": [],
+    "extras": {
+      "建議坪數": "6坪",
+      "調光": "連續調光",
+      "連續調色": "3000~6500K"
+    },
+    "notes": [],
+    "images": [
+      "T53R9012-D.jpg",
+      "IMAGE_LEDH82708-LC_UP1.jpg",
+      "T53R9012-D-rimocon.jpg"
+    ],
+    "unknownLabels": [
+      "建議坪數",
+      "調光",
+      "連續調色"
+    ],
+    "watt": 53,
+    "cri": 90,
+    "voltage": "AC110V",
+    "categoryLegacyId": 46
+  },
+  {
+    "legacyId": 103,
+    "model": "GB-DFL-2095-3",
+    "beamAngle": [],
+    "cct": [
+      2700,
+      5500
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "圖1.jpg",
+      "圖片2-3寬高250125.jpg",
+      "圖3-2.gif",
+      "圖片4-6250250.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 14,
+    "cri": 85,
+    "cutoutDia": 160,
+    "dimensions": "W175*H50mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 45
+  },
+  {
+    "legacyId": 104,
+    "model": "GB-DFL-2095-2",
+    "beamAngle": [],
+    "cct": [
+      2700,
+      5500
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8171-2圖1-2.jpg",
+      "圖片2-3寬高250125.jpg",
+      "EBE-8171-2-3.gif",
+      "圖片4-6250250.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 14,
+    "cri": 85,
+    "cutoutDia": 125,
+    "dimensions": "W145*H45mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 45
+  },
+  {
+    "legacyId": 105,
+    "model": "GB-DFL-2095-1",
+    "beamAngle": [],
+    "cct": [
+      2700,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8171-3圖1-2.jpg",
+      "圖片2-3寬高250125.jpg",
+      "1111.jpg",
+      "圖片4-6250250.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 85,
+    "cutoutDia": 95,
+    "dimensions": "W110*H40mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 45
+  },
+  {
+    "legacyId": 111,
+    "model": "GB-DMR-2075-3",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8145-2-1.jpg",
+      "圖片2-3寬高250125.jpg",
+      "8145-2圖3.gif"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 75,
+    "dimensions": "W 90*H 90mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 42
+  },
+  {
+    "legacyId": 113,
+    "model": "GB-DMR-2082-1",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8141-3-1.jpg",
+      "圖片2-3寬高250125.jpg",
+      "8141-3圖3.gif"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 82,
+    "dimensions": "W 92*H 80mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 42
+  },
+  {
+    "legacyId": 114,
+    "model": "GB-DMR-2090-1",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白",
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8120-1-1.jpg",
+      "圖片2-3寬高250125.jpg",
+      "8120-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 90,
+    "dimensions": "W 102*H 100mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 42
+  },
+  {
+    "legacyId": 118,
+    "model": "GB-SMD-2050-1",
+    "beamAngle": [],
+    "cct": [
+      3000,
+      4000,
+      6500
+    ],
+    "colors": [],
+    "extras": {},
+    "notes": [
+      "SMD5050軟條燈",
+      "※ 變壓器，另計"
+    ],
+    "images": [
+      "5050-1.jpg",
+      "白.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 80,
+    "dimensions": "W :10mm L :5M (一卷)",
+    "voltage": "DC12V / 24V",
+    "categoryLegacyId": 57
+  },
+  {
+    "legacyId": 119,
+    "model": "GB-TAL-2016-1",
+    "beamAngle": [
+      120
+    ],
+    "cct": [
+      3000,
+      4000,
+      6000
+    ],
+    "colors": [
+      "鋁材質",
+      "霧面燈罩"
+    ],
+    "extras": {
+      "晶片規格": "SMD2835"
+    },
+    "notes": [
+      "※ 變壓器，另計"
+    ],
+    "images": [
+      "SM3225-3.jpg",
+      "MYL-1616.jpg",
+      "SM3225-1.jpg"
+    ],
+    "unknownLabels": [
+      "晶片規格"
+    ],
+    "name": "三角型鋁條燈",
+    "voltage": "DC12V / DC24V",
+    "watt": 10,
+    "dimensions": "W 16*H16*L1020mm ( 長度可訂製)",
+    "categoryLegacyId": 54
+  },
+  {
+    "legacyId": 120,
+    "model": "GB-DMR-2060-1",
+    "beamAngle": [
+      20,
+      40,
+      60
+    ],
+    "cct": [
+      3000,
+      4000
+    ],
+    "colors": [
+      "白",
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "060 - 1.png",
+      "圖片2-3寬高250125.jpg",
+      "圖片三.png"
+    ],
+    "unknownLabels": [],
+    "watt": 9,
+    "cri": 90,
+    "cutoutDia": 60,
+    "dimensions": "W 70*H 76mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 42
+  },
+  {
+    "legacyId": 124,
+    "model": "GB-DMR-2075-1",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白",
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8143-2-1.jpg",
+      "空白 - 1.png",
+      "8143-2圖3.png"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 75,
+    "dimensions": "W 82*H 80mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 42
+  },
+  {
+    "legacyId": 125,
+    "model": "GB-DAR-2140-1",
+    "beamAngle": [
+      12,
+      25,
+      45
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白",
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8039-1-1.jpg",
+      "白.jpg",
+      "8039-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 90,
+    "cutoutDia": 140,
+    "dimensions": "W 150*H 115mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 44
+  },
+  {
+    "legacyId": 126,
+    "model": "GB-DAR-2130-1",
+    "beamAngle": [
+      12,
+      25,
+      45
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8038-3-1.jpg",
+      "空白 - 1.png",
+      "EBE-8038-3.png"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 90,
+    "cutoutDia": 130,
+    "dimensions": "W 141*H 60mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 44
+  },
+  {
+    "legacyId": 127,
+    "model": "GB-DAR-2150-1",
+    "beamAngle": [
+      12,
+      25,
+      45
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8038-4-1.jpg",
+      "白.jpg",
+      "8038-4mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 90,
+    "cutoutDia": 150,
+    "dimensions": "W 172*H 60mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 44
+  },
+  {
+    "legacyId": 128,
+    "model": "GB-DBO-2011-1",
+    "beamAngle": [
+      25
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8159-2-1.jpg",
+      "白.jpg",
+      "8159-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 55,
+    "dimensions": "L54 * W54 * H50mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 47
+  },
+  {
+    "legacyId": 129,
+    "model": "GB-DBO-2011-2",
+    "beamAngle": [
+      25
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8159-1-1.jpg",
+      "白.jpg",
+      "8159-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 55,
+    "dimensions": "L 107 * W 54 * H 50mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 47
+  },
+  {
+    "legacyId": 130,
+    "model": "GB-DBO-2011-3",
+    "beamAngle": [
+      25
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8158-2-1.jpg",
+      "白.jpg",
+      "8158-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 55,
+    "dimensions": "L 157 * W 54 * H 50mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 47
+  },
+  {
+    "legacyId": 131,
+    "model": "GB-TBO-2011-1",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "軌道合燈-1.png",
+      "白.jpg",
+      "8073-1mm.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "dimensions": "L85 * W85 * H130mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 50
+  },
+  {
+    "legacyId": 133,
+    "model": "GB-DMU-2030-1",
+    "beamAngle": [
+      25
+    ],
+    "cct": [
+      2700,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8157-2-1.jpg",
+      "白.jpg",
+      "8157-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 3,
+    "cri": 85,
+    "cutoutDia": 30,
+    "dimensions": "W 38*H 25mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 55
+  },
+  {
+    "legacyId": 134,
+    "model": "GB-DMU-2030-2",
+    "beamAngle": [
+      25
+    ],
+    "cct": [
+      2700,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8157-1-1.jpg",
+      "白.jpg",
+      "8157-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 3,
+    "cri": 85,
+    "cutoutDia": 30,
+    "dimensions": "W 38*H 25mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 55
+  },
+  {
+    "legacyId": 137,
+    "model": "GB-TMR-2011-1",
+    "beamAngle": [
+      20,
+      40,
+      60
+    ],
+    "cct": [
+      3000,
+      4000
+    ],
+    "colors": [
+      "白",
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "投MR - 1.png",
+      "白.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 6,
+    "cri": 90,
+    "dimensions": "W 58*H 120mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 43
+  },
+  {
+    "legacyId": 138,
+    "model": "GB-DBO-2010-1",
+    "beamAngle": [
+      24
+    ],
+    "cct": [
+      2700,
+      5500
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8149-2-1.jpg",
+      "白.jpg",
+      "8149-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 3,
+    "cri": 85,
+    "cutoutDia": 35,
+    "dimensions": "W 44*H 48mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 47
+  },
+  {
+    "legacyId": 139,
+    "model": "GB-DBO-2010-2",
+    "beamAngle": [
+      24
+    ],
+    "cct": [
+      2700,
+      5500
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8149-1-1.jpg",
+      "白.jpg",
+      "8149-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 3,
+    "cri": 85,
+    "cutoutDia": 35,
+    "dimensions": "L 75*W 44*H 48mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 47
+  },
+  {
+    "legacyId": 140,
+    "model": "GB-DBO-2010-5",
+    "beamAngle": [
+      24
+    ],
+    "cct": [
+      2700,
+      5500
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8147-1-1.jpg",
+      "白.jpg",
+      "8147-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 3,
+    "cri": 85,
+    "cutoutDia": 35,
+    "dimensions": "L 148*W 44*H 48mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 47
+  },
+  {
+    "legacyId": 141,
+    "model": "GB-DBO-2011-5",
+    "beamAngle": [
+      25
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8158-1-1.jpg",
+      "白.jpg",
+      "8158-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 55,
+    "dimensions": "L 257 * W 54 * H 50mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 47
+  },
+  {
+    "legacyId": 142,
+    "model": "GB-DMR-2070-1",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8117-1-1.jpg",
+      "白.jpg",
+      "8117-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 70,
+    "dimensions": "W 85*H 90mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 42
+  },
+  {
+    "legacyId": 143,
+    "model": "GB-DMR-2070-2",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8117-2-1.jpg",
+      "白.jpg",
+      "8117-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 70,
+    "dimensions": "W 90*H 85mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 42
+  },
+  {
+    "legacyId": 144,
+    "model": "GB-DMR-2070-3",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白+黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8117-4-1.jpg",
+      "白.jpg",
+      "8117-4mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 70,
+    "dimensions": "W 90*H 85mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 42
+  },
+  {
+    "legacyId": 145,
+    "model": "GB-DBO-2030-1",
+    "beamAngle": [
+      12,
+      25,
+      45
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8016-1-1.jpg",
+      "空白 - 1.png",
+      "8016-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 90,
+    "cutoutDia": 165,
+    "dimensions": "L 185*W 185*H 90mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 47
+  },
+  {
+    "legacyId": 146,
+    "model": "GB-DBO-2030-2",
+    "beamAngle": [
+      12,
+      25,
+      45
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8016-2-1.jpg",
+      "白.jpg",
+      "8016-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 90,
+    "cutoutDia": 160,
+    "dimensions": "L 335*W 185*H 90mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 47
+  },
+  {
+    "legacyId": 147,
+    "model": "GB-DBO-2030-3",
+    "beamAngle": [
+      12,
+      25,
+      45
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8016-3-1.jpg",
+      "白.jpg",
+      "8016-3mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 90,
+    "cutoutDia": 160,
+    "dimensions": "L 480*W 185*H 90mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 47
+  },
+  {
+    "legacyId": 148,
+    "model": "GB-DBO-2031-1",
+    "beamAngle": [
+      12,
+      25,
+      45
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8017-1-1.jpg",
+      "白.jpg",
+      "8017-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 90,
+    "cutoutDia": 160,
+    "dimensions": "L 159*W 159*H 90mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 47
+  },
+  {
+    "legacyId": 149,
+    "model": "GB-DBO-2031-2",
+    "beamAngle": [
+      12,
+      25,
+      45
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8017-2-1.jpg",
+      "白.jpg",
+      "8016-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 90,
+    "cutoutDia": 160,
+    "dimensions": "L 309*W 159*H 90mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 47
+  },
+  {
+    "legacyId": 150,
+    "model": "GB-DBO-2031-3",
+    "beamAngle": [
+      12,
+      25,
+      45
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8017-3-1.jpg",
+      "白.jpg",
+      "8017-3mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 90,
+    "cutoutDia": 160,
+    "dimensions": "L 459*W 159*H 90mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 47
+  },
+  {
+    "legacyId": 151,
+    "model": "GB-DMR-2090-2",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8121-3-1.jpg",
+      "白.jpg",
+      "8121-3mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 90,
+    "dimensions": "W 109*H 90mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 42
+  },
+  {
+    "legacyId": 152,
+    "model": "GB-DMR-2085-1",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白",
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8142-2-1.jpg",
+      "圖片2-3寬高250125.jpg",
+      "8142-2-3.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 85,
+    "dimensions": "W 97*H 80mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 42
+  },
+  {
+    "legacyId": 153,
+    "model": "GB-DMR-2085-2",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白",
+      "黑 + 防眩光罩"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8142-1-1.jpg",
+      "圖片2-3寬高250125.jpg",
+      "8142-1-3.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 85,
+    "dimensions": "W 97*H 95mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 42
+  },
+  {
+    "legacyId": 154,
+    "model": "GB-DMR-2070-4",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8135-2-1.jpg",
+      "白.jpg",
+      "8135-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 70,
+    "dimensions": "W 80*H 92mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 42
+  },
+  {
+    "legacyId": 155,
+    "model": "GB-DMR-2070-5",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8135-1-1.jpg",
+      "白.jpg",
+      "8135-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 70,
+    "dimensions": "W 80*H 92mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 42
+  },
+  {
+    "legacyId": 156,
+    "model": "GB-DMR-2075-2",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白",
+      "黑 + 防眩光罩"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8144-1-1.jpg",
+      "圖片2-3寬高250125.jpg",
+      "8144-1圖3.png"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 75,
+    "dimensions": "W 82*H 95mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 42
+  },
+  {
+    "legacyId": 157,
+    "model": "GB-DMR-2075-4",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白+ 防眩光罩"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8145-1-1.jpg",
+      "圖片2-3寬高250125.jpg",
+      "8145-1圖三.png"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 75,
+    "dimensions": "W 90*H 90mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 42
+  },
+  {
+    "legacyId": 158,
+    "model": "GB-DMR-2082-2",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白 + 防眩光罩"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8141-2-1.jpg",
+      "圖片2-3寬高250125.jpg",
+      "8141-2-3.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 82,
+    "dimensions": "W 92*H 95mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 42
+  },
+  {
+    "legacyId": 159,
+    "model": "GB-DBO-2020-1",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8069-3-1.jpg",
+      "白.jpg",
+      "8069-3mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 120,
+    "dimensions": "L 136*W 136*H 75mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 47
+  },
+  {
+    "legacyId": 160,
+    "model": "GB-DBO-2020-2",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8069-2-1.jpg",
+      "白.jpg",
+      "8069-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 120,
+    "dimensions": "L 240*W 136*H 75mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 47
+  },
+  {
+    "legacyId": 161,
+    "model": "GB-DBO-2020-3",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8069-1-1.jpg",
+      "白.jpg",
+      "8069-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 120,
+    "dimensions": "L 345*W 136*H 75mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 47
+  },
+  {
+    "legacyId": 162,
+    "model": "GB-DBO-2021-1",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8068-1-1.jpg",
+      "白.jpg",
+      "8068-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 115,
+    "dimensions": "L 114*W 114*H 90mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 47
+  },
+  {
+    "legacyId": 163,
+    "model": "GB-DBO-2021-2",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8068-2-1.jpg",
+      "白.jpg",
+      "8068-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 115,
+    "dimensions": "L 218*W 114*H 90mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 47
+  },
+  {
+    "legacyId": 164,
+    "model": "GB-DBO-2021-3",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8068-3-1.jpg",
+      "白.jpg",
+      "8068-3mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 115,
+    "dimensions": "L 322*W 114*H 90mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 47
+  },
+  {
+    "legacyId": 165,
+    "model": "GB-DMR-2095-5",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8129-2-1.jpg",
+      "白.jpg",
+      "8129-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 95,
+    "dimensions": "L 60* W 56*H 30mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 42
+  },
+  {
+    "legacyId": 166,
+    "model": "GB-DMR-2095-6",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8129-1-1.jpg",
+      "白.jpg",
+      "8129-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 95,
+    "dimensions": "L 150*W 55*H 30mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 42
+  },
+  {
+    "legacyId": 167,
+    "model": "GB-DMU-2055-1",
+    "beamAngle": [
+      25
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8151-1-1.jpg",
+      "白.jpg",
+      "8151-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 55,
+    "dimensions": "W 65*H 45mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 55
+  },
+  {
+    "legacyId": 168,
+    "model": "GB-DMU-2055-2",
+    "beamAngle": [
+      25
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8151-2-1.jpg",
+      "白.jpg",
+      "8151-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 55,
+    "dimensions": "W 65*H 45mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 55
+  },
+  {
+    "legacyId": 169,
+    "model": "GB-DMU-2065-1",
+    "beamAngle": [
+      25
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8151-3-1.jpg",
+      "白.jpg",
+      "8154-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 65,
+    "dimensions": "W 70*H 40mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 55
+  },
+  {
+    "legacyId": 170,
+    "model": "GB-TMR-2011-3",
+    "beamAngle": [
+      20,
+      40,
+      60
+    ],
+    "cct": [
+      3000,
+      4000
+    ],
+    "colors": [
+      "白",
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "軌道燈-3.jpg",
+      "白.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 9,
+    "cri": 90,
+    "dimensions": "W 56*H 160mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 43
+  },
+  {
+    "legacyId": 171,
+    "model": "GB-TMR-2011-2",
+    "beamAngle": [
+      20,
+      40,
+      60
+    ],
+    "cct": [
+      3000,
+      4000
+    ],
+    "colors": [
+      "白",
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "軌道燈-2.jpg",
+      "白.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 9,
+    "cri": 90,
+    "dimensions": "W 56*H 160mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 43
+  },
+  {
+    "legacyId": 172,
+    "model": "GB-TMR-2011-4",
+    "beamAngle": [
+      20,
+      40,
+      60
+    ],
+    "cct": [
+      3000,
+      4000
+    ],
+    "colors": [
+      "白",
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "軌道燈-4.jpg",
+      "白.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 9,
+    "cri": 90,
+    "dimensions": "W 68*H 165mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 43
+  },
+  {
+    "legacyId": 173,
+    "model": "GB-TBO-2011-2",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "軌道合燈-2.png",
+      "白.jpg",
+      "8073-2mm.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "dimensions": "L175 * W85 * H130mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 50
+  },
+  {
+    "legacyId": 174,
+    "model": "GB-TBO-2011-3",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "軌道合燈-3.png",
+      "白.jpg",
+      "8073-3mm.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "dimensions": "L255 * W85 * H130mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 50
+  },
+  {
+    "legacyId": 175,
+    "model": "GB-TBO-2031-1",
+    "beamAngle": [
+      12,
+      25,
+      45
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8019-1-1.jpg",
+      "白.jpg",
+      "8019-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 90,
+    "dimensions": "L 157*W 157*H 145mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 50
+  },
+  {
+    "legacyId": 176,
+    "model": "GB-TBO-2031-2",
+    "beamAngle": [
+      12,
+      25,
+      45
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8019-2-1.jpg",
+      "白.jpg",
+      "8019-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 90,
+    "dimensions": "L 298*W 157*H 145mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 50
+  },
+  {
+    "legacyId": 177,
+    "model": "GB-TBO-2031-3",
+    "beamAngle": [
+      12,
+      25,
+      45
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8019-3-1.jpg",
+      "白.jpg",
+      "8019-3mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 90,
+    "dimensions": "L 440*W 157*H 145mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 50
+  },
+  {
+    "legacyId": 178,
+    "model": "GB-CAM-2011-1",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8181-2-1.jpg",
+      "白.jpg",
+      "8181-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "dimensions": "W 56*H 250mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 46
+  },
+  {
+    "legacyId": 179,
+    "model": "GB-CAM-2012-1",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8187-2-1.jpg",
+      "白.jpg",
+      "8187-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "dimensions": "W 105*H 200mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 46
+  },
+  {
+    "legacyId": 180,
+    "model": "GB-CAM-2013-1",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8188-2-1.jpg",
+      "白.jpg",
+      "8188-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "dimensions": "W 112*H 130mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 46
+  },
+  {
+    "legacyId": 181,
+    "model": "GB-CAM-2021-1",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8189-1-1.jpg",
+      "白.jpg",
+      "8189-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "dimensions": "L85 * W85 * H130mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 46
+  },
+  {
+    "legacyId": 182,
+    "model": "GB-CAM-2021-2",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8189-2-1.jpg",
+      "白.jpg",
+      "8189-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "dimensions": "L170 * W85 * H130mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 46
+  },
+  {
+    "legacyId": 183,
+    "model": "GB-CAM-2021-3",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8189-3-1.jpg",
+      "白.jpg",
+      "8189-3mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "dimensions": "L255 * W85 * H130mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 46
+  },
+  {
+    "legacyId": 184,
+    "model": "GB-CBA-2011-1",
+    "beamAngle": [
+      12,
+      25,
+      45
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8183-4-1.jpg",
+      "白.jpg",
+      "8183-4mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 90,
+    "dimensions": "W 118*H 180mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 46
+  },
+  {
+    "legacyId": 185,
+    "model": "GB-CBA-2013-1",
+    "beamAngle": [
+      12,
+      25,
+      45
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8184-2-1.jpg",
+      "白.jpg",
+      "8184-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 90,
+    "dimensions": "W 118*H 180mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 46
+  },
+  {
+    "legacyId": 186,
+    "model": "GB-CBA-2010-1",
+    "beamAngle": [
+      12,
+      25,
+      45
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8183-3-1.jpg",
+      "白.jpg",
+      "8183-3mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 90,
+    "dimensions": "W 142*H 110mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 46
+  },
+  {
+    "legacyId": 187,
+    "model": "GB-CBA-2021-1",
+    "beamAngle": [
+      12,
+      25,
+      45
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8185-1-1.jpg",
+      "白.jpg",
+      "8185-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 90,
+    "dimensions": "L145 * W145 * H220mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 46
+  },
+  {
+    "legacyId": 188,
+    "model": "GB-CBA-2021-2",
+    "beamAngle": [
+      12,
+      25,
+      45
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8185-2-1.jpg",
+      "白.jpg",
+      "8185-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 90,
+    "dimensions": "L290 * W145 * H220mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 46
+  },
+  {
+    "legacyId": 189,
+    "model": "GB-CBA-2021-3",
+    "beamAngle": [
+      12,
+      25,
+      45
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8185-3-1.jpg",
+      "白.jpg",
+      "8185-3mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 90,
+    "dimensions": "L440 * W145 * H220mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 46
+  },
+  {
+    "legacyId": 190,
+    "model": "GB-CDE-2011-1",
+    "beamAngle": [],
+    "cct": [],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8192-2-1.jpg",
+      "白.jpg",
+      "8192-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "socket": "E 27",
+    "dimensions": "L140 * W140 * H190mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 46
+  },
+  {
+    "legacyId": 191,
+    "model": "GB-CDE-2012-1",
+    "beamAngle": [],
+    "cct": [],
+    "colors": [
+      "白",
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8193-2-1.jpg",
+      "白.jpg",
+      "8193-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "socket": "E 27",
+    "dimensions": "W230 * H230mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 46
+  },
+  {
+    "legacyId": 192,
+    "model": "GB-CDE-2015-1",
+    "beamAngle": [],
+    "cct": [],
+    "colors": [
+      "白",
+      "黑",
+      "鋁材",
+      "玻璃"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8194-3-1.jpg",
+      "白.jpg",
+      "8194-3mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "socket": "E 27",
+    "dimensions": "W175 * H205mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 46
+  },
+  {
+    "legacyId": 193,
+    "model": "GB-CCM-2011-1",
+    "beamAngle": [],
+    "cct": [
+      2700,
+      5500
+    ],
+    "colors": [
+      "白",
+      "鋁"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8191-2-1.jpg",
+      "白.jpg",
+      "8191-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 14,
+    "cri": 85,
+    "dimensions": "W175*H 112mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 46
+  },
+  {
+    "legacyId": 194,
+    "model": "GB-CCM-2012-1",
+    "beamAngle": [],
+    "cct": [
+      2700,
+      5500
+    ],
+    "colors": [
+      "白",
+      "鋁"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8190-2-1.jpg",
+      "白.jpg",
+      "8190-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 14,
+    "cri": 85,
+    "dimensions": "W118*H 180mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 46
+  },
+  {
+    "legacyId": 195,
+    "model": "GB-CCM-2013-1",
+    "beamAngle": [],
+    "cct": [
+      2700,
+      5500
+    ],
+    "colors": [
+      "白",
+      "鋁"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8190-1-1.jpg",
+      "白.jpg",
+      "8190-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 14,
+    "cri": 85,
+    "dimensions": "W190*H 2300mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 46
+  },
+  {
+    "legacyId": 196,
+    "model": "GB-CCM-2010-1",
+    "beamAngle": [],
+    "cct": [
+      2700,
+      5500
+    ],
+    "colors": [
+      "白",
+      "鋁"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8191-3-1.jpg",
+      "白.jpg",
+      "8191-3mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 14,
+    "cri": 85,
+    "dimensions": "W142*H 110mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 46
+  },
+  {
+    "legacyId": 197,
+    "model": "GB-TMR-2021-1",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白+金"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8075-2-1L.jpg",
+      "8075-2mm3.jpg",
+      "8075-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "dimensions": "W 56*H 210mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 43
+  },
+  {
+    "legacyId": 198,
+    "model": "GB-TMR-2022-1",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "黑砂+金"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8076-2-1-R.jpg",
+      "8075-1mm3.jpg",
+      "8075-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "dimensions": "W 56*H 210mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 43
+  },
+  {
+    "legacyId": 199,
+    "model": "GB-TMR-2023-1",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8081-1-L.jpg",
+      "白.jpg",
+      "8081-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "dimensions": "W 55*H 130mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 43
+  },
+  {
+    "legacyId": 200,
+    "model": "GB-TMR-2025-1",
+    "beamAngle": [
+      24,
+      36,
+      60
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8083-2-1L.jpg",
+      "白.jpg",
+      "8083-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "dimensions": "W 95*H 180mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 43
+  },
+  {
+    "legacyId": 201,
+    "model": "GB-DMU-2058-1",
+    "beamAngle": [
+      25
+    ],
+    "cct": [
+      2700,
+      5000
+    ],
+    "colors": [
+      "白",
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8152-2-1.jpg",
+      "白.jpg",
+      "8152-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 6,
+    "cri": 85,
+    "cutoutDia": 58,
+    "dimensions": "W 75*H 40mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 55
+  },
+  {
+    "legacyId": 202,
+    "model": "GB-DMU-2058-2",
+    "beamAngle": [
+      25
+    ],
+    "cct": [
+      2700,
+      5000
+    ],
+    "colors": [
+      "白",
+      "金",
+      "亮銀"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8153-2-1.jpg",
+      "白.jpg",
+      "8153-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 6,
+    "cri": 85,
+    "cutoutDia": 58,
+    "dimensions": "W 75*H 30mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 55
+  },
+  {
+    "legacyId": 203,
+    "model": "GB-DMU-2055-3",
+    "beamAngle": [
+      25
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白",
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8154-2-1.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 55,
+    "dimensions": "W 75*H 45mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 55
+  },
+  {
+    "legacyId": 204,
+    "model": "GB-DMU-2075-1",
+    "beamAngle": [
+      25
+    ],
+    "cct": [
+      2700,
+      5000
+    ],
+    "colors": [
+      "白",
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8105-1-1.jpg",
+      "白.jpg",
+      "8105-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 75,
+    "dimensions": "W 90*H 50mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 55
+  },
+  {
+    "legacyId": 205,
+    "model": "GB-DMU-2075-2",
+    "beamAngle": [
+      25
+    ],
+    "cct": [
+      2700,
+      5000
+    ],
+    "colors": [
+      "白",
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8105-2-1.jpg",
+      "白.jpg",
+      "8105-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 90,
+    "cutoutDia": 95,
+    "dimensions": "W 110*H 70mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 55
+  },
+  {
+    "legacyId": 206,
+    "model": "GB-DMU-2095-2",
+    "beamAngle": [
+      25
+    ],
+    "cct": [
+      2700,
+      5500
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8104-1-1.jpg",
+      "白.jpg",
+      "8104-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 9,
+    "cri": 85,
+    "cutoutDia": 95,
+    "dimensions": "W 105*H 35mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 55
+  },
+  {
+    "legacyId": 207,
+    "model": "GB-DMU-2095-3",
+    "beamAngle": [
+      25
+    ],
+    "cct": [
+      2700,
+      5500
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8104-2-1.jpg",
+      "白.jpg",
+      "8104-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 14,
+    "cri": 85,
+    "cutoutDia": 95,
+    "dimensions": "W 105*H 35mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 55
+  },
+  {
+    "legacyId": 208,
+    "model": "GB-DMR-2070-6",
+    "beamAngle": [],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白",
+      "毛絲銀"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8122-2-1.jpg",
+      "白.jpg",
+      "8122-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 7.5,
+    "cri": 90,
+    "cutoutDia": 70,
+    "dimensions": "W 90*H 85mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 42
+  },
+  {
+    "legacyId": 209,
+    "model": "GB-DAR-2150-2",
+    "beamAngle": [
+      12,
+      25,
+      45
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8040-2-1.jpg",
+      "白.jpg",
+      "8040-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 90,
+    "cutoutDia": 150,
+    "dimensions": "W 168*H 80mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 44
+  },
+  {
+    "legacyId": 210,
+    "model": "GB-DAR-2150-3",
+    "beamAngle": [
+      12,
+      25,
+      45
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8040-1-1.jpg",
+      "白.jpg",
+      "8040-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 90,
+    "cutoutDia": 150,
+    "dimensions": "W 168*H 80mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 44
+  },
+  {
+    "legacyId": 211,
+    "model": "GB-DAR-2150-4",
+    "beamAngle": [
+      12,
+      25,
+      45
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8036-2-1.jpg",
+      "白.jpg",
+      "8036-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 22,
+    "cri": 90,
+    "cutoutDia": 150,
+    "dimensions": "W 175*H 156mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 44
+  },
+  {
+    "legacyId": 212,
+    "model": "GB-TMR-2053-1",
+    "beamAngle": [
+      12,
+      25,
+      45
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白",
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8030-1-1.jpg",
+      "白.jpg",
+      "8030-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 90,
+    "dimensions": "W 115*H 230mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 43
+  },
+  {
+    "legacyId": 213,
+    "model": "GB-TMR-2055-1",
+    "beamAngle": [
+      12,
+      25,
+      45
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白",
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8031-1-0.jpg",
+      "白.jpg",
+      "8031-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 90,
+    "dimensions": "W 115*H 230mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 43
+  },
+  {
+    "legacyId": 214,
+    "model": "GB-TMR-2056-1",
+    "beamAngle": [
+      12,
+      25,
+      45
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白",
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8031-2-1.jpg",
+      "白.jpg",
+      "8031-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 90,
+    "dimensions": "W 115*H 230mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 43
+  },
+  {
+    "legacyId": 215,
+    "model": "GB-TMR-2061-1",
+    "beamAngle": [
+      12,
+      25,
+      45
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白",
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8033-1-0.jpg",
+      "白.jpg",
+      "8033-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 90,
+    "dimensions": "W 125*H 180mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 43
+  },
+  {
+    "legacyId": 216,
+    "model": "GB-TMR-2063-1",
+    "beamAngle": [
+      12,
+      25,
+      45
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "銀",
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8032-1-1.jpg",
+      "白.jpg",
+      "8032-2mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 90,
+    "dimensions": "W 125*H 230mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 43
+  },
+  {
+    "legacyId": 217,
+    "model": "GB-TMR-2063-2",
+    "beamAngle": [
+      12,
+      25,
+      45
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "銀",
+      "黑"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8032-1.jpg",
+      "白.jpg",
+      "8032-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 90,
+    "dimensions": "W 125*H 230mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 43
+  },
+  {
+    "legacyId": 218,
+    "model": "GB-TMR-2058-1",
+    "beamAngle": [
+      12,
+      25,
+      45
+    ],
+    "cct": [
+      2700,
+      4000,
+      5000
+    ],
+    "colors": [
+      "白"
+    ],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "8029-1-0.jpg",
+      "白.jpg",
+      "8029-1mm2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 12,
+    "cri": 90,
+    "dimensions": "W 125*H 170mm",
+    "voltage": "AC100V-240V",
+    "categoryLegacyId": 43
+  },
+  {
+    "legacyId": 219,
+    "model": "GB-DAL-2008-1",
+    "beamAngle": [
+      120
+    ],
+    "cct": [
+      3000,
+      4000,
+      6000
+    ],
+    "colors": [
+      "鋁材質",
+      "霧面燈罩"
+    ],
+    "extras": {
+      "晶片規格": "SMD2835"
+    },
+    "notes": [
+      "※ 變壓器，另計"
+    ],
+    "images": [
+      "SMT1312-3.jpg",
+      "SMT1312-2.jpg",
+      "SMT1312-1.jpg"
+    ],
+    "unknownLabels": [
+      "晶片規格"
+    ],
+    "name": "崁入式鋁條燈",
+    "voltage": "DC12V / DC24V",
+    "watt": 10,
+    "dimensions": "W13*H12.1*L1020mm (長度可訂製)",
+    "categoryLegacyId": 54
+  },
+  {
+    "legacyId": 220,
+    "model": "GB-AL-2007-1",
+    "beamAngle": [
+      120
+    ],
+    "cct": [
+      3000,
+      4000,
+      6000
+    ],
+    "colors": [
+      "鋁材質",
+      "霧面燈罩"
+    ],
+    "extras": {
+      "晶片規格": "SMD2835"
+    },
+    "notes": [
+      "※ 變壓器，另計"
+    ],
+    "images": [
+      "SMU0809-3.jpg",
+      "SMU0809-2.jpg",
+      "SMU0809-1.jpg"
+    ],
+    "unknownLabels": [
+      "晶片規格"
+    ],
+    "name": "鋁條燈",
+    "voltage": "DC12V / DC24V",
+    "watt": 10,
+    "dimensions": "W7.8*H9*L1020mm (長度可訂製)",
+    "categoryLegacyId": 54
+  },
+  {
+    "legacyId": 221,
+    "model": "GB-AL-2009-1",
+    "beamAngle": [
+      120
+    ],
+    "cct": [
+      3000,
+      4000,
+      6000
+    ],
+    "colors": [
+      "鋁材質",
+      "霧面燈罩"
+    ],
+    "extras": {
+      "晶片規格": "SMD2835"
+    },
+    "notes": [
+      "※ 變壓器，另計"
+    ],
+    "images": [
+      "SMU1013-3.jpg",
+      "SMU1013-2.jpg",
+      "SMU1013-1.jpg"
+    ],
+    "unknownLabels": [
+      "晶片規格"
+    ],
+    "name": "鋁條燈",
+    "voltage": "DC12V / DC24V",
+    "watt": 10,
+    "dimensions": "W9.5*H13*L1020mm (長度可訂製)",
+    "categoryLegacyId": 54
+  },
+  {
+    "legacyId": 222,
+    "model": "GB-SMD-3528-1",
+    "beamAngle": [],
+    "cct": [
+      3000,
+      4000,
+      6500
+    ],
+    "colors": [],
+    "extras": {},
+    "notes": [
+      "SMD3528軟條燈",
+      "※ 變壓器，另計"
+    ],
+    "images": [
+      "SM3202(2835).jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 5,
+    "dimensions": "W :8mm H :3mm L :5M (一捲)",
+    "voltage": "DC12V / 24V",
+    "categoryLegacyId": 57
+  },
+  {
+    "legacyId": 223,
+    "model": "GB-AL-2013-1",
+    "beamAngle": [
+      120
+    ],
+    "cct": [
+      3000,
+      4000,
+      6000
+    ],
+    "colors": [
+      "鋁材質",
+      "霧面燈罩"
+    ],
+    "extras": {
+      "晶片規格": "SMD2835"
+    },
+    "notes": [
+      "※ 變壓器，另計"
+    ],
+    "images": [
+      "SMU1308-3.jpg",
+      "SMU1308-2.jpg",
+      "SMU1308-1.jpg"
+    ],
+    "unknownLabels": [
+      "晶片規格"
+    ],
+    "name": "鋁條燈",
+    "voltage": "DC12V / DC24V",
+    "watt": 10,
+    "dimensions": "W13.1*H8*L1020mm (長度可訂製)",
+    "categoryLegacyId": 54
+  },
+  {
+    "legacyId": 224,
+    "model": "GB-AL-2017-1",
+    "beamAngle": [
+      120
+    ],
+    "cct": [
+      3000,
+      4000,
+      6000
+    ],
+    "colors": [
+      "鋁材質",
+      "霧面燈罩"
+    ],
+    "extras": {
+      "晶片規格": "SMD5050 OR SMD2835"
+    },
+    "notes": [
+      "※ 變壓器，另計"
+    ],
+    "images": [
+      "SMU1707A-3.jpg",
+      "SMU1707A-2.jpg",
+      "SMU1707A-1.jpg"
+    ],
+    "unknownLabels": [
+      "晶片規格"
+    ],
+    "name": "鋁條燈",
+    "voltage": "DC12V / DC24V",
+    "watt": 15,
+    "dimensions": "W17.35*H6.9*L1020mm (長度可訂製)",
+    "categoryLegacyId": 54
+  },
+  {
+    "legacyId": 225,
+    "model": "GB-AL-2017-2",
+    "beamAngle": [
+      120
+    ],
+    "cct": [
+      3000,
+      4000,
+      6000
+    ],
+    "colors": [
+      "鋁材質",
+      "霧面燈罩"
+    ],
+    "extras": {
+      "晶片規格": "SMD2835"
+    },
+    "notes": [
+      "※ 變壓器，另計"
+    ],
+    "images": [
+      "SMU1712-3.jpg",
+      "SMU1712-2.jpg",
+      "SMU1712-1.jpg"
+    ],
+    "unknownLabels": [
+      "晶片規格"
+    ],
+    "name": "鋁條燈",
+    "voltage": "DC12V / DC24V",
+    "watt": 10,
+    "dimensions": "W17.5*H12*L1020mm (長度可訂製)",
+    "categoryLegacyId": 54
+  },
+  {
+    "legacyId": 226,
+    "model": "GB-PTL-2020-1",
+    "beamAngle": [
+      120
+    ],
+    "cct": [
+      3000,
+      4000,
+      6000
+    ],
+    "colors": [
+      "霧面PC管"
+    ],
+    "extras": {
+      "晶片規格": "SMD2835 OR SMD5050"
+    },
+    "notes": [
+      "※ 變壓器，另計"
+    ],
+    "images": [
+      "SM3204-3.jpg",
+      "白.jpg",
+      "SM3204-1.jpg"
+    ],
+    "unknownLabels": [
+      "晶片規格"
+    ],
+    "name": "PC管燈",
+    "voltage": "DC12V / DC24V",
+    "watt": 10,
+    "dimensions": "W20*H15*L1020mm (長度可訂製)",
+    "categoryLegacyId": 54
+  },
+  {
+    "legacyId": 227,
+    "model": "GB-TAL-2016-2",
+    "beamAngle": [
+      120
+    ],
+    "cct": [
+      3000,
+      4000,
+      6000
+    ],
+    "colors": [
+      "鋁材質"
+    ],
+    "extras": {
+      "晶片規格": "SMD2835 OR SMD5050"
+    },
+    "notes": [
+      "※ 變壓器，另計"
+    ],
+    "images": [
+      "SM3216-3.jpg",
+      "白.jpg",
+      "SM3216-1.jpg"
+    ],
+    "unknownLabels": [
+      "晶片規格"
+    ],
+    "name": "三角型鋁條燈 (無罩)",
+    "voltage": "DC12V / DC24V",
+    "watt": 10,
+    "dimensions": "W16*H12*L1020mm (長度可訂製)",
+    "categoryLegacyId": 54
+  },
+  {
+    "legacyId": 228,
+    "model": "GB-SMD-2835-1",
+    "beamAngle": [],
+    "cct": [
+      3000,
+      4000,
+      6500
+    ],
+    "colors": [],
+    "extras": {},
+    "notes": [
+      "2835柔性軟帶燈(貼片式)",
+      "※ 變壓器，另計"
+    ],
+    "images": [
+      "柔性軟帶燈條1.jpg",
+      "柔性軟帶燈條1-1.jpg",
+      "柔性軟帶燈條1-2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 10,
+    "dimensions": "W :8mm H :13mm L :5M (一捲)",
+    "voltage": "DC12V / 24V",
+    "categoryLegacyId": 57
+  },
+  {
+    "legacyId": 229,
+    "model": "GB-SMD-2835-2",
+    "beamAngle": [],
+    "cct": [
+      3000,
+      4000,
+      6500
+    ],
+    "colors": [],
+    "extras": {},
+    "notes": [
+      "2835柔性軟帶燈(貼片式)",
+      "※ 變壓器，另計"
+    ],
+    "images": [
+      "柔性軟帶燈條2.jpg",
+      "柔性軟帶燈條2-1.jpg",
+      "柔性軟帶燈條2-2.jpg"
+    ],
+    "unknownLabels": [],
+    "watt": 10,
+    "dimensions": "W :10mm H :18mm L :5M (一捲)",
+    "voltage": "DC12V / 24V",
+    "categoryLegacyId": 57
+  },
+  {
+    "legacyId": 230,
+    "model": "GB-TB-6060-3",
+    "beamAngle": [],
+    "cct": [],
+    "colors": [],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "LED6060-3.jpg"
+    ],
+    "unknownLabels": [],
+    "categoryLegacyId": 62
+  },
+  {
+    "legacyId": 231,
+    "model": "GB-TB-6060-4",
+    "beamAngle": [],
+    "cct": [],
+    "colors": [],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "LED6060-4.jpg"
+    ],
+    "unknownLabels": [],
+    "categoryLegacyId": 62
+  },
+  {
+    "legacyId": 232,
+    "model": "GB-TB-60120-3",
+    "beamAngle": [],
+    "cct": [],
+    "colors": [],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "LED60120-3.jpg"
+    ],
+    "unknownLabels": [],
+    "categoryLegacyId": 62
+  },
+  {
+    "legacyId": 233,
+    "model": "GB-TB-60120-4",
+    "beamAngle": [],
+    "cct": [],
+    "colors": [],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "LED60120-4.jpg"
+    ],
+    "unknownLabels": [],
+    "categoryLegacyId": 62
+  },
+  {
+    "legacyId": 234,
+    "model": "GB-TB-1-6060",
+    "beamAngle": [],
+    "cct": [],
+    "colors": [],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "金緯3.jpg",
+      "白.jpg",
+      "金緯3-1.jpg"
+    ],
+    "unknownLabels": [],
+    "categoryLegacyId": 62
+  },
+  {
+    "legacyId": 235,
+    "model": "GB-TB-2-60120",
+    "beamAngle": [],
+    "cct": [],
+    "colors": [],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "金緯4.jpg",
+      "白.jpg",
+      "金緯4-1.jpg"
+    ],
+    "unknownLabels": [],
+    "categoryLegacyId": 62
+  },
+  {
+    "legacyId": 236,
+    "model": "GB-TB-6060-5",
+    "beamAngle": [],
+    "cct": [],
+    "colors": [],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "直下平板燈6060.jpg",
+      "白.jpg",
+      "直下平板燈6060-1.jpg"
+    ],
+    "unknownLabels": [],
+    "categoryLegacyId": 62
+  },
+  {
+    "legacyId": 237,
+    "model": "GB-TB-60120-5",
+    "beamAngle": [],
+    "cct": [],
+    "colors": [],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "直下平板燈30120.jpg",
+      "白.jpg",
+      "直下平板燈30120-1.jpg"
+    ],
+    "unknownLabels": [],
+    "categoryLegacyId": 62
+  },
+  {
+    "legacyId": 238,
+    "model": "GB-TB-621220",
+    "beamAngle": [],
+    "cct": [],
+    "colors": [],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "金緯.jpg",
+      "白.jpg",
+      "金緯1200-1.jpg"
+    ],
+    "unknownLabels": [],
+    "categoryLegacyId": 62
+  },
+  {
+    "legacyId": 239,
+    "model": "GB-TB-1501220",
+    "beamAngle": [],
+    "cct": [],
+    "colors": [],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "金緯2.jpg",
+      "白.jpg",
+      "金緯2-1.jpg"
+    ],
+    "unknownLabels": [],
+    "categoryLegacyId": 62
+  },
+  {
+    "legacyId": 240,
+    "model": "GB-HB-150-1",
+    "beamAngle": [],
+    "cct": [],
+    "colors": [],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "耀源天井燈100-240W.jpg"
+    ],
+    "unknownLabels": [],
+    "categoryLegacyId": 63
+  },
+  {
+    "legacyId": 241,
+    "model": "GB-HB-618",
+    "beamAngle": [],
+    "cct": [],
+    "colors": [],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "金緯HBL618.jpg"
+    ],
+    "unknownLabels": [],
+    "categoryLegacyId": 63
+  },
+  {
+    "legacyId": 242,
+    "model": "GB-OF-050",
+    "beamAngle": [],
+    "cct": [],
+    "colors": [],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "耀源50W.jpg"
+    ],
+    "unknownLabels": [],
+    "categoryLegacyId": 63
+  },
+  {
+    "legacyId": 243,
+    "model": "GB-HB-668",
+    "beamAngle": [],
+    "cct": [],
+    "colors": [],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "金緯HBL688.jpg"
+    ],
+    "unknownLabels": [],
+    "categoryLegacyId": 63
+  },
+  {
+    "legacyId": 244,
+    "model": "GB-OF-100",
+    "beamAngle": [],
+    "cct": [],
+    "colors": [],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "耀源100W.jpg"
+    ],
+    "unknownLabels": [],
+    "categoryLegacyId": 63
+  },
+  {
+    "legacyId": 245,
+    "model": "GB-OF-150",
+    "beamAngle": [],
+    "cct": [],
+    "colors": [],
+    "extras": {},
+    "notes": [],
+    "images": [
+      "耀源150W.jpg"
+    ],
+    "unknownLabels": [],
+    "categoryLegacyId": 63
+  }
+]

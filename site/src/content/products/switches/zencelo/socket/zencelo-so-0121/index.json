@@ -1,0 +1,14 @@
+{
+  "kind": "switch",
+  "model": "ZENCELO-SO-0121",
+  "series": "zencelo",
+  "type": "socket",
+  "description": [
+    "緊急壓扣開關(白色)"
+  ],
+  "images": [
+    "/products/zencelo-so-0121-1.webp"
+  ],
+  "order": 51,
+  "legacyCategoryId": 582
+}

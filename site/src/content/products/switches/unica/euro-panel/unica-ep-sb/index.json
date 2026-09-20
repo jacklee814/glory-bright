@@ -1,0 +1,15 @@
+{
+  "kind": "switch",
+  "model": "UNICA-EP-SB",
+  "series": "unica",
+  "type": "panel",
+  "description": [
+    "天空藍 SB",
+    "需搭配安裝架(另計)"
+  ],
+  "images": [
+    "/products/unica-ep-sb-1.webp"
+  ],
+  "order": 17,
+  "legacyCategoryId": 597
+}

@@ -4,7 +4,7 @@ import { buildReport } from '../src/report.ts';
 
 test('報告列出無規格產品', () => {
   const report = buildReport({
-    lights: [{ legacyId: 238, model: '', beamAngle: [], cct: [], colors: [], images: ['a.png'], unknownLabels: [], categoryLegacyId: 42 }],
+    lights: [{ legacyId: 238, model: '', beamAngle: [], cct: [], colors: [], extras: {}, notes: [], images: ['a.png'], unknownLabels: [], categoryLegacyId: 42 }],
     switches: [], missingImages: [],
   });
   assert.match(report, /238/);
@@ -18,12 +18,14 @@ test('報告列出重複型號', () => {
   assert.match(report, /010102/);
 });
 
-test('報告列出未知標籤', () => {
+test('非標準欄位列為已保留通知，而非待辦問題', () => {
   const report = buildReport({
-    lights: [{ legacyId: 500, model: 'GB-X', watt: 9, beamAngle: [], cct: [], colors: [], images: ['a.png'], unknownLabels: ['保固年限'], categoryLegacyId: 42 }],
+    lights: [{ legacyId: 500, model: 'GB-X', watt: 9, beamAngle: [], cct: [], colors: [], extras: { 保固年限: '3 年' }, notes: [], images: ['a.png'], unknownLabels: ['保固年限'], categoryLegacyId: 42 }],
     switches: [], missingImages: [],
   });
   assert.match(report, /保固年限/);
+  assert.match(report, /已保留於 extras/);
+  assert.match(report, /無待處理項目/, '有 extras 不代表有待辦問題');
 });
 
 test('報告列出 snapshot 缺少的圖檔', () => {
@@ -34,7 +36,7 @@ test('報告列出 snapshot 缺少的圖檔', () => {
 
 test('完全乾淨的資料產生無待辦的報告', () => {
   const report = buildReport({
-    lights: [{ legacyId: 120, model: 'GB-DMR-2060-1', watt: 9, beamAngle: [20], cct: [3000], colors: ['白'], images: ['a.png'], unknownLabels: [], categoryLegacyId: 42 }],
+    lights: [{ legacyId: 120, model: 'GB-DMR-2060-1', watt: 9, beamAngle: [20], cct: [3000], colors: ['白'], extras: {}, notes: [], images: ['a.png'], unknownLabels: [], categoryLegacyId: 42 }],
     switches: [], missingImages: [],
   });
   assert.match(report, /無待處理項目/);

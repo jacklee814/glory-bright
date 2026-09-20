@@ -1,0 +1,15 @@
+{
+  "kind": "switch",
+  "model": "ZENCELO-SW-5SBZ",
+  "series": "zencelo",
+  "type": "switch",
+  "description": [
+    "埋入式五開三路開關",
+    "125V 15A"
+  ],
+  "images": [
+    "/products/zencelo-sw-5sbz-1.webp"
+  ],
+  "order": 26,
+  "legacyCategoryId": 581
+}

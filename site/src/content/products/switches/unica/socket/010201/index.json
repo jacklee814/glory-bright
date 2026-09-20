@@ -1,0 +1,14 @@
+{
+  "kind": "switch",
+  "model": "010201",
+  "series": "unica",
+  "type": "socket",
+  "description": [
+    "菸草木色 單插座"
+  ],
+  "images": [
+    "/products/010201-1.webp"
+  ],
+  "order": 7,
+  "legacyCategoryId": 579
+}

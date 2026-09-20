@@ -1,0 +1,15 @@
+{
+  "kind": "switch",
+  "model": "UNICA-EP-CC",
+  "series": "unica",
+  "type": "panel",
+  "description": [
+    "可可亞 CC",
+    "需搭配安裝架(另計)"
+  ],
+  "images": [
+    "/products/unica-ep-cc-1.webp"
+  ],
+  "order": 15,
+  "legacyCategoryId": 597
+}

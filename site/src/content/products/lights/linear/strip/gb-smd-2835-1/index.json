@@ -1,0 +1,26 @@
+{
+  "kind": "light",
+  "model": "GB-SMD-2835-1",
+  "watt": 10,
+  "beamAngle": [],
+  "cct": [
+    3000,
+    4000,
+    6500
+  ],
+  "dimensions": "W :8mm H :13mm L :5M (一捲)",
+  "voltage": "DC12V / 24V",
+  "colors": [],
+  "extras": {},
+  "notes": [
+    "2835柔性軟帶燈(貼片式)",
+    "※ 變壓器，另計"
+  ],
+  "images": [
+    "/products/gb-smd-2835-1-1.webp",
+    "/products/gb-smd-2835-1-2.webp",
+    "/products/gb-smd-2835-1-3.webp"
+  ],
+  "order": 120,
+  "legacyId": 228
+}

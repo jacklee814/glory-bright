@@ -1,0 +1,30 @@
+{
+  "kind": "light",
+  "model": "GB-DMU-2058-2",
+  "watt": 6,
+  "beamAngle": [
+    25
+  ],
+  "cct": [
+    2700,
+    5000
+  ],
+  "cri": 85,
+  "cutoutDia": 58,
+  "dimensions": "W 75*H 30mm",
+  "voltage": "AC100V-240V",
+  "colors": [
+    "白",
+    "金",
+    "亮銀"
+  ],
+  "extras": {},
+  "notes": [],
+  "images": [
+    "/products/gb-dmu-2058-2-1.webp",
+    "/products/gb-smd-2050-1-2.webp",
+    "/products/gb-dmu-2058-2-3.webp"
+  ],
+  "order": 94,
+  "legacyId": 202
+}
