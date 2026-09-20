@@ -6,7 +6,7 @@ const models=(await products()).map(p=>({model:p.data.model,url:productUrl(p.dat
 ---
 <header>
   <div class="wrap header-row">
-    <a href={siteUrl('/')} class="mono brand">GLORY BRIGHT<span>榮輝照明科技</span></a>
+    <a href={siteUrl('/')} class="mono brand">GLORY BRIGHT LIGHTING<span>榮輝照明科技</span></a>
     <nav class="desktop-nav" aria-label="主要導覽">
       <a href={siteUrl('/')}>首頁</a>
       <div class="catalog-menu"><a href={siteUrl('/products/')}>產品介紹</a><div class="mega-menu"><a href={siteUrl('/products/')}>全部產品 →</a>{cats.map(c=><a style={`padding-left:${(categoryPath(c.id).split('/').length-1)*16}px`} href={siteUrl(`/products/${categoryPath(c.id)}/`)}>{c.data.name}</a>)}</div></div>
