@@ -1,0 +1,116 @@
+﻿﻿			<!DOCTYPE html>
+<html>
+<head>
+	<title>榮輝照明科技有限公司-UNICA、ZENCELO開關、面板</title>
+	<meta name="keywords" content="榮輝照明,UNICA,ZENCELO,開關,面板,燈具" />
+  <meta name="description" content="創心資訊網頁設計" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/menu.css" type="text/css" /> 
+	<script type ="text/javascript" src ="js/jquery-1.7.2.min.js"></script>
+	<script type ="text/javascript" src ="js/scriptbreaker-multiple-accordion-1.js"></script>
+	<script type ="text/javascript" src ="js/function.js"></script>
+	<script type ="text/javascript" src="js/ajax.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<style type="text/css">
+	body {
+		-moz-user-select : none;
+		-webkit-user-select: none;
+		}
+	</style>
+	<script type="text/javascript">
+		function iEsc(){ return false; }
+		function iRec(){ return true; }
+		function DisableKeys() {
+		if(event.ctrlKey || event.shiftKey || event.altKey) {
+		window.event.returnValue=false;
+		iEsc();}
+		}
+		document.ondragstart=iEsc;
+		document.onkeydown=DisableKeys;
+		document.oncontextmenu=iEsc;
+		if (typeof document.onselectstart !="undefined")
+		document.onselectstart=iEsc;
+		else{
+		document.onmousedown=iEsc;
+		document.onmouseup=iRec;
+		}
+		function DisableRightClick(qsyzDOTnet){
+		if (window.Event){
+		if (qsyzDOTnet.which == 2 || qsyzDOTnet.which == 3)
+		iEsc();}
+		else
+		if (event.button == 2 || event.button == 3){
+		event.cancelBubble = true
+		event.returnValue = false;
+		iEsc();}
+		}
+	</script>
+	<style type="text/css">  
+	#slideshow   
+	{    
+	    top: 0px;   
+	    left: 0px;    
+	    float: absolute;    
+	    width: 940px;    
+	    height: 400px;  
+	    z-index: -5;   
+	}   
+	</style>  
+	<script src="js/jquery.cycle.lite.js" type="text/javascript"></script>
+	<script src="js/jquery.cycle.all.js" type="text/javascript"></script>
+	<script type="text/javascript">
+    $(document).ready(function () { 
+    $('#slideshow').cycle({ 
+         //fx: 'zoom', fx不設定代表預設值
+         speed: 'fast', 
+         timeout: 5000, 
+         speedIn:  1500, 
+    		 speedOut: 500, 
+         slideexpr: 'img',
+         next:   '#next2', 
+    	    prev:   '#prev2'
+      }); 
+	});
+</script>
+</head>
+<body>
+<div class ="index_framework">
+		<div class ="banner">
+			<!--頁面banner-->
+			<img src ="images/banner.jpg" width ="940" height ="150">		</div>
+		<div class ="navigation">
+			<span><a href ="index.php">首&nbsp&nbsp&nbsp&nbsp頁</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<span><a href ="category.php">產品介紹</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<span><a href ="sample.php"><!--安裝案例--></a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<span><a href ="news.php">最新消息</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<span><a href ="contact_us.php">聯絡我們</a></span>
+						</div>
+		<!--左邊伸縮選單-->
+		<div class ="left">
+			
+		</div>
+			<!--網頁內容-->
+		<div class ="index_content">
+			<div class ="prev">
+				<a id="prev2" href="#"><img src ="images/arrow-prev.png" width"50" height ="120"></a>  <!---jQuery -->
+			</div>
+			<div class ="next">
+					<a id="next2" href="#"><img src ="images/arrow-next.png" width"50" height ="120"></a>
+			</div>
+
+				<!--<img src ="images/blank.png">-->
+				<div id="slideshow">
+    				<img src="images/blank.png"/>
+    				<img src="images/blank1.png"/>
+    				<img src="images/0.jpg"/>
+    				<img src="images/1.jpg"/>
+				</div>
+
+			<div class ="index_footer">
+				<div align ="center">榮輝照明科技有限公司</div>
+<div align ="center">(02)2632-8828 &nbsp&nbsp (02)2632-8728</div>
+<div align ="center">台北市內湖區康寧路三段265巷33號1F</div>			</div>
+		</div>
+</div>
+</body>
+</html>

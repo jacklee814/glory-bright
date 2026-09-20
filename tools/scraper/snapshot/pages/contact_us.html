@@ -1,0 +1,139 @@
+﻿﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>榮輝照明科技-聯絡我們</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/menu.css" type="text/css" /> 
+	<script type ="text/javascript" src ="js/menu.js"></script>
+	<script type ="text/javascript" src ="js/scriptbreaker-multiple-accordion-1.js"></script>
+	<script type ="text/javascript" src ="js/function.js"></script>
+	<script type ="text/javascript" src="js/ajax.js"></script>
+	<style type="text/css">
+		body {
+		-moz-user-select : none;
+		-webkit-user-select: none;
+		}
+	</style>
+	<script type="text/javascript">
+		function iEsc(){ return false; }
+		function iRec(){ return true; }
+		function DisableKeys() {
+		if(event.ctrlKey || event.shiftKey || event.altKey) {
+		window.event.returnValue=false;
+		iEsc();}
+		}
+		document.ondragstart=iEsc;
+		document.onkeydown=DisableKeys;
+		document.oncontextmenu=iEsc;
+		if (typeof document.onselectstart !="undefined")
+		document.onselectstart=iEsc;
+		else{
+		document.onmousedown=iEsc;
+		document.onmouseup=iRec;
+		}
+		function DisableRightClick(qsyzDOTnet){
+		if (window.Event){
+		if (qsyzDOTnet.which == 2 || qsyzDOTnet.which == 3)
+		iEsc();}
+		else
+		if (event.button == 2 || event.button == 3){
+		event.cancelBubble = true
+		event.returnValue = false;
+		iEsc();}
+		}
+	</script>
+	<script type ="javascript/text">
+		function reloadcode(){
+
+			var d = new Date();
+			
+			document.getElementById('safecode2').src="imgcode.php?t="+d.toTimeString()
+
+	}
+	</script>
+</head>
+<body>
+<div class ="framework">
+			<div class ="banner">
+			<!--頁面banner-->
+			<img src ="images/banner.jpg" width ="940" height ="150">		</div>
+
+		<div class ="navigation">
+			<!--導航列-->
+			<span><a href ="index.php">首&nbsp&nbsp&nbsp&nbsp頁</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<span><a href ="category.php">產品介紹</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<span><a href ="sample.php"><!--安裝案例--></a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<span><a href ="news.php">最新消息</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<span><a href ="contact_us.php">聯絡我們</a></span>
+						</div>
+
+		<div class ="left">
+			<!--左邊伸縮選單-->
+				<ul class="topnav_cat" >
+			<li align ="center">●聯絡我們<br><br><br></li>
+	</ul>
+			</div>
+
+			<!--網頁內容-->
+			<!--<div class ="title_goods">
+					<table>
+							<tr>
+									<td align ="center"><font color ="black" size ="4">&nbsp&nbsp<a href ="contact_us.php">聯絡我們</a></font></td>
+							</tr>
+					</table><br><br>
+			</div>-->
+			<div class ="content">		
+				<span id ="link_nav">&nbsp<a href ="index.php">首頁</a>->連絡我們</span><br><hr>
+					<div id ="contact_id"><br>
+						<form method ="POST" action ="#" name ="form1" id ="form1">
+							<table align ="center" border ="0" width ="600">
+									<tr>
+											<td><font size ="4">榮輝照明科技有限公司</font></td>
+									</tr>
+									<tr>
+											<td><font size ="3">台北市內湖區民權東路六段180巷6號5樓之12</font></td>
+									</tr>
+									<tr>
+											<td><font size ="3">電話:(02)2632-8828</font></td>
+									</tr>
+									<tr>
+											<td><font size ="3">傳真:(02)2632-8728</font></td>
+									</tr>
+									<tr>
+											<td id ="link"><font size ="3"><a href ="mailto:glory.bright@msa.hinet.net">E-mail:glory.bright@msa.hinet.net</a></font></td>
+									</tr>
+									<tr>
+											<td><font size ="3">聯絡姓名: <input type ="text" name ="name" size ="50"></font><font color ="red">*</font></td>
+									</tr>
+									<tr>
+											<td><font size ="3">聯絡電話: <input type ="text" name ="tel" size ="50"></font><font color ="red">*</font></td>
+									</tr>
+									<tr>
+											<td><font size ="3">E &nbsp- &nbspmail: <input type ="mail" name ="mail" size ="50"></font><font color ="red">*</font></td>
+									</tr>
+									<tr>
+											<td><font size ="3">建&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp議: </font><textarea name ="remark" rows ="5" cols = "44"></textarea></td>
+									</tr>
+									<tr><!--onClick ="reloadcode();" -->
+											<td><font size ="3">驗 &nbsp證 &nbsp碼:</font> <input type ="text" name ="check_code" size ="10" id="check_code" class ="check_code">&nbsp&nbsp<img id="safecode2" src="imgcode.php"  /></font></td>
+									</tr>
+									<tr>
+											<td align = "center"><input type ="submit" value ="送出">&nbsp <input type ="reset" value ="重新輸入"></td>
+									</tr>
+									<tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr>
+									<tr>
+											<td><iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3613.991297683143!2d121.58984837496386!3d25.06828408691092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z5Y-w5YyX5biC5YWn5rmW5Y2A5rCR5qyK5p2x6Lev5YWt5q61MTgw5be3NuiZnzXmqJPkuYsxMg!5e0!3m2!1szh-TW!2stw!4v1692626819427!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+									</tr>
+									</table>
+							</form>
+					</div>
+					
+					<div class ="footer_us">
+						<div align ="center">榮輝照明科技有限公司</div>
+<div align ="center">(02)2632-8828 &nbsp&nbsp (02)2632-8728</div>
+<div align ="center">台北市內湖區康寧路三段265巷33號1F</div>					</div>
+			</div>
+
+</div>
+</body>
+</html>
