@@ -1,5 +1,0 @@
----
-import { siteUrl } from '../../lib/url';
-import BaseLayout from '../../layouts/BaseLayout.astro'; import { getCollection } from 'astro:content'; const news=(await getCollection('news')).filter(n=>!n.data.draft).sort((a,b)=>b.data.date.getTime()-a.data.date.getTime());
----
-<BaseLayout title="最新消息 | 榮輝照明科技"><div class="wrap" style="padding:2rem 0"><p><a href={siteUrl('/')}>首頁</a> › 最新消息</p><h1>最新消息</h1>{news.map(n=><article style="border-top:1px solid var(--color-line);padding:1.5rem 0"><p class="mono">{n.data.date.toISOString().slice(0,10)}</p><h2><a href={siteUrl(`/news/${n.id}/`)}>{n.data.title}</a></h2></article>)}</div></BaseLayout>

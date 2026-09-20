@@ -16,7 +16,7 @@
 
 ## 已排除的功能
 
-本站**刻意不提供**產品篩選、產品比較與電話／E-mail 詢價 CTA。這是 2026-09-20 業主確認的範圍縮減，不是尚未實作的待辦。`docs/superpowers/plans/2026-09-20-static-catalog-site.md` 的 Task 4（漸進增強互動）已作廢，請勿依該計畫把功能加回來。
+本站**刻意不提供**產品篩選、產品比較、電話／E-mail 詢價 CTA 與最新消息頁面。這是 2026-09-20 業主確認的範圍縮減，不是尚未實作的待辦。`docs/superpowers/plans/2026-09-20-static-catalog-site.md` 的 Task 4（漸進增強互動）已作廢，請勿依該計畫把功能加回來。
 
 產品列表由 `site/src/components/ProductGrid.astro` 呈現，是不含互動控制項的純列表。分類階層本身就是收斂產品範圍的方式。Header 的型號搜尋不在縮減範圍內，仍然保留。
 
@@ -40,7 +40,6 @@
 ## 上線前必補項目
 
 - 由業主確認公司地址（舊站頁尾與聯絡頁的地址不一致）、Logo SVG、Hero 情境照與型錄 PDF。
-- 替換 `site/src/content/news/` 的 4 則示範消息。
 - `tools/scraper/report.md` 內標示需人工補齊的產品規格，需向業主取得後補上。
 - 產品圖目前沿用舊站小圖（200×200／300×300），建議取得高解析原圖後重新轉檔。
 - 在 GitHub Pages 設為 GitHub Actions，完成 DNS 後啟用 HTTPS。
