@@ -144,7 +144,7 @@ async function writeCategory(path: string, name: string, order: number, coverFil
 }
 
 await writeCategory('lights', '燈具', 1, undefined, '依空間與開孔尺寸選擇專業照明');
-await writeCategory('switches', '開關面板', 2, undefined, 'Schneider Electric UNICA 與 ZENcelo 系列');
+await writeCategory('switches', '開關面板', 2);
 
 for (const category of [...new Map(LIGHT_CATEGORIES.map(item => [item.parentSlug, item])).values()]) {
   await writeCategory(`lights/${category.parentSlug}`, category.parentName, category.parentOrder, lightTopCovers.get(category.parentLegacyName));
