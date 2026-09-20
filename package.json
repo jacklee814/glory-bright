@@ -1,0 +1,6 @@
+{
+  "name": "glory-bright",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "scripts": { "build": "pnpm --filter site build", "typecheck": "pnpm --filter site typecheck" }
+}
