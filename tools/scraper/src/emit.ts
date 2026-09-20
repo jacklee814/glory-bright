@@ -5,6 +5,7 @@ import { productSchema, categorySchema } from '@glory-bright/shared/schema';
 import { modelSlug } from '@glory-bright/shared/slug';
 import { LIGHT_CATEGORIES, SWITCH_CATEGORIES } from './taxonomy.ts';
 import { imageName, toWebp } from './images.ts';
+import { HERO_IMAGES } from './hero.ts';
 import type { LightRow } from './report.ts';
 import type { SwitchRecord } from './parse-switch.ts';
 
@@ -51,6 +52,20 @@ async function emitImages(model: string, files: string[]): Promise<string[]> {
     written.push(path);
   }
   return written;
+}
+
+// 首頁輪播圖
+const heroRoot = join(repo, 'site', 'public', 'hero');
+await rm(heroRoot, { recursive: true, force: true });
+await mkdir(heroRoot, { recursive: true });
+for (const hero of HERO_IMAGES) {
+  const source = join(root, 'snapshot', 'images', hero.file);
+  if (!await exists(source)) { failures.push(`輪播圖缺少來源檔 ${hero.file}`); continue; }
+  try {
+    await toWebp(source, join(heroRoot, `${hero.slug}.webp`));
+  } catch (error) {
+    failures.push(`輪播圖 ${hero.file} 轉檔失敗 — ${error}`);
+  }
 }
 
 // 分類 _category.json

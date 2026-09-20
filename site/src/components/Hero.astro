@@ -1,0 +1,42 @@
+---
+import { siteUrl } from '../lib/url';
+
+/** 與 tools/scraper/src/hero.ts 的 HERO_IMAGES 對應，由 emit 轉成 WebP 輸出到 /hero/。 */
+const slides = [
+  { slug: 'unica-living',  alt: 'Unica 全彩智能開關情境照：綠色牆面客廳中的雙切開關面板' },
+  { slug: 'zencelo-lounge', alt: 'ZENcelo 點藏純平開關情境照：木質牆面休閒椅旁的純平開關面板' },
+  { slug: 'unica-top',     alt: 'Unica Top 系列面板材質一覽：原木、金屬與多聯大型面板型號對照' },
+  { slug: 'unica-plus',    alt: 'Unica Plus 系列面板材質一覽：塑膠材質與多聯大型面板型號對照' },
+];
+---
+<section class="hero" aria-label="產品情境輪播">
+  <ul class="track">
+    {slides.map((slide, index) => (
+      <li id={`slide-${index + 1}`}>
+        <img src={siteUrl(`/hero/${slide.slug}.webp`)} alt={slide.alt} width="940" height="400" loading={index === 0 ? 'eager' : 'lazy'}/>
+      </li>
+    ))}
+  </ul>
+  <p class="dots">
+    {slides.map((slide, index) => <a href={`#slide-${index + 1}`} aria-label={`第 ${index + 1} 張：${slide.alt}`}>{index + 1}</a>)}
+  </p>
+</section>
+<style>
+  .hero { margin:0 0 2rem; }
+  .track {
+    display:flex; list-style:none; margin:0; padding:0; gap:0;
+    overflow-x:auto; scroll-snap-type:x mandatory; scroll-behavior:smooth;
+    border:1px solid var(--color-line); background:var(--color-surface);
+  }
+  .track li { flex:0 0 100%; scroll-snap-align:center; }
+  .track img { display:block; width:100%; height:auto; }
+  .dots { display:flex; justify-content:center; gap:.5rem; margin:.75rem 0 0; }
+  .dots a {
+    display:inline-flex; align-items:center; justify-content:center;
+    width:2rem; height:2rem; border:1px solid var(--color-line);
+    text-decoration:none; font-family:var(--font-mono); background:var(--color-surface);
+  }
+  .dots a:hover, .dots a:focus-visible { background:var(--color-accent); }
+  /* 尊重使用者的減少動態偏好 */
+  @media (prefers-reduced-motion: reduce) { .track { scroll-behavior:auto; } }
+</style>
