@@ -1,9 +1,14 @@
+import { execFile } from 'node:child_process';
+import { promisify } from 'node:util';
+
+const run = promisify(execFile);
+
 /** 舊站主機在請求過密時回傳 HTTP 200 但內容為 HiNet WFS 攔截頁，必須視為失敗。 */
 export class InterceptError extends Error {
   constructor(url: string) { super(`舊站回傳 HiNet 攔截頁，請加大間隔後重試：${url}`); this.name = 'InterceptError'; }
 }
 export class HttpError extends Error {
-  constructor(url: string, status: number) { super(`HTTP ${status}：${url}`); this.name = 'HttpError'; }
+  constructor(url: string, detail: string) { super(`抓取失敗：${url} — ${detail}`); this.name = 'HttpError'; }
 }
 
 export function isInterceptPage(html: string): boolean {
@@ -25,23 +30,34 @@ const USER_AGENT = 'Mozilla/5.0 (compatible; GloryBrightMigration/1.0)';
 /** 舊站是 Apache 1.3.39 且受 HiNet 流量管控，間隔取 3 秒。 */
 export const limiter = new RateLimiter(3000);
 
-async function request(url: string): Promise<Response> {
+/**
+ * 以 curl 取代 Node 的 fetch。
+ *
+ * 舊站的 Apache 1.3.39 送出的 chunked encoding 不符 HTTP/1.1 規範，undici 會以
+ * 「Invalid character in chunk size」中止連線並丟出 TypeError: terminated。curl
+ * 對此較為寬容，能完整取回內容，因此傳輸層一律走 curl。
+ */
+async function request(url: string): Promise<Buffer> {
   await limiter.wait();
-  const response = await fetch(url, { headers: { 'User-Agent': USER_AGENT }, redirect: 'follow' });
-  if (!response.ok) throw new HttpError(url, response.status);
-  return response;
-}
-
-/** 舊站是 UTF-8 with BOM，去掉 BOM 以免污染第一個標籤。 */
-async function readText(response: Response): Promise<string> {
-  return (await response.text()).replace(/^﻿/, '');
+  try {
+    const { stdout } = await run(
+      'curl',
+      ['-sS', '--fail', '--location', '--max-time', '45', '--user-agent', USER_AGENT, url],
+      { encoding: 'buffer', maxBuffer: 64 * 1024 * 1024 },
+    );
+    return stdout;
+  } catch (error) {
+    const stderr = (error as { stderr?: Buffer }).stderr?.toString().trim();
+    throw new HttpError(url, stderr || String(error));
+  }
 }
 
 export async function fetchText(url: string, options: { retries?: number } = {}): Promise<string> {
   const retries = options.retries ?? 2;
   for (let attempt = 0; ; attempt++) {
     try {
-      const html = await readText(await request(url));
+      // 舊站是 UTF-8 with BOM，去掉 BOM 以免污染第一個標籤。
+      const html = (await request(url)).toString('utf8').replace(/^﻿/, '');
       if (isInterceptPage(html)) throw new InterceptError(url);
       return html;
     } catch (error) {
@@ -54,6 +70,5 @@ export async function fetchText(url: string, options: { retries?: number } = {})
 }
 
 export async function fetchBinary(url: string): Promise<Buffer> {
-  const response = await request(url);
-  return Buffer.from(await response.arrayBuffer());
+  return request(url);
 }

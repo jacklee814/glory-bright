@@ -1,0 +1,58 @@
+---
+import { siteUrl } from '../lib/url';
+import { categories, categoryPath } from '../lib/catalog';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props { current?: string }
+const { current } = Astro.props;
+
+const all = await categories();
+/** 依路徑深度重建樹狀結構，沿用舊站「產品介紹 → 大類 → 子類」的三層概念。 */
+const depth = (entry: CollectionEntry<'categories'>) => categoryPath(entry.id).split('/').length;
+const childrenOf = (path: string, level: number) =>
+  all.filter(entry => categoryPath(entry.id).startsWith(`${path}/`) && depth(entry) === level);
+const roots = all.filter(entry => depth(entry) === 1);
+const isCurrent = (path: string) => current === path;
+---
+<nav class="sidebar" aria-label="產品分類">
+  <h2>產品介紹</h2>
+  <ul class="roots">
+    {roots.map(root => {
+      const rootPath = categoryPath(root.id);
+      return (
+        <li>
+          <a href={siteUrl(`/products/${rootPath}/`)} class="root" aria-current={isCurrent(rootPath) ? 'page' : undefined}>{root.data.name}</a>
+          <ul>
+            {childrenOf(rootPath, 2).map(branch => {
+              const branchPath = categoryPath(branch.id);
+              return (
+                <li>
+                  <a href={siteUrl(`/products/${branchPath}/`)} class="branch" aria-current={isCurrent(branchPath) ? 'page' : undefined}>{branch.data.name}</a>
+                  <ul>
+                    {childrenOf(branchPath, 3).map(leaf => {
+                      const leafPath = categoryPath(leaf.id);
+                      return <li><a href={siteUrl(`/products/${leafPath}/`)} class="leaf" aria-current={isCurrent(leafPath) ? 'page' : undefined}>{leaf.data.name}</a></li>;
+                    })}
+                  </ul>
+                </li>
+              );
+            })}
+          </ul>
+        </li>
+      );
+    })}
+  </ul>
+</nav>
+<style>
+  .sidebar { background:var(--color-surface); border:1px solid var(--color-line); padding:1rem; align-self:start; }
+  .sidebar h2 { margin:0 0 .75rem; padding-bottom:.75rem; border-bottom:2px solid var(--color-accent); font-size:1rem; }
+  ul { list-style:none; margin:0; padding:0; }
+  li { margin:0; }
+  a { display:block; padding:.45rem .5rem; text-decoration:none; border-radius:2px; }
+  a:hover, a:focus-visible { background:#fff3d8; }
+  a[aria-current="page"] { background:var(--color-accent); font-weight:700; }
+  .root { font-weight:700; margin-top:.5rem; }
+  .branch { padding-left:1.25rem; }
+  .leaf { padding-left:2.5rem; color:var(--color-muted); font-size:.92rem; }
+  .roots > li + li { border-top:1px solid var(--color-line); margin-top:.5rem; padding-top:.25rem; }
+</style>
