@@ -1,14 +1,8 @@
 {
   "kind": "light",
   "model": "GB-OF-150",
-  "beamAngle": [],
-  "cct": [],
-  "colors": [],
-  "extras": {},
-  "notes": [],
   "images": [
     "/products/gb-of-150-1.webp"
   ],
-  "order": 137,
-  "legacyId": 245
+  "order": 137
 }

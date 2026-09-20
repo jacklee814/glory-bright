@@ -1,15 +1,8 @@
 {
   "kind": "switch",
   "model": "ZENCELO-SO-0108",
-  "series": "zencelo",
-  "type": "socket",
-  "description": [
-    "埋入式2P20A單插座(白色)",
-    "250V 2P20A 3PIN"
-  ],
   "images": [
     "/products/zencelo-so-0108-1.webp"
   ],
-  "order": 48,
-  "legacyCategoryId": 582
+  "order": 48
 }

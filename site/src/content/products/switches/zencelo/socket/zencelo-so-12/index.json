@@ -1,14 +1,8 @@
 {
   "kind": "switch",
   "model": "ZENCELO-SO-12",
-  "series": "zencelo",
-  "type": "socket",
-  "description": [
-    "電視插座"
-  ],
   "images": [
     "/products/zencelo-so-12-1.webp"
   ],
-  "order": 40,
-  "legacyCategoryId": 582
+  "order": 40
 }

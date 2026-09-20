@@ -1,15 +1,8 @@
 {
   "kind": "switch",
   "model": "UNICA-EP-MI",
-  "series": "unica",
-  "type": "panel",
-  "description": [
-    "皮革色 MI",
-    "需搭配安裝架(另計)"
-  ],
   "images": [
     "/products/unica-ep-mi-1.webp"
   ],
-  "order": 18,
-  "legacyCategoryId": 597
+  "order": 18
 }

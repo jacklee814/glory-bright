@@ -1,14 +1,8 @@
 {
   "kind": "switch",
   "model": "ZENCELO-SO-08",
-  "series": "zencelo",
-  "type": "socket",
-  "description": [
-    "緊急壓扣"
-  ],
   "images": [
     "/products/zencelo-so-08-1.webp"
   ],
-  "order": 39,
-  "legacyCategoryId": 582
+  "order": 39
 }

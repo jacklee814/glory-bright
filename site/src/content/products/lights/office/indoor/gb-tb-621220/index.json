@@ -1,16 +1,10 @@
 {
   "kind": "light",
   "model": "GB-TB-621220",
-  "beamAngle": [],
-  "cct": [],
-  "colors": [],
-  "extras": {},
-  "notes": [],
   "images": [
     "/products/gb-tb-621220-1.webp",
     "/products/gb-smd-2050-1-2.webp",
     "/products/gb-tb-621220-3.webp"
   ],
-  "order": 130,
-  "legacyId": 238
+  "order": 130
 }

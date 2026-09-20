@@ -1,15 +1,8 @@
 {
   "kind": "switch",
   "model": "010102",
-  "series": "unica",
-  "type": "switch",
-  "description": [
-    "純銅色 金屬 三切開關",
-    "三路對切"
-  ],
   "images": [
     "/products/010102-1.webp"
   ],
-  "order": 1,
-  "legacyCategoryId": 578
+  "order": 1
 }

@@ -1,14 +1,8 @@
 {
   "kind": "switch",
   "model": "ZENCELO-SO-13",
-  "series": "zencelo",
-  "type": "socket",
-  "description": [
-    "網路+電話插座"
-  ],
   "images": [
     "/products/zencelo-so-13-1.webp"
   ],
-  "order": 42,
-  "legacyCategoryId": 582
+  "order": 42
 }

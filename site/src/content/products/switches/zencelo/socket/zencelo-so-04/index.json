@@ -1,15 +1,8 @@
 {
   "kind": "switch",
   "model": "ZENCELO-SO-04",
-  "series": "zencelo",
-  "type": "socket",
-  "description": [
-    "埋入式2P20A單插座",
-    "2P20A"
-  ],
   "images": [
     "/products/zencelo-so-04-1.webp"
   ],
-  "order": 36,
-  "legacyCategoryId": 582
+  "order": 36
 }

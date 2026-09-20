@@ -1,14 +1,8 @@
 {
   "kind": "switch",
   "model": "ZENCELO-SO-0111",
-  "series": "zencelo",
-  "type": "socket",
-  "description": [
-    "電視插座(白色)"
-  ],
   "images": [
     "/products/zencelo-so-0111-1.webp"
   ],
-  "order": 53,
-  "legacyCategoryId": 582
+  "order": 53
 }

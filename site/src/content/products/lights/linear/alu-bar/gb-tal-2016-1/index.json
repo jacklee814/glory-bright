@@ -1,33 +1,10 @@
 {
   "kind": "light",
   "model": "GB-TAL-2016-1",
-  "name": "三角型鋁條燈",
-  "watt": 10,
-  "beamAngle": [
-    120
-  ],
-  "cct": [
-    3000,
-    4000,
-    6000
-  ],
-  "dimensions": "W 16*H16*L1020mm ( 長度可訂製)",
-  "voltage": "DC12V / DC24V",
-  "colors": [
-    "鋁材質",
-    "霧面燈罩"
-  ],
-  "extras": {
-    "晶片規格": "SMD2835"
-  },
-  "notes": [
-    "※ 變壓器，另計"
-  ],
   "images": [
     "/products/gb-tal-2016-1-1.webp",
     "/products/gb-tal-2016-1-2.webp",
     "/products/gb-tal-2016-1-3.webp"
   ],
-  "order": 17,
-  "legacyId": 119
+  "order": 17
 }

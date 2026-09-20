@@ -1,14 +1,8 @@
 {
   "kind": "switch",
   "model": "ZENCELO-SO-18",
-  "series": "zencelo",
-  "type": "socket",
-  "description": [
-    "雙電話插座"
-  ],
   "images": [
     "/products/zencelo-so-18-1.webp"
   ],
-  "order": 47,
-  "legacyCategoryId": 582
+  "order": 47
 }

@@ -1,28 +1,10 @@
 {
   "kind": "light",
   "model": "GB-DMU-2030-2",
-  "watt": 3,
-  "beamAngle": [
-    25
-  ],
-  "cct": [
-    2700,
-    5000
-  ],
-  "cri": 85,
-  "cutoutDia": 30,
-  "dimensions": "W 38*H 25mm",
-  "voltage": "AC100V-240V",
-  "colors": [
-    "白"
-  ],
-  "extras": {},
-  "notes": [],
   "images": [
     "/products/gb-dmu-2030-2-1.webp",
     "/products/gb-smd-2050-1-2.webp",
     "/products/gb-dmu-2030-2-3.webp"
   ],
-  "order": 28,
-  "legacyId": 134
+  "order": 28
 }

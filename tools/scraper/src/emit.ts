@@ -87,11 +87,7 @@ for (const [index, row] of lights.entries()) {
   models.add(model);
   const images = await emitImages(model, row.images);
   if (images.length === 0) { failures.push(`${model}：無可用圖片，略過`); continue; }
-  const product = productSchema.parse({
-    kind: 'light', model, name: row.name, watt: row.watt, beamAngle: row.beamAngle, cct: row.cct, cri: row.cri,
-    cutoutDia: row.cutoutDia, dimensions: row.dimensions, voltage: row.voltage, socket: row.socket,
-    colors: row.colors, extras: row.extras, notes: row.notes, images, order: index + 1, legacyId: row.legacyId,
-  });
+  const product = productSchema.parse({ kind: 'light', model, images, order: index + 1 });
   const path = `lights/${category.parentSlug}/${category.slug}`;
   rememberFirstImage(path, images[0]);
   await writeJson(join(contentRoot, path, modelSlug(model), 'index.json'), product);
@@ -105,10 +101,7 @@ for (const [index, row] of switches.entries()) {
   models.add(row.model);
   const images = await emitImages(row.model, row.images);
   if (images.length === 0) { failures.push(`${row.model}：無可用圖片，略過`); continue; }
-  const product = productSchema.parse({
-    kind: 'switch', model: row.model, series: row.series, type: row.type,
-    description: row.description, images, order: index + 1, legacyCategoryId: row.legacyCategoryId,
-  });
+  const product = productSchema.parse({ kind: 'switch', model: row.model, images, order: index + 1 });
   const path = `switches/${category.series}/${category.slug}`;
   rememberFirstImage(path, images[0]);
   await writeJson(join(contentRoot, path, modelSlug(row.model), 'index.json'), product);

@@ -1,14 +1,8 @@
 {
   "kind": "switch",
   "model": "ZENCELO-SO-15",
-  "series": "zencelo",
-  "type": "socket",
-  "description": [
-    "網路+電視插座"
-  ],
   "images": [
     "/products/zencelo-so-15-1.webp"
   ],
-  "order": 43,
-  "legacyCategoryId": 582
+  "order": 43
 }

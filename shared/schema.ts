@@ -3,31 +3,21 @@ import { z } from 'zod';
 export const categorySchema = z.object({
   name: z.string(), order: z.number().int(), cover: z.string().optional(), description: z.string().optional(),
 });
-export const lightSchema = z.object({
-  kind: z.literal('light'), model: z.string(),
-  // 舊站「品名」，例如「三角型鋁條燈」。
-  name: z.string().optional(),
-  // 舊站確實存在沒有任何規格欄位的產品，故 watt 為選填。
-  watt: z.number().positive().optional(),
-  beamAngle: z.array(z.number()).default([]),
-  cct: z.array(z.number()).default([]), cri: z.number().optional(), cutoutDia: z.number().optional(),
-  dimensions: z.string().optional(), voltage: z.string().optional(), socket: z.string().optional(),
-  colors: z.array(z.string()).default([]),
-  // 舊站少數非標準規格欄位（晶片規格、中心亮度、建議坪數等），原樣保留。
-  extras: z.record(z.string()).default({}),
-  // 規格區塊中沒有標籤的說明行，例如「※ 變壓器，另計」。
-  notes: z.array(z.string()).default([]),
-  images: z.array(z.string()).min(1), catalog: z.string().optional(), order: z.number().int().default(999), legacyId: z.number().int(),
+
+/**
+ * 產品只保留網站實際需要的欄位：型號（標題）、圖片、排序，以及用於標示
+ * LIGHTING／SWITCHES 的類別。
+ *
+ * 舊站的完整規格（功率、色溫、演色性、尺寸、描述、非標準欄位等）仍完整保存在
+ * `tools/scraper/data/*.json` 與 `tools/scraper/snapshot/`，日後若要恢復顯示，
+ * 在此補回欄位並調整 `emit.ts` 即可重新產生。
+ */
+export const productSchema = z.object({
+  kind: z.enum(['light', 'switch']),
+  model: z.string(),
+  images: z.array(z.string()).min(1),
+  order: z.number().int().default(999),
 });
-export const switchSchema = z.object({
-  kind: z.literal('switch'), model: z.string(), series: z.enum(['unica', 'zencelo']),
-  type: z.enum(['switch', 'socket', 'panel']),
-  // 舊站開關描述格式不一致，原樣保留而不強行結構化。
-  description: z.array(z.string()).default([]),
-  images: z.array(z.string()).min(1), catalog: z.string().optional(), order: z.number().int().default(999), legacyCategoryId: z.number().int(),
-});
-export const productSchema = z.discriminatedUnion('kind', [lightSchema, switchSchema]);
+
 export type Product = z.infer<typeof productSchema>;
-export type Light = z.infer<typeof lightSchema>;
-export type Switch = z.infer<typeof switchSchema>;
 export type Category = z.infer<typeof categorySchema>;

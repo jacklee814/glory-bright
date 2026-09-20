@@ -1,30 +1,10 @@
 {
   "kind": "light",
   "model": "GB-CBA-2021-2",
-  "watt": 12,
-  "beamAngle": [
-    12,
-    25,
-    45
-  ],
-  "cct": [
-    2700,
-    4000,
-    5000
-  ],
-  "cri": 90,
-  "dimensions": "L290 * W145 * H220mm",
-  "voltage": "AC100V-240V",
-  "colors": [
-    "黑"
-  ],
-  "extras": {},
-  "notes": [],
   "images": [
     "/products/gb-cba-2021-2-1.webp",
     "/products/gb-smd-2050-1-2.webp",
     "/products/gb-cba-2021-2-3.webp"
   ],
-  "order": 80,
-  "legacyId": 188
+  "order": 80
 }
