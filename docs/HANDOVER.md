@@ -16,9 +16,17 @@
 
 ## 已排除的功能
 
-本站**刻意不提供**產品篩選、產品比較、電話／E-mail 詢價 CTA 與最新消息頁面。這是 2026-09-20 業主確認的範圍縮減，不是尚未實作的待辦。`docs/superpowers/plans/2026-09-20-static-catalog-site.md` 的 Task 4（漸進增強互動）已作廢，請勿依該計畫把功能加回來。
+本站**刻意不提供**產品篩選、產品比較與電話／E-mail 詢價 CTA。這是 2026-09-20 業主確認的範圍縮減，不是尚未實作的待辦。`docs/superpowers/plans/2026-09-20-static-catalog-site.md` 的 Task 4（漸進增強互動）已作廢，請勿依該計畫把功能加回來。
 
 產品列表由 `site/src/components/ProductGrid.astro` 呈現，是不含互動控制項的純列表。分類階層本身就是收斂產品範圍的方式。Header 的型號搜尋不在縮減範圍內，仍然保留。
+
+## 最新消息
+
+`site/src/content/news/` 下的 Markdown，每則一個檔案。檔名格式為 `YYYY-MM-DD-slug.md`，日期前綴只用於排序與辨識，網址取後面的 slug（例如 `/news/website-launch/`）。
+
+frontmatter 欄位：`title`（必填）、`date`（必填）、`image`（選填，站內路徑如 `/hero/xxx.webp`）、`draft`（選填，設為 `true` 則不會發布）。內文為純文字段落。
+
+**目前 3 則為示範內容，正式上線前需由業主替換。**
 
 ## 資料遷移工具
 
