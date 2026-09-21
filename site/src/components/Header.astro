@@ -9,13 +9,14 @@ const cats=await categories();
     <nav class="desktop-nav" aria-label="主要導覽">
       <a href={siteUrl('/')}>首頁</a>
       <a href={siteUrl('/products/')}>產品介紹</a>
+      <a href={siteUrl('/news/')}>最新消息</a>
     </nav>
     <button type="button" id="menu-open" class="btn mobile-menu-button" aria-label="開啟導覽">選單</button>
   </div>
 </header>
 <dialog id="mobile-menu" aria-label="網站導覽">
   <form method="dialog"><button class="btn">關閉選單</button></form>
-  <nav aria-label="手機導覽"><a href={siteUrl('/')}>首頁</a><a href={siteUrl('/products/')}>全部產品</a>{cats.map(c=><a style={`padding-left:${(categoryPath(c.id).split('/').length-1)*16}px`} href={siteUrl(`/products/${categoryPath(c.id)}/`)}>{c.data.name}</a>)}</nav>
+  <nav aria-label="手機導覽"><a href={siteUrl('/')}>首頁</a><a href={siteUrl('/products/')}>全部產品</a>{cats.map(c=><a style={`padding-left:${(categoryPath(c.id).split('/').length-1)*16}px`} href={siteUrl(`/products/${categoryPath(c.id)}/`)}>{c.data.name}</a>)}<a href={siteUrl('/news/')}>最新消息</a></nav>
 </dialog>
 <script>
   const menu=document.querySelector<HTMLDialogElement>('#mobile-menu')!;

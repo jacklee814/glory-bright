@@ -1,0 +1,30 @@
+---
+import { siteUrl } from '../../lib/url';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { render } from 'astro:content';
+import { newsEntries, formatDate, newsSlug } from '../../lib/news';
+export async function getStaticPaths() {
+  return (await newsEntries()).map(entry => ({ params: { slug: newsSlug(entry.id) }, props: { entry } }));
+}
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+<BaseLayout title={`${entry.data.title} | 榮輝照明科技`}><div class="wrap" style="padding:2rem 0"><p><a href={siteUrl('/')}>首頁</a> › <a href={siteUrl('/news/')}>最新消息</a></p>
+<article class="news-detail">
+  <h1>{entry.data.title}</h1>
+  <p class="date"><time datetime={entry.data.date.toISOString().slice(0, 10)}>{formatDate(entry.data.date)}</time></p>
+  <div class="body"><Content/></div>
+  {entry.data.image && <img src={siteUrl(entry.data.image)} alt="" width="940" height="400" loading="lazy"/>}
+</article>
+<p style="margin-top:2.5rem"><a href={siteUrl('/news/')}>← 回最新消息</a></p>
+</div></BaseLayout>
+<style>
+  .news-detail { max-width:760px; }
+  .date { color:var(--color-muted); font-family:var(--font-mono); font-size:.95rem; margin:.25rem 0 2rem; }
+  .body { line-height:1.85; }
+  .body :global(p) { margin:0 0 1.2rem; }
+  .news-detail img {
+    display:block; width:100%; height:auto; margin-top:2rem;
+    border:1px solid var(--color-line); background:var(--color-surface);
+  }
+</style>

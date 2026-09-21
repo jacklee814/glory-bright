@@ -1,0 +1,29 @@
+---
+import { siteUrl } from '../../lib/url';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { newsEntries, formatDate, newsUrl } from '../../lib/news';
+const entries = await newsEntries();
+---
+<BaseLayout title="最新消息 | 榮輝照明科技"><div class="wrap" style="padding:2rem 0"><p><a href={siteUrl('/')}>首頁</a> › 最新消息</p><h1>最新消息</h1>
+{entries.length === 0
+  ? <p>目前沒有消息。</p>
+  : <ul class="news-list">{entries.map(entry => (
+      <li>
+        <a href={newsUrl(entry.id)}>
+          <time datetime={entry.data.date.toISOString().slice(0, 10)}>{formatDate(entry.data.date)}</time>
+          <span>{entry.data.title}</span>
+        </a>
+      </li>
+    ))}</ul>}
+</div></BaseLayout>
+<style>
+  .news-list { list-style:none; margin:1.5rem 0 0; padding:0; border-top:1px solid var(--color-line); max-width:900px; }
+  .news-list li { border-bottom:1px solid var(--color-line); }
+  .news-list a { display:flex; gap:1.5rem; align-items:baseline; padding:1.1rem .25rem; text-decoration:none; }
+  .news-list a:hover, .news-list a:focus-visible { background:var(--color-surface); }
+  .news-list time { flex:none; color:var(--color-muted); font-family:var(--font-mono); font-size:.95rem; }
+  .news-list span { font-weight:700; }
+  @media(max-width:520px) {
+    .news-list a { flex-direction:column; gap:.35rem; }
+  }
+</style>

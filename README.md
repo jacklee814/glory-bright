@@ -77,12 +77,13 @@ pnpm --filter scraper test    # 48 個測試，fixture 直接取自 snapshot
 site/src/
 ├── content/
 │   ├── config.ts                    # 重用 shared/schema.ts
+│   ├── news/                        # 最新消息 Markdown（人工維護）
 │   └── products/<分類路徑>/
 │       ├── _category.json           # 分類名稱、排序、封面圖
 │       └── <型號slug>/index.json    # 產品
 ├── layouts/BaseLayout.astro
 ├── components/
-│   ├── Header.astro                 # 導覽 + 型號即時搜尋
+│   ├── Header.astro                 # 導覽
 │   ├── Hero.astro                   # 首頁自動輪播
 │   ├── CategorySidebar.astro        # 左側三層分類樹
 │   ├── ProductGrid.astro
@@ -92,8 +93,10 @@ site/src/
 │   ├── index.astro                  # 首頁：只有輪播
 │   ├── products/index.astro         # 第一層分類
 │   ├── products/[...slug].astro     # 分類逐層瀏覽 → 葉節點列產品
-│   └── p/[model].astro              # 產品頁（扁平型號 URL）
-├── lib/{catalog,url}.ts
+│   ├── p/[model].astro              # 產品頁（扁平型號 URL）
+│   ├── news/index.astro             # 最新消息列表
+│   └── news/[slug].astro            # 消息明細
+├── lib/{catalog,news,url}.ts
 └── styles/global.css
 ```
 
@@ -106,6 +109,8 @@ site/src/
 | `/products/lights/downlight/` | 子分類（MR16型、AR111型…） |
 | `/products/lights/downlight/mr16/` | 葉節點，列出產品 |
 | `/p/{型號}/` | 產品頁，型號 URL 維持扁平 |
+| `/news/` | 最新消息列表（日期 + 標題） |
+| `/news/{slug}/` | 消息明細 |
 
 分類路由是階層式的，產品 URL 則刻意扁平 —— 產品換分類時網址不會變。
 
@@ -133,7 +138,7 @@ Astro 的 `base` 是 `/glory-bright/`，站內連結與 public 圖片一律經 `
 
 ## 刻意排除的功能
 
-不提供產品篩選、產品比較、電話／E-mail 詢價 CTA 與最新消息頁面 —— 這些是業主確認的範圍縮減，不是待辦事項。詳見 `docs/DECISIONS.md`。
+不提供產品篩選、產品比較與電話／E-mail 詢價 CTA —— 這些是業主確認的範圍縮減，不是待辦事項。詳見 `docs/DECISIONS.md`。
 
 ## 相關文件
 
