@@ -47,7 +47,7 @@ frontmatter 欄位：`title`（必填）、`date`（必填）、`image`（選填
 
 ## 上線前必補項目
 
-- 由業主確認公司地址（舊站頁尾與聯絡頁的地址不一致）、Logo SVG、Hero 情境照與型錄 PDF。
+- 由業主提供 Logo SVG、Hero 情境照與型錄 PDF。（公司地址已於 2026-09-22 確認並填入頁尾。）
 - `tools/scraper/report.md` 內標示需人工補齊的產品規格，需向業主取得後補上。
 - 產品圖目前沿用舊站小圖（200×200／300×300），建議取得高解析原圖後重新轉檔。
 - 在 GitHub Pages 設為 GitHub Actions，完成 DNS 後啟用 HTTPS。

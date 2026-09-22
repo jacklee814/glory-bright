@@ -1,1 +1,36 @@
-<footer style="background:#1a1a1a;color:white;margin-top:5rem;padding:3rem 0"><div class="wrap" style="display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))"><section><h2 class="mono">GLORY BRIGHT</h2><p>榮輝照明科技有限公司</p><p>Schneider UNICA / ZENcelo 代理品牌</p></section><section><h2>聯絡資訊</h2><p><a href="tel:0226328828">電話 (02) 2632-8828</a></p><p>傳真 (02) 2632-8728</p><p><a href="mailto:glory.bright@msa.hinet.net">glory.bright@msa.hinet.net</a></p></section><section><h2>服務據點</h2><p>地址待業主確認</p></section></div></footer>
+---
+/** 授權經銷品牌由業主提供（2026-09-22）。 */
+const dealerBrands = [
+  ['東亞照明', '金鍏電子'],
+  ['城市照明', '舞光'],
+];
+---
+<footer>
+  <div class="wrap">
+    <section>
+      <h2 class="mono">GLORY BRIGHT</h2>
+      <p>榮輝照明科技有限公司</p>
+      <p>Schneider UNICA / ZENcelo 代理品牌</p>
+    </section>
+    <section>
+      <h2>聯絡資訊</h2>
+      <p><a href="tel:0226328828">電話 (02) 2632-8828</a></p>
+      <p>傳真 (02) 2632-8728</p>
+      <p><a href="mailto:glory.bright@msa.hinet.net">glory.bright@msa.hinet.net</a></p>
+    </section>
+    <section>
+      <h2>服務據點</h2>
+      <p>台北市內湖區民權東路六段180巷6號5樓之13</p>
+    </section>
+    <section>
+      <h2>授權經銷</h2>
+      {dealerBrands.map(row => <p>{row.join(' / ')}</p>)}
+    </section>
+  </div>
+</footer>
+<style>
+  footer { background:#1a1a1a; color:white; margin-top:5rem; padding:3rem 0; }
+  footer .wrap { display:grid; gap:1.5rem; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); }
+  footer h2 { font-size:1.05rem; margin:0 0 .75rem; }
+  footer p { margin:0 0 .4rem; line-height:1.7; }
+</style>
